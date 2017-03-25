@@ -15,6 +15,7 @@
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/media-queries/media-queries.css">
     <link rel="stylesheet" href="css/swiper.min.css">
     <style>
         body {
@@ -32,10 +33,24 @@
     <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <header>
-          header
-        </header>
-    <div class="container">
+    <header>
+        <div class="wrapper">
+          <div class="header-menu">
+              <ul class="">
+                  <li><a href="#">我的帳戶</a></li>
+                  <li><a href="#">存款中心 </a></li>
+                  <li><a href="#">取款中心</a></li>
+                  <li><a href="#">活動中心</a></li>
+              </ul>
+              <ul class="second-ul pull-right">
+                  <li><a href="#">登陆</a></li>
+                  <li><a href="#"> 注册 </a></li>
+
+              </ul>
+            </div>
+        </div>
+    </header>
+
 
         <div class="topnav"> <!-- LOGO  -->
             <div class="logo">
@@ -53,7 +68,7 @@
                 </ul>
             </div>
             </nav> <!--NAV MENU -->
-    </div>
+
 
 
       <main>    <!--CONTENT INSERT HERE -->
@@ -76,8 +91,8 @@
         </div>
       </main> <!--CONTENT END HERE -->
 
-          <div class="footerContainer"> <!-- FOOTER CONTENT STARTS HERE -->
-            <footer class="slide">
+          <div class="footerContainer open"> <!-- FOOTER CONTENT STARTS HERE -->
+            <footer class="slide open">
                 <div class="arrow"></div>
                 <div class="inner">
                     <a href="#" class="">网站指南 </a>
@@ -102,11 +117,9 @@
                         </a>
 
                     </div>
-                    <a href="#" data-href="#" class="panerai-world ">S.A World</a>
+                    <a href="#" data-href="#" class="sa-games "><img src="img/Sa-world-logo.png" alt=""></a>
                     <div class="sa-games sub">
-                        <a href="#"  target="_blank"><img src="img/cert5.png" alt=""></a>
-                        <a href="#"  target="_blank"><img src="img/cert4.png" alt=""></a>
-
+                        <a href="#"  target="_blank"><img src="img/Sa-gaming-logo.png" style="width: 160px;" alt=""></a>
                     </div>
                     <a href="#" data-href="#" class="follow-us ">關注我們</a>
                     <div class="follow-us sub ">
@@ -117,16 +130,27 @@
                         <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
                         <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></i></a>
                         <a href=""><i class="fa fa-tencent-weibo" aria-hidden="true"></i></a>
+                        </div>
+
+                        <div class="social-icons">
+                          <a href=""><i class="fa fa-desktop" aria-hidden="true"></i></a>
+                          <a href=""><i class="fa fa-html5" aria-hidden="true"></i></a>
+                          <a href=""><i class="fa fa-android" aria-hidden="true"></i></a>
+                          <a href=""><i class="fa fa-apple" aria-hidden="true"></i></a>
                           </div>
-                        <div class="line"></div>
+
+                          <div class="social-icons">
+
+                            </div>
+
 
                         <div class="platform">
                           <a class="play" target="_blank" href="#">
-                            <img src="img/android.png" alt="">
+                            <img src="img/cert5.png" alt="">
                           </a>
 
                           <a class="app" target="_blank" href="#">
-                            <img src="img/ios.png" alt="">
+                            <img src="img/cert4.png" alt="">
                           </a>
                         </div>
 
@@ -150,7 +174,7 @@
             </footer>
             <footer role="contentinfo">
                 <div class="inner">
-                    <span class="copy">SA Gaming 版權所有。Copyright © 2017 SA Gaming. All Rights Reserved.</span>
+                    <span class="copy"><img src="img/s.png" style="width: 70px;" alt="s-salon"> 2017 &copy; 版权所有 <img src="img/21.png" style="width: 12px;" alt="s-salon"> 未滿二十一歲禁止使用本網站</span>
 
                 </div>
             </footer>
