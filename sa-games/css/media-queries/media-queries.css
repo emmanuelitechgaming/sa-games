@@ -24,7 +24,7 @@
           right: 0;
           overflow: hidden;
           font-size: 0;
-          z-index: 2;
+          z-index: 3;
       }
       main{
         margin-top: 0px;
@@ -65,7 +65,7 @@
         right: 0;
         overflow: hidden;
         font-size: 0;
-        z-index: 2;
+        z-index: 3;
 
       }
       main{

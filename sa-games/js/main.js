@@ -5,10 +5,12 @@ $(document).ready(function() {
   if ($('.footerContainer').hasClass('open')) {
       $('.footerContainer').removeClass('open');
       $('.slide').removeClass('open');
+      $('.slide').removeClass('slider');
 
   } else {
       $('.footerContainer').addClass('open');
       $('.slide').addClass('open');
+      $('.slide').addClass('slider');
   }
 
   });
@@ -39,5 +41,21 @@ $(document).ready(function() {
    $('[data-toggle="offcanvas"]').click(function () {
          $('#wrapper').toggleClass('toggled');
    });
-   
+
+     $( ".nav-cs" ).click(function() {
+
+       if ($(this).hasClass('opencs')) {
+       $("#mySidenav").css("width", "0%");
+       $(this).removeClass('opencs');
+
+       } else {
+             $("#mySidenav").css("width", "100%");
+
+           $(this).addClass('opencs');
+       }
+
+   });
+
+
+
 });
