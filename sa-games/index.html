@@ -12,17 +12,13 @@
     <title>SA. GAME</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#000000">
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/media-queries/media-queries.css">
     <link rel="stylesheet" href="css/swiper.min.css">
-    <style>
-        body {
-            padding-top: 50px;
-            padding-bottom: 20px;
-        }
-    </style>
+
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="css/main.css">
 
@@ -33,7 +29,7 @@
     <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-    <header>
+    <header class=" hidden-sm hidden-xs">
         <div class="wrapper">
           <div class="header-menu">
               <ul class="">
@@ -51,13 +47,13 @@
         </div>
     </header>
 
-
+    <div class="wrapper">
         <div class="topnav"> <!-- LOGO  -->
             <div class="logo">
                 <a href="index.html"></a>
             </div>
         </div> <!-- LOGO  -->
-        <nav class="nav-head"> <!--NAV MENU -->
+        <nav class="nav-head  hidden-sm hidden-xs hidden-md"> <!--NAV MENU -->
             <div class="nav-menu collapse navbar-collapse navbar-fixed-top">
                 <ul class="nav navbar-nav">
                     <li><a href="#">真人游戏</a></li>
@@ -67,19 +63,94 @@
                     <li><a href="#">优惠</a></li>
                 </ul>
             </div>
-            </nav> <!--NAV MENU -->
+          </nav> <!--NAV MENU -->
+    </div>
+    <div id="wrapper" class="hidden-md hidden-lg">
 
 
+    <!-- Sidebar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top hidden-md hidden-lg" id="sidebar-wrapper" role="navigation">
+        <ul class="nav sidebar-nav">
+            <li>
+                <a href="#">登陆</a>
+            </li>
+            <li>
+                <a href="#">注册</a>
+            </li>
+            <li>
+                <a href="#">我的帳戶</a>
+            </li>
+            <li>
+                <a href="#">存款中心</a>
+            </li>
+            <li>
+                <a href="#">取款中心</a>
+            </li>
+            <li>
+                <a href="#">活動中心</a>
+            </li>
+        </ul>
+        <div class="side-nav-menu">
+            <a href="#">真人游戏</a>
+            <a href="#">电子游艺</a>
+            <a href="#">彩票游戏</a>
+            <a href="#">多人游戏</a>
+            <a href="#">优惠</a>
+        </div>
+        <div class="side-nav-footer">
+          <a href="#" class="nav-footer-color"><b>网站指南</b> </a>
+          <a href="#">游戲指南</a>
+          <a href="#">幫助中心</a>
+          <a href="#">網站地圖</a>
+        </div>
+        <div class="side-nav-footer">
+          <a href="#" class="nav-footer-color"><b>關於我們</b></a>
+          <a href="#">沙龍世界簡介</a>
+          <a href="#">沙龍世界動向</a>
 
+        </div>
+        <div class="side-nav-footer">
+          <a href="#" class="nav-footer-color"><b>條款</b></a>
+          <a href="#">責任博彩</a>
+          <a href="#">博彩規則 </a>
+          <a href="#">私隱政策  </a>
+          <a href="#">網絡安全  </a>
+        </div>
+        <div class="side-nav-footer">
+          <a href="#">  <img src="img/logo-new.png" width="100px" walt=""></a>
+        </div>
+
+    </nav>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper hidden-md hidden-lg">
+        <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
+            <span class="hamb-top"></span>
+      <span class="hamb-middle"></span>
+    <span class="hamb-bottom"></span>
+        </button>
+    </div>
+    <!-- /#page-content-wrapper -->
+
+</div>
+<!-- /#wrapper -->
+  <div ></div>
       <main>    <!--CONTENT INSERT HERE -->
-        <div class="swiper-container">
+        <div class="swiper-container ">
             <div class="swiper-wrapper">
-                <div class="swiper-slide"><img src="img/banner/1.png" class="img-responsive" alt=""></div>
-                <div class="swiper-slide"><img src="img/banner/2.png" class="img-responsive" alt=""></div>
-                <div class="swiper-slide"><img src="img/banner/3.png" class="img-responsive" alt=""></div>
-                <div class="swiper-slide"><img src="img/banner/4.png" class="img-responsive" alt=""></div>
-                <div class="swiper-slide"><img src="img/banner/5.png" class="img-responsive" alt=""></div>
-                <div class="swiper-slide"><img src="img/banner/6.png" class="img-responsive" alt=""></div>
+                <div class="swiper-slide hidden-sm hidden-xs"><img src="img/banner/1.png" class="img-responsive" alt=""></div>
+                <div class="swiper-slide hidden-sm hidden-xs"><img src="img/banner/2.png" class="img-responsive" alt=""></div>
+                <div class="swiper-slide hidden-sm hidden-xs"><img src="img/banner/3.png" class="img-responsive" alt=""></div>
+                <div class="swiper-slide hidden-sm hidden-xs"><img src="img/banner/4.png" class="img-responsive" alt=""></div>
+                <div class="swiper-slide hidden-sm hidden-xs"><img src="img/banner/5.png" class="img-responsive" alt=""></div>
+                <div class="swiper-slide hidden-sm hidden-xs"><img src="img/banner/6.png" class="img-responsive" alt=""></div>
+                <div class=" swiper-slide hidden-md hidden-lg" style='background-image: url("img/banner/1m.png"); height: 640px;'><a href="#">DISCOVER MORE</a></div>
+                <div class=" swiper-slide hidden-md hidden-lg" style='background-image: url("img/banner/2m.png"); height: 640px;'><a href="#">DISCOVER MORE</a></div>
+                <div class=" swiper-slide hidden-md hidden-lg" style='background-image: url("img/banner/3m.png"); height: 640px;'><a href="#">DISCOVER MORE</a></div>
+                <div class=" swiper-slide hidden-md hidden-lg" style='background-image: url("img/banner/4m.png"); height: 640px;'><a href="#">DISCOVER MORE</a></div>
+                <div class=" swiper-slide hidden-md hidden-lg" style='background-image: url("img/banner/5m.png"); height: 640px;'><a href="#">DISCOVER MORE</a></div>
+                <div class=" swiper-slide hidden-md hidden-lg" style='background-image: url("img/banner/6m.png"); height: 640px;'><a href="#">DISCOVER MORE</a></div>
 
 
             </div>
@@ -91,7 +162,57 @@
         </div>
       </main> <!--CONTENT END HERE -->
 
-          <div class="footerContainer open"> <!-- FOOTER CONTENT STARTS HERE -->
+      <div class="mobileFooter hidden-md hidden-lg">
+        <div class="mf-line"></div>
+          <div class="m-social-link">
+            <p class="m-social-txt">关注我们</p>
+            <a class="tencentstyle" href="#" >
+            <img src="img/tencent.png" style="width: 23px;height: 23px;" alt=""></a>
+
+            <a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-weibo" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+
+          </div>
+          <div class="m-social-link">
+            <p class="m-social-txt">支持浏览器</p>
+
+            <a href="#"><i class="fa fa-safari" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-internet-explorer" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-firefox" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-chrome" aria-hidden="true"></i></a>
+
+          </div>
+          <div class="m-social-link">
+            <p class="m-social-txt">支持手机</p>
+
+            <a href="#"><i class="fa fa-desktop" style="font-size: 20px;" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-html5" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-android" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-apple" aria-hidden="true"></i></a>
+
+
+          </div>
+          <div class="m-social-link">
+            <p class="m-social-txt">认可监督</p>
+
+            <a class="app" target="_blank" href="#">
+              <img src="img/cert4.png" style="width: 60px;" alt="">
+            </a>
+
+            <a class="play" target="_blank" href="#">
+              <img src="img/cert5.png" style="width: 60px;" alt="">
+            </a>
+
+            <p class="m-footer-txt"> <img src="img/s.png" style="width:25%;  margin:5px 5px; vertical-align: middle;" alt=""> 2017 © 版权所有 </p>
+            <p class="m-footer-txt"><img src="img/21.png" style="width:14px;vertical-align: middle;margin-top: -2px;" alt=""> 未滿二十一歲禁止使用本網站</p>
+
+          </div>
+      </div>
+
+          <div class="footerContainer open hidden-sm hidden-xs"> <!-- FOOTER CONTENT STARTS HERE -->
             <footer class="slide open">
                 <div class="arrow"></div>
                 <div class="inner">
