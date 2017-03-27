@@ -29,6 +29,15 @@
       main{
         margin-top: 0px;
       }
+      .content-title h1{
+        font-size: 1em;
+      }
+      .content-title h2{
+        font-size: .875em;
+      }
+      .main-container{
+        margin-bottom: 0px;
+      }
     }
 
     /* Extra Small Devices, Phones */
@@ -67,6 +76,16 @@
         font-size: 0;
         z-index: 3;
 
+      }
+      .content-title h1{
+        font-size: 1.625em;
+      }
+      .content-title h2{
+        font-size: 1.375em;
+      }
+      .main-container{
+        margin-top: 20px;
+        margin-bottom: 50px;
       }
       main{
         margin-top: 99px;
