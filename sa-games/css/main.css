@@ -888,7 +888,7 @@ margin-bottom: 1.5em;
 
 }
 .content-banner{
-
+text-align: center;
   padding: 20px;
 }
 .content-banner img{
@@ -958,4 +958,33 @@ margin-bottom: 1.5em;
 .promo-txt{
   text-align: center;
   font-weight: 700;
+}
+.join-btn{
+  text-align: center;
+
+  margin: auto;
+  z-index: 2;
+  text-align: center;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+
+}
+.join-btn a{
+  color: #FFFFFF;
+line-height: 22px;
+padding: 10px 20px;
+background-color: rgba(0, 0, 0, 0.3);
+max-width: 160px;
+border: solid 1px #383838;
+text-transform: uppercase;
+text-decoration: none;
+
+
 }
