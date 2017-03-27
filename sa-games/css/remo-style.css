@@ -1,1 +1,29 @@
-remo-style.css
+/* remo-style.css */
+
+.content-title h2{
+  color: #fff1d3;
+  letter-spacing: 2px;
+  line-height: 25px;
+  font-size: 1em;
+  text-align: center;
+}
+
+.remo-content-title h1, .remo-content-title h2{
+  margin: 0
+}
+
+.remo-content-title h2{
+  color: #c4c4c4;
+}
+
+.remo-content-title h1{
+  font-weight: 700;
+  font-size: 30px;
+  color: #bf9a5d;
+  border: none;
+  margin-top: 30px
+}
+
+.remo-promotional{
+  margin-bottom: 50px
+}
