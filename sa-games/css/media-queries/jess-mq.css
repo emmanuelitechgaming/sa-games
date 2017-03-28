@@ -44,6 +44,9 @@
       }
       .error p {
         font-size: 16px;
+        max-width: 40%;
+        margin-right: auto;
+        margin-left: auto;
       }
     }
 
@@ -65,6 +68,9 @@
       }
       .error p {
         font-size: 17px;
+        max-width: 45%;
+        margin-right: auto;
+        margin-left: auto;
       }
     }
 
@@ -85,7 +91,9 @@
         line-height: 1.3em;
       }
       .error p {
-        font-size: 18px;
+        max-width: 45%;
+        margin-right: auto;
+        margin-left: auto;
       }
     }
 
