@@ -49,7 +49,6 @@
     @media only screen and (min-width : 992px) {
       .content-desc > p {
         max-width: 75%;
-        font-size: 1.375em;
         margin-right: auto;
         margin-left: auto;
       }
