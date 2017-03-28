@@ -15,21 +15,91 @@
       .content-desc > p {
         font-size: .875em;
       }
+      .content-title h2 {
+        font-size: .875em;
+        letter-spacing:  2px;
+        line-height: 1.3em;
+      }
+      .error {
+        height: 200px;
+      }
+      .error p {
+        font-size: 15px;
+        margin-top: 0%;
+      }
     }
 
     /* Extra Small Devices, Phones */
     @media only screen and (min-width : 480px) {
-
+      .content-desc > p {
+        max-width: 85%;
+        margin-right: auto;
+        margin-left: auto;
+      }
+      .content-desc .aboutus p {
+        max-width: 85%;
+        margin-right: auto;
+        margin-left: auto;
+      }
+      .content-title h2 {
+        font-size: .875em;
+        letter-spacing:  2px;
+        line-height: 1.3em;
+      }
+      .error p {
+        margin-top: 0%;
+        font-size: 14px;
+        max-width: 50%;
+        margin-right: auto;
+        margin-left: auto;
+      }
     }
 
     /* Small Devices, Tablets */
     @media only screen and (min-width : 768px) {
-
+      .content-desc > p {
+        max-width: 85%;
+        margin-right: auto;
+        margin-left: auto;
+      }
+      .content-desc .aboutus p {
+        max-width: 85%;
+        margin-right: auto;
+        margin-left: auto;
+      }
+      .content-title h2 {
+        letter-spacing:  2px;
+        line-height: 1.3em;
+      }
+      .error p {
+        font-size: 17px;
+        max-width: 45%;
+        margin-right: auto;
+        margin-left: auto;
+      }
     }
 
     /* Medium Devices, Desktops */
     @media only screen and (min-width : 992px) {
-
+      .content-desc > p {
+        max-width: 85%;
+        margin-right: auto;
+        margin-left: auto;
+      }
+      .content-desc .aboutus p {
+        max-width: 85%;
+        margin-right: auto;
+        margin-left: auto;
+      }
+      .content-title h2 {
+        letter-spacing:  2px;
+        line-height: 1.3em;
+      }
+      .error p {
+        max-width: 45%;
+        margin-right: auto;
+        margin-left: auto;
+      }
     }
 
     /* Large Devices, Wide Screens */
@@ -42,6 +112,15 @@
       }
       .content-desc .aboutus p {
         max-width: 50%;
+        margin-right: auto;
+        margin-left: auto;
+      }
+      .content-title h2 {
+        letter-spacing:  2px;
+        line-height: 1.3em;
+      }
+      .error p {
+        max-width: 30%;
         margin-right: auto;
         margin-left: auto;
       }
