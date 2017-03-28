@@ -17,6 +17,8 @@
       }
       .content-title h2 {
         font-size: .875em;
+        letter-spacing:  2px;
+        line-height: 1.3em;
       }
     }
 
@@ -32,6 +34,11 @@
         margin-right: auto;
         margin-left: auto;
       }
+      .content-title h2 {
+        font-size: .875em;
+        letter-spacing:  2px;
+        line-height: 1.3em;
+      }
     }
 
     /* Small Devices, Tablets */
@@ -45,6 +52,10 @@
         max-width: 75%;
         margin-right: auto;
         margin-left: auto;
+      }
+      .content-title h2 {
+        letter-spacing:  2px;
+        line-height: 1.3em;
       }
     }
 
@@ -60,6 +71,10 @@
         margin-right: auto;
         margin-left: auto;
       }
+      .content-title h2 {
+        letter-spacing:  2px;
+        line-height: 1.3em;
+      }
     }
 
     /* Large Devices, Wide Screens */
@@ -74,5 +89,9 @@
         max-width: 50%;
         margin-right: auto;
         margin-left: auto;
+      }
+      .content-title h2 {
+        letter-spacing:  2px;
+        line-height: 1.3em;
       }
     }
