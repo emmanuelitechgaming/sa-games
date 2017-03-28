@@ -9,25 +9,246 @@
 
     /* Custom, iPhone Retina */
     @media only screen and (min-width : 320px) {
-
+      .moz-select{
+          transition: outline .3s;
+          outline: 1px solid #1a1a1a;
+          display: inline-block;
+          background-color: #333;
+          background-image: url('../../img/activities/arrow-down.png');
+          background-position: right center;
+          background-repeat: no-repeat;
+          background-size: 36px 35px;
+          width: 30%;
+          background-color:#333333;
+          vertical-align: baseline;
+          overflow: hidden;
+      }
+      .activities-content-banner{
+        text-align: center;
+      padding: 20px;
+      width: 100%;
+      margin: 0 auto;
+      }
+      .nathan-activities-content{
+          width: 100%;
+        margin:0 auto;
+      }
+      .nathan-content-label{
+        margin-bottom: 20px;
+     padding-bottom: 28px;
+     border-bottom: 1px solid #272727;
+     line-height: 18px;
+     text-align: left;
+     padding-top: 15px;
+     width:100%;
+     margin:0 auto;
+      }
+      .activitiescontentbody{
+        width: 100%; margin: 0 auto;
+      }
     }
 
     /* Extra Small Devices, Phones */
     @media only screen and (min-width : 480px) {
-
+      .moz-select{
+          transition: outline .3s;
+          outline: 1px solid #1a1a1a;
+          display: inline-block;
+          background-color: #333;
+          background-image: url('../../img/activities/arrow-down.png');
+          background-position: right center;
+          background-repeat: no-repeat;
+          background-size: 36px 35px;
+          width: 30%;
+          background-color:#333333;
+          vertical-align: baseline;
+          overflow: hidden;
+      }
+      .activities-content-banner{
+        text-align: center;
+      padding: 20px;
+      width: 100%;
+      margin: 0 auto;
+      }
+      .nathan-activities-content{
+          width: 100%;
+        margin:0 auto;
+      }
+      .nathan-content-label{
+        margin-bottom: 20px;
+     padding-bottom: 28px;
+     border-bottom: 1px solid #272727;
+     line-height: 18px;
+     text-align: left;
+     padding-top: 15px;
+     width:100%;
+     margin:0 auto;
+      }
+      .activitiescontentbody{
+        width: 100%; margin: 0 auto;
+      }
     }
 
     /* Small Devices, Tablets */
     @media only screen and (min-width : 768px) {
-
+      .moz-select{
+          transition: outline .3s;
+          outline: 1px solid #1a1a1a;
+          display: inline-block;
+          background-color: #333;
+          background-image: url('../../img/activities/arrow-down.png');
+          background-position: right center;
+          background-repeat: no-repeat;
+          background-size: 36px 35px;
+          width:30%;
+          background-color:#333333;
+          vertical-align: baseline;
+          overflow: hidden;
+      }
+      .activities-content-banner{
+        text-align: center;
+      padding: 20px;
+        width: 700px;
+      margin: 0 auto;
+      }
+      .nathan-activities-content{
+          width: 600px;
+        margin:0 auto;
+      }
+      .nathan-content-label{
+        margin-bottom: 20px;
+     padding-bottom: 28px;
+     border-bottom: 1px solid #272727;
+     line-height: 18px;
+     text-align: left;
+     padding-top: 15px;
+     width:570px;
+     margin:0 auto;
+      }
+      .activitiescontentbody{
+        width: 80%; margin: 0 auto;
+      }
     }
 
     /* Medium Devices, Desktops */
     @media only screen and (min-width : 992px) {
-
+      .moz-select{
+          transition: outline .3s;
+          outline: 1px solid #1a1a1a;
+          display: inline-block;
+          background-color: #333;
+          background-image: url('../../img/activities/arrow-down.png');
+          background-position: right center;
+          background-repeat: no-repeat;
+          background-size: 36px 35px;
+          width: 10%;
+          background-color:#333333;
+          vertical-align: baseline;
+          overflow: hidden;
+      }
+      .activities-content-banner{
+        text-align: center;
+      padding: 20px;
+      width: 80%;
+      margin: 0 auto;
+      }
+      .nathan-activities-content{
+          width: 50%;
+        margin:0 auto;
+      }
+      .nathan-content-label{
+        margin-bottom: 20px;
+     padding-bottom: 28px;
+     border-bottom: 1px solid #272727;
+     line-height: 18px;
+     text-align: left;
+     padding-top: 15px;
+     width:570px;
+     margin:0 auto;
+      }
+      .activitiescontentbody{
+        width: 50%; margin: 0 auto;
+      }
+    }
+/* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1024px) {
+      .moz-select{
+          transition: outline .3s;
+          outline: 1px solid #1a1a1a;
+          display: inline-block;
+          background-color: #333;
+          background-image: url('../../img/activities/arrow-down.png');
+          background-position: right center;
+          background-repeat: no-repeat;
+          background-size: 36px 35px;
+          width: 10%;
+          background-color:#333333;
+          vertical-align: baseline;
+          overflow: hidden;
+      }
+      .activities-content-banner{
+        text-align: center;
+      padding: 20px;
+        width: 1000px;
+      margin: 0 auto;
+      }
+      .nathan-activities-content{
+        width: 50%;
+        margin:0 auto;
+      }
+      .nathan-content-label{
+        margin-bottom: 20px;
+     padding-bottom: 28px;
+     border-bottom: 1px solid #272727;
+     line-height: 18px;
+     text-align: left;
+     padding-top: 15px;
+  width:100%;
+     margin:0 auto;
+      }
+      .activitiescontentbody{
+        width: 50%; margin: 0 auto;
+      }
     }
 
-    /* Large Devices, Wide Screens */
-    @media only screen and (min-width : 1200px) {
 
+    @media only screen and (min-width : 1200px) {
+      .moz-select{
+          transition: outline .3s;
+          outline: 1px solid #1a1a1a;
+          display: inline-block;
+          background-color: #333;
+          background-image: url('../../img/activities/arrow-down.png');
+          background-position: right center;
+          background-repeat: no-repeat;
+          background-size: 36px 35px;
+          width: 10%;
+          background-color:#333333;
+          vertical-align: baseline;
+          overflow: hidden;
+      }
+      .activities-content-banner{
+        text-align: center;
+      padding: 20px;
+        width: 1000px;
+      margin: 0 auto;
+      }
+      .nathan-activities-content{
+        width: 1000px;
+        margin:0 auto;
+      }
+      .nathan-content-label{
+        margin-bottom: 20px;
+     padding-bottom: 28px;
+     border-bottom: 1px solid #272727;
+     line-height: 18px;
+     text-align: left;
+     padding-top: 15px;
+     width:570px;
+     margin:0 auto;
+      }
+
+  .activitiescontentbody{
+    width: 700px; margin: 0 auto;
+  }
     }

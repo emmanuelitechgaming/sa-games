@@ -1,1 +1,46 @@
-nat-style.css
+
+.nathan-content-banner{
+text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0 auto;
+  margin-left: -10px;
+margin-right: -10px;
+
+
+}
+
+.activitiesanchor{
+float: right;
+}
+
+.activitiesanchor a{
+color: #fff1d3 !important;
+font-size:17px !important;
+text-decoration: none !important;
+}
+.moz-select select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+ .moz-select select {
+    width: 100%;
+    padding-top: 7px;
+    padding-bottom: 6px;
+    outline: 0;
+    margin-bottom: 0px;
+    border: 0px;
+    background-color: transparent ;
+    text-indent: 0;
+    font-weight: 400;
+    font-size: .875em;
+    line-height: 1.5;
+    box-sizing: border-box;
+    color: #c4c4c4;
+    height: 2.5em;
+    transition: outline .3s;
+    margin: 0;
+        padding-left: 10px;
+}
