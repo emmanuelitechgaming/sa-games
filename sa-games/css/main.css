@@ -928,7 +928,13 @@ div.side-nav-menu > a::after {
     border-bottom: 1px solid #333;
     padding: .65em 2em;
 }
+.content-title h2{
+  letter-spacing: 2px;
+line-height: 25px;
+font-size: 1em;
+text-align: center;
 
+}
 .content-title h2 {
     text-align: center;
     color: #fff1d3;
@@ -1171,4 +1177,56 @@ select {
 }
 .promo{
   margin-top: 50px;
+}
+.mselect-country{
+  position: fixed;
+    background: #000;
+    left: 0;
+    padding-top: 7px;
+    right: 0;
+    overflow: hidden;
+    font-size: 0;
+    z-index: 3;
+    margin-top: -13px;
+    width: 26%;
+    height: 15px;
+    margin-left: 75%;
+    color: white;
+    top: 32px;
+}
+.mselect-country a{
+    text-decoration: none;
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.buttonmodal{
+  background: #000;
+border: 0px solid black;
+margin-top: -10px;
+
+}
+.buttonmodal a:link {
+    outline: none !important;
+}
+.trycontainter a {
+    text-decoration: none;
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+}
+.trycontainter img {
+    width: auto\9;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+}
+.languangeimage {
+    width: 17px;
+    margin-right: 5px;
+    margin-bottom: 1px;
+    border: 0px;
 }
