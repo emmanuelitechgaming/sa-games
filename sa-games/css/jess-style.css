@@ -1,5 +1,5 @@
 .content-body {
-  background-color: #0e0e0e;
+  background-color: #1A1A1A;
 }
 .mobile-links {
   background-color: #0e0e0e;
@@ -141,4 +141,15 @@
   color: #c4c4c4;
   line-height: 1.4em;
   text-align: justify;
+}
+.tabnav-left {
+  padding-top: 10px;
+}
+.tabnav-left ul {
+  list-style: none;
+  text-align: center;
+  padding-left:  0px;
+}
+.tabnav-left ul li a {
+  color: #fff !important;
 }
