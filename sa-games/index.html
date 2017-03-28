@@ -1,6 +1,5 @@
 <!doctype html>
-<html  lang="">
-
+<html lang="">
 
 <head>
     <meta charset="utf-8">
@@ -20,8 +19,6 @@
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="css/main.css">
 
-
-
 </head>
 
 <body>
@@ -30,29 +27,39 @@
         <![endif]-->
     <header class=" hidden-sm hidden-xs">
         <div class="wrapper">
-          <div class="header-menu">
-              <ul class="">
-                  <li><a href="#">我的帳戶</a></li>
-                  <li><a href="#">存款中心 </a></li>
-                  <li><a href="#">取款中心</a></li>
-                  <li><a href="#">活動中心</a></li>
-              </ul>
-              <ul class="second-ul pull-right">
-                  <li><a href="#">登陆</a></li>
-                  <li><a href="#"> 注册 </a></li>
-
-              </ul>
+            <div class="header-menu">
+                <ul class="">
+                    <li><a href="#">我的帳戶</a></li>
+                    <li><a href="#">存款中心 </a></li>
+                    <li><a href="#">取款中心</a></li>
+                    <li><a href="#">活動中心</a></li>
+                </ul>
+                <ul class="second-ul pull-right">
+                    <li><a href="#">登陆</a></li>
+                    <li><a href="#"> 注册 </a></li>
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#myModal">
+                            <div class="selected">
+                                <img class="selector-country" src="img/svg/cn.svg" alt="CN">
+                                <span class="language-selector">简体中文</span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
     </header>
 
     <div class="wrapper">
-        <div class="topnav"> <!-- LOGO  -->
+        <div class="topnav">
+            <!-- LOGO  -->
             <div class="logo">
                 <a href="index.html"></a>
             </div>
-        </div> <!-- LOGO  -->
-        <nav class="nav-head  hidden-sm hidden-xs hidden-md"> <!--NAV MENU -->
+        </div>
+        <!-- LOGO  -->
+        <nav class="nav-head  hidden-sm hidden-xs hidden-md">
+            <!--NAV MENU -->
             <div class="nav-menu collapse navbar-collapse navbar-fixed-top">
                 <ul class="nav navbar-nav">
                     <li><a href="#">真人游戏</a></li>
@@ -62,143 +69,131 @@
                     <li><a href="#">优惠</a></li>
                 </ul>
             </div>
-          </nav> <!--NAV MENU -->
+        </nav>
+        <!--NAV MENU -->
     </div>
     <div id="wrapper" class="hidden-md hidden-lg">
 
+        <!-- MOBILE Sidebar -->
+        <nav class="navbar navbar-inverse navbar-fixed-top hidden-md hidden-lg" id="sidebar-wrapper" role="navigation">
+            <ul class="nav sidebar-nav">
+                <li><a href="#">登陆</a></li>
+                <li><a href="#">注册</a></li>
+                <li><a href="#">我的帳戶</a></li>
+                <li><a href="#">存款中心</a></li>
+                <li><a href="#">取款中心</a></li>
+                <li><a href="#">活動中心</a></li>
+            </ul>
+            <div class="side-nav-menu">
+                <a href="#">真人游戏</a>
+                <a href="#">电子游艺</a>
+                <a href="#">彩票游戏</a>
+                <a href="#">多人游戏</a>
+                <a href="#">优惠</a>
+            </div>
+            <div class="side-nav-footer">
+                <a href="#" class="nav-footer-color"><b>网站指南</b> </a>
+                <a href="#">游戲指南</a>
+                <a href="#">幫助中心</a>
+                <a href="#">網站地圖</a>
+            </div>
+            <div class="side-nav-footer">
+                <a href="#" class="nav-footer-color"><b>關於我們</b></a>
+                <a href="#">沙龍世界簡介</a>
+                <a href="#">沙龍世界動向</a>
 
-    <!-- MOBILE Sidebar -->
-    <nav class="navbar navbar-inverse navbar-fixed-top hidden-md hidden-lg" id="sidebar-wrapper" role="navigation">
-        <ul class="nav sidebar-nav">
-            <li>
-                <a href="#">登陆</a>
-            </li>
-            <li>
-                <a href="#">注册</a>
-            </li>
-            <li>
-                <a href="#">我的帳戶</a>
-            </li>
-            <li>
-                <a href="#">存款中心</a>
-            </li>
-            <li>
-                <a href="#">取款中心</a>
-            </li>
-            <li>
-                <a href="#">活動中心</a>
-            </li>
-        </ul>
-        <div class="side-nav-menu">
-            <a href="#">真人游戏</a>
-            <a href="#">电子游艺</a>
-            <a href="#">彩票游戏</a>
-            <a href="#">多人游戏</a>
-            <a href="#">优惠</a>
-        </div>
-        <div class="side-nav-footer">
-          <a href="#" class="nav-footer-color"><b>网站指南</b> </a>
-          <a href="#">游戲指南</a>
-          <a href="#">幫助中心</a>
-          <a href="#">網站地圖</a>
-        </div>
-        <div class="side-nav-footer">
-          <a href="#" class="nav-footer-color"><b>關於我們</b></a>
-          <a href="#">沙龍世界簡介</a>
-          <a href="#">沙龍世界動向</a>
+            </div>
+            <div class="side-nav-footer">
+                <a href="#" class="nav-footer-color"><b>條款</b></a>
+                <a href="#">責任博彩</a>
+                <a href="#">博彩規則 </a>
+                <a href="#">私隱政策  </a>
+                <a href="#">網絡安全  </a>
+            </div>
+            <div class="side-nav-footer">
+                <a href="#"> <img src="img/logo-new.png" width="100px" walt=""></a>
+            </div>
 
-        </div>
-        <div class="side-nav-footer">
-          <a href="#" class="nav-footer-color"><b>條款</b></a>
-          <a href="#">責任博彩</a>
-          <a href="#">博彩規則 </a>
-          <a href="#">私隱政策  </a>
-          <a href="#">網絡安全  </a>
-        </div>
-        <div class="side-nav-footer">
-          <a href="#">  <img src="img/logo-new.png" width="100px" walt=""></a>
-        </div>
+        </nav>
+        <!-- MOBILE SIDEBAR -->
 
-    </nav>
-    <!-- MOBILE SIDEBAR -->
-
-      <!-- MOBILE NAV CS -->
-    <div id="nav-cs " class="nav-cs">
+        <!-- MOBILE NAV CS -->
+        <div id="nav-cs " class="nav-cs">
         </div>
         <div id="mySidenav" class="sidenav " style="width: 0%;">
 
-          <div id="1stbutton" class="btn-nav button-nav-cs1" >
-            <a href="#">产品展示</a>
-             <div class="sidenav-content" >
-              <img src="img/cross.png" id="1sticonimg" alt="" style="width: 15px;">
+            <div id="1stbutton" class="btn-nav button-nav-cs1">
+                <a href="#">产品展示</a>
+                <div class="sidenav-content">
+                    <img src="img/cross.png" id="1sticonimg" alt="" style="width: 15px;">
+                </div>
             </div>
-          </div>
 
-
-          <div class="hidedivinfo" id="1" style="display: none;">
-            <li>真人游戏</li>
-            <li>电子游艺</li>
-            <li>移动娱乐</li>
-            <li>电投娱乐</li>
-            <li>彩票游戏</li>
-            <li>多人游戏</li>
-          </div>
-
-          <div id="2ndbutton" class="btn-nav button-nav-cs2">
-            <a href="#" > 活动消息</a>
-            <div c class="sidenav-content">
-              <img src="img/cross.png" id="2ndiconimg" alt="" style="width: 15px;">
+            <div class="hidedivinfo" id="1" style="display: none;">
+                <li>真人游戏</li>
+                <li>电子游艺</li>
+                <li>移动娱乐</li>
+                <li>电投娱乐</li>
+                <li>彩票游戏</li>
+                <li>多人游戏</li>
             </div>
-          </div>
 
-        <div class="hidedivinfo" id="2" style="display: none;">
-          <li>ICE 2017</li>
-          <li>G2E 2016</li>
-        </div>
+            <div id="2ndbutton" class="btn-nav button-nav-cs2">
+                <a href="#"> 活动消息</a>
+                <div c class="sidenav-content">
+                    <img src="img/cross.png" id="2ndiconimg" alt="" style="width: 15px;">
+                </div>
+            </div>
 
-        <div id="3rdbutton" class="btn-nav button-nav-cs2">
-          <a href="#">关于我们</a>
-          <div class="sidenav-content" >
-            <img src="img/cross.png" id="3rdiconimg" alt="" style="width: 15px;">
-          </div>
-        </div>
+            <div class="hidedivinfo" id="2" style="display: none;">
+                <li>ICE 2017</li>
+                <li>G2E 2016</li>
+            </div>
 
-        <div class="hidedivinfo" id="3" style="display: none;">
-          <li>服务简介</li>
-          <li>关于我们</li>
-        </div>
+            <div id="3rdbutton" class="btn-nav button-nav-cs2">
+                <a href="#">关于我们</a>
+                <div class="sidenav-content">
+                    <img src="img/cross.png" id="3rdiconimg" alt="" style="width: 15px;">
+                </div>
+            </div>
 
-        <div id="4thbutton" class="btn-nav button-nav-cs2">
-            <a href="#">联络我们</a>
-            <div class="sidenav-content">
-            <img src="img/cross.png" id="4thiconimg" alt="" style="  width: 15px;">
+            <div class="hidedivinfo" id="3" style="display: none;">
+                <li>服务简介</li>
+                <li>关于我们</li>
+            </div>
+
+            <div id="4thbutton" class="btn-nav button-nav-cs2">
+                <a href="#">联络我们</a>
+                <div class="sidenav-content">
+                    <img src="img/cross.png" id="4thiconimg" alt="" style="  width: 15px;">
+                </div>
+            </div>
+
+            <div class="hidedivinfo" id="4" style="display: none;">
+                <li><img src="images/con1.png" alt="">&nbsp;www.sagaming.com</li>
+                <li><img src="images/con2.png" alt="">&nbsp;sagamingcom</li>
+                <li><img src="images/con3.png" alt="">&nbsp;sagamingcom</li>
+                <li><img src="images/con4.png" alt="">&nbsp;info@sagaming.com</li>
+                <li><img src="images/con5.png" alt="">&nbsp;sagaming.info</li>
             </div>
         </div>
+        <!-- MOBILE NAV CS -->
 
-        <div class="hidedivinfo" id="4" style="display: none;">
-          <li><img src="images/con1.png" alt="">&nbsp;www.sagaming.com</li>
-          <li><img src="images/con2.png" alt="">&nbsp;sagamingcom</li>
-          <li><img src="images/con3.png" alt="">&nbsp;sagamingcom</li>
-          <li><img src="images/con4.png" alt="">&nbsp;info@sagaming.com</li>
-          <li><img src="images/con5.png" alt="">&nbsp;sagaming.info</li>
+        <!--  MOBILE HAMBURGER -->
+        <div id="page-content-wrapper hidden-md hidden-lg">
+            <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
+                <span class="hamb-top"></span>
+                <span class="hamb-middle"></span>
+                <span class="hamb-bottom"></span>
+            </button>
         </div>
-        </div>
-            <!-- MOBILE NAV CS -->
+        <!-- /#MOBILE HAMBURGER -->
 
-    <!--  MOBILE HAMBURGER -->
-    <div id="page-content-wrapper hidden-md hidden-lg">
-        <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
-            <span class="hamb-top"></span>
-      <span class="hamb-middle"></span>
-    <span class="hamb-bottom"></span>
-        </button>
     </div>
-    <!-- /#MOBILE HAMBURGER -->
-
-</div>
-<!-- /#wrapper -->
-  <div ></div>
-      <main>    <!--CONTENT INSERT HERE -->
+    <!-- /#wrapper -->
+    <div></div>
+    <main>
+        <!--CONTENT INSERT HERE -->
         <div class="swiper-container ">
             <div class="swiper-wrapper">
                 <div class="swiper-slide hidden-sm hidden-xs"><img src="img/banner/1.png" class="img-responsive" alt=""></div>
@@ -207,13 +202,18 @@
                 <div class="swiper-slide hidden-sm hidden-xs"><img src="img/banner/4.png" class="img-responsive" alt=""></div>
                 <div class="swiper-slide hidden-sm hidden-xs"><img src="img/banner/5.png" class="img-responsive" alt=""></div>
                 <div class="swiper-slide hidden-sm hidden-xs"><img src="img/banner/6.png" class="img-responsive" alt=""></div>
-                <div class=" swiper-slide hidden-md hidden-lg" style='background-image: url("img/banner/1m.png"); height: 640px;'><a href="#">DISCOVER MORE</a></div> <!-- MOBILE BANNER -->
-                <div class=" swiper-slide hidden-md hidden-lg" style='background-image: url("img/banner/2m.png"); height: 640px;'><a href="#">DISCOVER MORE</a></div><!-- MOBILE BANNER -->
-                <div class=" swiper-slide hidden-md hidden-lg" style='background-image: url("img/banner/3m.png"); height: 640px;'><a href="#">DISCOVER MORE</a></div><!-- MOBILE BANNER -->
-                <div class=" swiper-slide hidden-md hidden-lg" style='background-image: url("img/banner/4m.png"); height: 640px;'><a href="#">DISCOVER MORE</a></div><!-- MOBILE BANNER -->
-                <div class=" swiper-slide hidden-md hidden-lg" style='background-image: url("img/banner/5m.png"); height: 640px;'><a href="#">DISCOVER MORE</a></div><!-- MOBILE BANNER -->
-                <div class=" swiper-slide hidden-md hidden-lg" style='background-image: url("img/banner/6m.png"); height: 640px;'><a href="#">DISCOVER MORE</a></div><!-- MOBILE BANNER -->
-
+                <div class=" swiper-slide hidden-md hidden-lg" style='background-image: url("img/banner/1m.png"); height: 640px;'><a href="#">DISCOVER MORE</a></div>
+                <!-- MOBILE BANNER -->
+                <div class=" swiper-slide hidden-md hidden-lg" style='background-image: url("img/banner/2m.png"); height: 640px;'><a href="#">DISCOVER MORE</a></div>
+                <!-- MOBILE BANNER -->
+                <div class=" swiper-slide hidden-md hidden-lg" style='background-image: url("img/banner/3m.png"); height: 640px;'><a href="#">DISCOVER MORE</a></div>
+                <!-- MOBILE BANNER -->
+                <div class=" swiper-slide hidden-md hidden-lg" style='background-image: url("img/banner/4m.png"); height: 640px;'><a href="#">DISCOVER MORE</a></div>
+                <!-- MOBILE BANNER -->
+                <div class=" swiper-slide hidden-md hidden-lg" style='background-image: url("img/banner/5m.png"); height: 640px;'><a href="#">DISCOVER MORE</a></div>
+                <!-- MOBILE BANNER -->
+                <div class=" swiper-slide hidden-md hidden-lg" style='background-image: url("img/banner/6m.png"); height: 640px;'><a href="#">DISCOVER MORE</a></div>
+                <!-- MOBILE BANNER -->
 
             </div>
             <!-- Add Pagination -->
@@ -222,15 +222,16 @@
             <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div>
         </div>
-      </main> <!--CONTENT END HERE -->
+    </main>
+    <!--CONTENT END HERE -->
 
     <!-- MOBILE FOOTER -->
-      <div class="mobileFooter hidden-md hidden-lg">
+    <div class="mobileFooter hidden-md hidden-lg">
         <div class="mf-line"></div>
-          <div class="m-social-link">
+        <div class="m-social-link">
             <p class="m-social-txt">关注我们</p>
-            <a class="tencentstyle" href="#" >
-            <img src="img/tencent.png" style="width: 23px;height: 23px;" alt=""></a>
+            <a class="tencentstyle" href="#">
+                <img src="img/tencent.png" style="width: 23px;height: 23px;" alt=""></a>
 
             <a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
             <a href="#"><i class="fa fa-weibo" aria-hidden="true"></i></a>
@@ -238,8 +239,8 @@
             <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
             <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
 
-          </div>
-          <div class="m-social-link">
+        </div>
+        <div class="m-social-link">
             <p class="m-social-txt">支持浏览器</p>
 
             <a href="#"><i class="fa fa-safari" aria-hidden="true"></i></a>
@@ -247,8 +248,8 @@
             <a href="#"><i class="fa fa-firefox" aria-hidden="true"></i></a>
             <a href="#"><i class="fa fa-chrome" aria-hidden="true"></i></a>
 
-          </div>
-          <div class="m-social-link">
+        </div>
+        <div class="m-social-link">
             <p class="m-social-txt">支持手机</p>
 
             <a href="#"><i class="fa fa-desktop" style="font-size: 20px;" aria-hidden="true"></i></a>
@@ -256,121 +257,164 @@
             <a href="#"><i class="fa fa-android" aria-hidden="true"></i></a>
             <a href="#"><i class="fa fa-apple" aria-hidden="true"></i></a>
 
-
-          </div>
-          <div class="m-social-link">
+        </div>
+        <div class="m-social-link">
             <p class="m-social-txt">认可监督</p>
 
             <a class="app" target="_blank" href="#">
-              <img src="img/cert4.png" style="width: 60px;" alt="">
+                <img src="img/cert4.png" style="width: 60px;" alt="">
             </a>
 
             <a class="play" target="_blank" href="#">
-              <img src="img/cert5.png" style="width: 60px;" alt="">
+                <img src="img/cert5.png" style="width: 60px;" alt="">
             </a>
 
             <p class="m-footer-txt"> <img src="img/s.png" style="width:25%;  margin:5px 5px; vertical-align: middle;" alt=""> 2017 © 版权所有 </p>
             <p class="m-footer-txt"><img src="img/21.png" style="width:14px;vertical-align: middle;margin-top: -2px;" alt=""> 未滿二十一歲禁止使用本網站</p>
 
-          </div>
-      </div> <!-- MOBILE FOOTER -->
+        </div>
+    </div>
+    <!-- MOBILE FOOTER -->
 
-          <div class="footerContainer open hidden-sm hidden-xs"> <!-- FOOTER CONTENT STARTS HERE -->
-            <footer class="slide slider open">
-                <!-- <div class="arrow"></div> -->
-                <div class="inner">
-                    <a href="#" class="">网站指南 </a>
-                    <div class="contacts-and-press sub ">
-                        <a href="#" >
-                            <span>游戲指南</span>
-                        </a>
-                        <a href="#" >
-                            <span>幫助中心</span>
-                        </a>
-                        <a href="#">
-                            <span>網站地圖</span>
-                        </a>
-                    </div>
-                    <a href="#" class="">關於我們</a>
-                    <div class="about-us sub ">
-                        <a href="#">
-                            <span>沙龍世界簡介</span>
-                        </a>
-                        <a href="#">
-                            <span>沙龍世界動向 </span>
-                        </a>
+    <div class="footerContainer open hidden-sm hidden-xs">
+        <!-- FOOTER CONTENT STARTS HERE -->
+        <footer class="slide slider open">
+            <!-- <div class="arrow"></div> -->
+            <div class="inner">
+                <a href="#" class="">网站指南 </a>
+                <div class="contacts-and-press sub ">
+                    <a href="#">
+                        <span>游戲指南</span>
+                    </a>
+                    <a href="#">
+                        <span>幫助中心</span>
+                    </a>
+                    <a href="#">
+                        <span>網站地圖</span>
+                    </a>
+                </div>
+                <a href="#" class="">關於我們</a>
+                <div class="about-us sub ">
+                    <a href="#">
+                        <span>沙龍世界簡介</span>
+                    </a>
+                    <a href="#">
+                        <span>沙龍世界動向 </span>
+                    </a>
 
-                    </div>
-                    <a href="#" data-href="#" class="sa-games "> 沙龙世界</a>
-                    <div class="sa-games sub">
-                        <a href="#"  target="_blank"><img src="img/logo-new.png" style="width: 110px;" alt=""></a>
-                    </div>
-                    <a href="#" data-href="#" class="follow-us ">關注我們</a>
-                    <div class="follow-us sub ">
-                      <div class="social-icons">
+                </div>
+                <a href="#" data-href="#" class="sa-games "> 沙龙世界</a>
+                <div class="sa-games sub">
+                    <a href="#" target="_blank"><img src="img/logo-new.png" style="width: 110px;" alt=""></a>
+                </div>
+                <a href="#" data-href="#" class="follow-us ">關注我們</a>
+                <div class="follow-us sub ">
+                    <div class="social-icons">
                         <a href=""><i class="fa fa-weibo" aria-hidden="true"></i></a>
                         <a href=""> <i class="fa fa-youtube-play" aria-hidden="true"></i></a>
                         <a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a>
                         <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
                         <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></i></a>
                         <a href=""><i class="fa fa-tencent-weibo" aria-hidden="true"></i></a>
-                        </div>
+                    </div>
 
-                        <div class="social-icons">
-                          <p>支持浏览器</p>
-                          <a href="#"><i class="fa fa-safari" aria-hidden="true"></i></a>
-                          <a href="#"><i class="fa fa-internet-explorer" aria-hidden="true"></i></a>
-                          <a href="#"><i class="fa fa-firefox" aria-hidden="true"></i></a>
-                          <a href="#"><i class="fa fa-chrome" aria-hidden="true"></i></a>
-                          </div>
+                    <div class="social-icons">
+                        <p>支持浏览器</p>
+                        <a href="#"><i class="fa fa-safari" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-internet-explorer" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-firefox" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-chrome" aria-hidden="true"></i></a>
+                    </div>
 
-                          <div class="social-icons">
-                              <p>支持手机</p>
-                            <a href=""><i class="fa fa-desktop" aria-hidden="true"></i></a>
-                            <a href=""><i class="fa fa-html5" aria-hidden="true"></i></a>
-                            <a href=""><i class="fa fa-android" aria-hidden="true"></i></a>
-                            <a href=""><i class="fa fa-apple" aria-hidden="true"></i></a>
-                            </div>
+                    <div class="social-icons">
+                        <p>支持手机</p>
+                        <a href=""><i class="fa fa-desktop" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-html5" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-android" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-apple" aria-hidden="true"></i></a>
+                    </div>
 
+                    <div class="platform social-icons">
+                        <p>认可监督</p>
 
-                        <div class="platform social-icons">
-                          <p>认可监督</p>
-
-                          <a class="app" target="_blank" href="#">
+                        <a class="app" target="_blank" href="#">
                             <img src="img/cert4.png" alt="">
-                          </a>
-                          <a class="play" target="_blank" href="#">
+                        </a>
+                        <a class="play" target="_blank" href="#">
                             <img src="img/cert5.png" alt="">
-                          </a>
-
-                        </div>
+                        </a>
 
                     </div>
-                    <a href="#" class="">條款</a>
-                    <div class="terms sub ">
-                        <a href="#" class="terms-of-use ">
-                            <span>責任博彩</span>
-                        </a>
-                        <a href="#" class="privacy-policy ">
-                            <span>博彩規則</span>
-                        </a>
-                        <a href="#" class="cookies ">
-                            <span>私隱政策</span>
-                        </a>
-                        <a href="#" class="cookies ">
-                            <span>網絡安全</span>
-                        </a>
-                    </div>
-                </div>
-            </footer>
-            <footer role="contentinfo">
-                <div class="inner">
-                    <span class="copy"><img src="img/s.png" style="width: 70px;" alt="s-salon"> 2017 &copy; 版权所有 <img src="img/21.png" style="width: 12px; margin-bottom:3px;" alt="s-salon"> 未滿二十一歲禁止使用本網站</span>
 
                 </div>
-            </footer>
+                <a href="#" class="">條款</a>
+                <div class="terms sub ">
+                    <a href="#" class="terms-of-use ">
+                        <span>責任博彩</span>
+                    </a>
+                    <a href="#" class="privacy-policy ">
+                        <span>博彩規則</span>
+                    </a>
+                    <a href="#" class="cookies ">
+                        <span>私隱政策</span>
+                    </a>
+                    <a href="#" class="cookies ">
+                        <span>網絡安全</span>
+                    </a>
+                </div>
+            </div>
+        </footer>
+        <footer role="contentinfo">
+            <div class="inner">
+                <span class="copy"><img src="img/s.png" style="width: 70px;" alt="s-salon"> 2017 &copy; 版权所有 <img src="img/21.png" style="width: 12px; margin-bottom:3px;" alt="s-salon"> 未滿二十一歲禁止使用本網站</span>
+
+            </div>
+        </footer>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <img src="img/logo-new.png" width="150px" alt="">
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <label class="c-selector">
+                            <span class="label-text">
+                                        国家</span>
+                            <span class="moz-select">
+                                        <select>
+                                            <option value="">选择国家</option>
+                                            <option >中国</option>
+                                            <option >U.S</option>
+                                        </select>
+
+                                    </span>
+                        </label>
+                        <label class="c-selector">
+                            <span class="label-text">
+                                        语言</span>
+                            <span class="moz-select">
+                                        <select>
+                                            <option value="">选择语言</option>
+                                            <option >中文</option>
+                                            <option >ENGLISH</option>
+                                        </select>
+
+                                    </span>
+                        </label>
+                    </div>
+                </div>
+
+            </div>
+
         </div>
-
+    </div>
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script>
@@ -385,18 +429,17 @@
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
-    var swiper = new Swiper('.swiper-container', {
-        pagination: '.swiper-pagination',
-        nextButton: '.swiper-button-next',
-        prevButton: '.swiper-button-prev',
-        paginationClickable: true,
-        spaceBetween: 30,
-        centeredSlides: true,
-        autoplay: 2500,
-        autoplayDisableOnInteraction: false
+        var swiper = new Swiper('.swiper-container', {
+            pagination: '.swiper-pagination',
+            nextButton: '.swiper-button-next',
+            prevButton: '.swiper-button-prev',
+            paginationClickable: true,
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: 2500,
+            autoplayDisableOnInteraction: false
 
-
-    });
+        });
     </script>
     <script>
         (function(b, o, i, l, e, r) {
