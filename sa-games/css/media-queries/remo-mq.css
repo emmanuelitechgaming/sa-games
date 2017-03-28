@@ -5,61 +5,85 @@
 
 
 
-    /*==========  Mobile First Method  ==========*/
+/*==========  Mobile First Method  ==========*/
 
-    /* Custom, iPhone Retina */
-    @media only screen and (min-width : 320px) {
-      .caption-cta{text-align: center}
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+{
+    .caption-cta
+    {
+        text-align: center;
     }
 
-    /* Extra Small Devices, Phones */
-    @media only screen and (min-width : 480px) {
-      .remo-text-container{
-      background: #1A1A1A !important;
-      margin: 5px !important;
-      text-align: center !important;
-      }
-      .remo-text-container-wrapper{
-      padding-bottom: 25px;
-      }
+    .remo-submit{
+      width: 100%;
+      margin-top: 10px
     }
 
-    /* Small Devices, Tablets */
-    @media only screen and (min-width : 768px) {
-      .remo-text-container{
-      background: #1A1A1A !important;
-      margin: 5px !important;
-      text-align: center !important;
-      }
-      .remo-text-container-wrapper{
-      padding-bottom: 100px;
-
-      }
+    .remo-reset{
+      width: 100%;
     }
 
-    /* Medium Devices, Desktops */
-    @media only screen and (min-width : 992px) {
-      .remo-text-container{
-      background: #1A1A1A !important;
-      margin: 5px !important;
-      text-align: center !important;
-      }
-      .remo-text-container-wrapper{
-      padding-bottom: 100px;
+}
 
-      }
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+{
+  .remo-submit{
+    margin-top: 10px
+  }
+}
 
-    }
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+{
+  .remo-contactus-list ul
+  {
+      display: inline-block;
+      text-align: center;
+  }
 
-    /* Large Devices, Wide Screens */
-    @media only screen and (min-width : 1200px) {
-      .remo-text-container{
-      background: #1A1A1A !important;
-      margin: 5px !important;
-      text-align: center !important;
-      }
-      .remo-text-container-wrapper{
-      padding-bottom: 100px;
+  .remo-form-footer{
+    text-align: left
+  }
 
-      }
-    }
+  .remo-submit{
+    margin-top: 0px
+  }
+
+  .remo-registration select {
+    background: #333 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEoAAABGCAQAAADBG8qBAAAAkUlEQVR4Ae3O0QmEQBAE0Q3B0AzBYCcAM1qPzmCo4RCsLujvt7L960UTJUrUN1GiRIkSJUqUKFGiRIkSJaru2q2uWp1ybdQRFicxFGCFxFGMBUgA1WCFxFGMBUgA1WCFxFGMBUgA1WCFNI8irJDmUYQV0jyKsEKaRxHWCSgA9beJEiVKlChRokSJEiVKlChRoh4GlelzLr6YJwAAAABJRU5ErkJggg==);;
+    background-position: 110px -3px;
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    border: solid 1px #333;
+    border-radius: 0;
+    color: #c4c4c4;
+  }
+
+  .remo-contactus
+  {
+    background-size: 100% 100%;
+  }
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+{
+  .remo-form.remo-login
+  {
+      padding: 15px 35px 25px 35px;
+
+      border: solid 1px #333;
+  }
+
+  .remo-submit{
+    margin-top: 0px
+  }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+{
+}
