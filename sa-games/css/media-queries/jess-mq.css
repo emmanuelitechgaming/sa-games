@@ -20,6 +20,9 @@
         letter-spacing:  2px;
         line-height: 1.3em;
       }
+      .error p {
+        font-size: 15px;
+      }
     }
 
     /* Extra Small Devices, Phones */
@@ -39,6 +42,9 @@
         letter-spacing:  2px;
         line-height: 1.3em;
       }
+      .error p {
+        font-size: 16px;
+      }
     }
 
     /* Small Devices, Tablets */
@@ -56,6 +62,9 @@
       .content-title h2 {
         letter-spacing:  2px;
         line-height: 1.3em;
+      }
+      .error p {
+        font-size: 17px;
       }
     }
 
@@ -75,6 +84,9 @@
         letter-spacing:  2px;
         line-height: 1.3em;
       }
+      .error p {
+        font-size: 18px;
+      }
     }
 
     /* Large Devices, Wide Screens */
@@ -93,5 +105,8 @@
       .content-title h2 {
         letter-spacing:  2px;
         line-height: 1.3em;
+      }
+      .error p {
+        font-size: 18px;
       }
     }
