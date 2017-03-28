@@ -51,6 +51,9 @@
         border-radius: 0;
 
       }
+      .promo-container {
+    padding-bottom: 20px;
+}
     }
 
     /* Extra Small Devices, Phones */
@@ -119,6 +122,10 @@
         margin-top: 20px;
         margin-bottom: 50px;
       }
+      .promo-container {
+    padding-bottom: 280px;
+}
+
       main{
         margin-top: 99px;
       }

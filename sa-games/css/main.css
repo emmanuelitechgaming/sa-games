@@ -910,6 +910,7 @@ div.side-nav-menu > a::after {
 
 .content-body {
     padding: 10px;
+    background: #1A1A1A;
 }
 
 .content-title {
@@ -1065,19 +1066,6 @@ text-align: center;
 
 .language-selector {}
 
-.modal-content {
-    position: relative;
-    background-color: #fff;
-    -webkit-background-clip: padding-box;
-    background-clip: padding-box;
-    border: 1px solid #999;
-    border: 1px solid rgba(0, 0, 0, .2);
-    border-radius: 1px;
-    outline: 0;
-    -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
-    box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
-    background-color: #1a1a1a;
-}
 
 .close,
 .close:hover {
@@ -1175,9 +1163,7 @@ select {
   margin: 0 auto;
   text-align: center;
 }
-.promo{
-  margin-top: 50px;
-}
+
 .mselect-country{
   position: fixed;
     background: #000;
@@ -1229,4 +1215,11 @@ margin-top: -10px;
     margin-right: 5px;
     margin-bottom: 1px;
     border: 0px;
+}
+
+.live-games{
+  padding: 10px;
+}
+.promo{
+  padding: 20px;
 }
