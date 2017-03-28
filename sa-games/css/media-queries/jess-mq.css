@@ -25,12 +25,12 @@
     /* Extra Small Devices, Phones */
     @media only screen and (min-width : 480px) {
       .content-desc > p {
-        max-width: 75%;
+        max-width: 85%;
         margin-right: auto;
         margin-left: auto;
       }
       .content-desc .aboutus p {
-        max-width: 75%;
+        max-width: 85%;
         margin-right: auto;
         margin-left: auto;
       }
