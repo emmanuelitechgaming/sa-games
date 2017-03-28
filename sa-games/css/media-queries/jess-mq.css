@@ -19,17 +19,44 @@
 
     /* Extra Small Devices, Phones */
     @media only screen and (min-width : 480px) {
-
+      .content-desc > p {
+        max-width: 75%;
+        margin-right: auto;
+        margin-left: auto;
+      }
+      .content-desc .aboutus p {
+        max-width: 75%;
+        margin-right: auto;
+        margin-left: auto;
+      }
     }
 
     /* Small Devices, Tablets */
     @media only screen and (min-width : 768px) {
-
+      .content-desc > p {
+        max-width: 75%;
+        margin-right: auto;
+        margin-left: auto;
+      }
+      .content-desc .aboutus p {
+        max-width: 75%;
+        margin-right: auto;
+        margin-left: auto;
+      }
     }
 
     /* Medium Devices, Desktops */
     @media only screen and (min-width : 992px) {
-
+      .content-desc > p {
+        max-width: 75%;
+        margin-right: auto;
+        margin-left: auto;
+      }
+      .content-desc .aboutus p {
+        max-width: 75%;
+        margin-right: auto;
+        margin-left: auto;
+      }
     }
 
     /* Large Devices, Wide Screens */
