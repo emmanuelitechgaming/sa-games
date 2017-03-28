@@ -1,1 +1,51 @@
-jess-style.css
+main>div, #gdt main>h1, main>h2, main>h3, main>h4, main>section {
+    width: auto;
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+        /*background: #000;
+    height: 100%;*/
+}
+main .splash {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center
+}
+
+main .splash img {
+    max-width: 100%;
+    width: 100%
+}
+
+main .splash.splash-wide {
+    max-width: 1280px
+}
+
+main .splash-full-screen {
+    max-width: 100%;
+    padding: 0 2px
+}
+
+main .splash-full-screen .splash-wide {
+    max-width: 100%
+}
+main h1+.splash {
+    margin-top: 32px
+}
+.multi h2 {
+  font-weight: 700;
+  font-size: 30px;
+  color: #bf9a5d;
+  margin-bottom: 0.5em!important;
+  text-align: center;
+}
+main .multi > p {
+  color: #c4c4c4;
+  font-family: "Gotham Book";
+  font-weight: 400;
+  font-size: .875em;
+}
