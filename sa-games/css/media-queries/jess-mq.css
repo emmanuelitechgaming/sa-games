@@ -107,6 +107,8 @@
         line-height: 1.3em;
       }
       .error p {
-        font-size: 18px;
+        max-width: 30%;
+        margin-right: auto;
+        margin-left: auto;
       }
     }
