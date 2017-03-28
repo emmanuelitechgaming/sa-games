@@ -9,6 +9,19 @@
 
     /* Custom, iPhone Retina */
     @media only screen and (min-width : 320px) {
+      .caption-cta
+      {
+          text-align: center;
+      }
+
+      .remo-submit{
+        width: 100%;
+        margin-top: 10px
+      }
+
+      .remo-reset{
+        width: 100%;
+      }
       .moz-select{
           transition: outline .3s;
           outline: 1px solid #1a1a1a;
@@ -45,6 +58,10 @@
       }
       .activitiescontentbody{
         width: 100%; margin: 0 auto;
+      }
+      .withdrawtextalign{
+        text-align: justify;
+        margin-bottom: 20px;
       }
     }
 
@@ -87,10 +104,30 @@
       .activitiescontentbody{
         width: 100%; margin: 0 auto;
       }
+      .remo-submit{
+        margin-top: 10px
+      }
+      .withdrawtextalign{
+        text-align: justify;
+        margin-bottom: 20px;
+      }
     }
 
     /* Small Devices, Tablets */
     @media only screen and (min-width : 768px) {
+      .remo-contactus-list ul
+      {
+          display: inline-block;
+          text-align: center;
+      }
+
+      .remo-form-footer{
+        text-align: left
+      }
+
+      .remo-submit{
+        margin-top: 0px
+      }
       .moz-select{
           transition: outline .3s;
           outline: 1px solid #1a1a1a;
@@ -128,10 +165,24 @@
       .activitiescontentbody{
         width: 80%; margin: 0 auto;
       }
+      .withdrawtextalign{
+        text-align: center;
+        margin-bottom: 10px;
+      }
     }
 
     /* Medium Devices, Desktops */
     @media only screen and (min-width : 992px) {
+      .remo-form.remo-login
+      {
+          padding: 15px 35px 25px 35px;
+
+          border: solid 0px #333;
+      }
+
+      .remo-submit{
+        margin-top: 0px
+      }
       .moz-select{
           transition: outline .3s;
           outline: 1px solid #1a1a1a;
@@ -168,6 +219,10 @@
       }
       .activitiescontentbody{
         width: 50%; margin: 0 auto;
+      }
+      .withdrawtextalign{
+        text-align: center;
+        margin-bottom: 10px;
       }
     }
 /* Large Devices, Wide Screens */
@@ -208,6 +263,10 @@
       }
       .activitiescontentbody{
         width: 50%; margin: 0 auto;
+      }
+      .withdrawtextalign{
+        text-align: center;
+        margin-bottom: 10px;
       }
     }
 
@@ -251,4 +310,9 @@
   .activitiescontentbody{
     width: 700px; margin: 0 auto;
   }
+    .withdrawtextalign{
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    
     }
