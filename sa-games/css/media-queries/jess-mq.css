@@ -15,6 +15,9 @@
       .content-desc > p {
         font-size: .875em;
       }
+      .content-title h2 {
+        font-size: .875em;
+      }
     }
 
     /* Extra Small Devices, Phones */
