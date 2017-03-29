@@ -1,1 +1,468 @@
-remo-style.css
+/* remo-style.css */
+
+.form-control{
+  color: none
+}
+
+.content-title h2
+{
+    font-size: 1em;
+    line-height: 25px;
+
+    text-align: center;
+    letter-spacing: 2px;
+
+    color: #fff1d3;
+}
+
+.remo-content-title h1
+{
+    margin: 30px 0 20px 0;
+}
+
+.remo-promotional
+{
+    margin-bottom: 50px;
+}
+
+.remo-contactus
+{
+    background-image: url('../img/contactus/contact_banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -10px;
+}
+
+.remo-contactus h1
+{
+    margin: 30px 0;
+}
+
+.remo-contactus-list ul
+{
+    margin: 0;
+    padding: 0;
+}
+
+.remo-contactus-list ul li
+{
+    margin-bottom: 10px;
+
+    list-style: none;
+    list-style-image: none;
+
+    text-align: left;
+}
+
+.remo-contactus-list ul li a
+{
+    font-size: 14px;
+
+    letter-spacing: .3px;
+
+    color: #fff1d3;
+}
+
+.remo-contactus-list img
+{
+    width: 12px;
+    margin-right: 8px;
+}
+
+.remo-contactus-youko
+{
+    width: 30px !important;
+}
+
+textarea
+{
+    resize: none;
+}
+
+.remo-captcha img
+{
+    height: 35px;
+}
+
+.remo-form input,
+.remo-form textarea
+{
+    font-size: .875em;
+    font-weight: 400;
+    line-height: 1.5;
+
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 2em;
+    padding: 18px 0;
+
+    transition: outline .3s;
+    text-indent: 10px;
+
+    color: #c4c4c4;
+    border: 1px solid #333;
+    border-radius: 0;
+    outline: 1px solid #1a1a1a;
+    outline-offset: 0;
+    background-color: #333;
+    ;
+}
+
+.remo-form input:focus,
+.remo-form textarea:focus
+{
+    transition: border .3s;
+
+    border: solid 1px #fff;
+    box-shadow: none;
+}
+
+.remo-submit
+{
+    font-size: 15px;
+    font-weight: 600;
+
+    margin-bottom: 20px;
+    padding: 10px 20px;
+
+    letter-spacing: .5px;
+
+    color: #1a1a1a;
+    border: solid 1px #fff1d3;
+    border-radius: 0;
+    background: #fff1d3;
+    text-shadow: none;
+}
+
+.remo-reset
+{
+    font-size: 15px;
+    font-weight: 400;
+
+    margin-bottom: 20px;
+    padding: 10px 20px;
+
+    transition: border .3s;
+    letter-spacing: .5px;
+
+    color: #fff;
+    border: 1px solid #333;
+    border-radius: 0;
+    background: #1a1a1a;
+    text-shadow: none;
+}
+
+.remo-submit i,
+.remo-reset i
+{
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.remo-submit:hover
+{
+    font-weight: 400;
+
+    transition: background .3s;
+
+    color: #fff1d3;
+    background: none;
+}
+
+.remo-submit i:hover,
+.remo-reset i
+{
+    font-weight: 400;
+}
+
+.remo-reset:hover
+{
+    color: #fff;
+    border: 1px solid #fff;
+    background: #1a1a1a;
+}
+
+.remo-form label
+{
+    font-weight: 400;
+
+    margin-bottom: 10px;
+
+    letter-spacing: 1px;
+}
+
+.remo-login-title
+{
+    font-size: 18px;
+
+    margin-bottom: 25px;
+
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.remo-form-footer
+{
+    margin: 10px 0 20px;
+
+    text-align: center;
+}
+
+.remo-form-footer h3,
+.remo-form-footer h4
+{
+    margin: 5px 0;
+
+    letter-spacing: .5px;
+}
+
+.remo-form-footer h4 a
+{
+    font-size: 15px;
+
+    text-decoration: underline;
+
+    color: #c4c4c4;
+}
+
+.remo-form-footer h3
+{
+    font-size: 15px;
+
+    color: #c4c4c4;
+}
+
+.remo-form-footer h3 a
+{
+    font-weight: 700;
+
+    text-decoration: underline;
+
+    color: #fff1d3;
+}
+
+.remo-form-footer a:hover
+{
+    text-decoration: none;
+}
+
+.remo-registration
+{
+    margin: 30px 0;
+    border: 1px solid #777;
+    padding: 0 20px
+}
+
+.remo-registration .row:nth-child(2){
+  padding: 20px 0 0;
+}
+
+
+.remo-registration .row:nth-child(3){
+  padding: 20px 0 0;
+}
+
+.remo-registration .row:nth-child(4){
+  padding: 5px 0 20px
+}
+
+.remo-registration .row:nth-child(5){
+  padding: 5px 0
+}
+
+.remo-registration .row:nth-child(6){
+  padding: 5px 0
+}
+
+.remo-registration .row:nth-child(7){
+  padding: 5px 0
+}
+
+.remo-first-form-group{
+  border-bottom: solid 1px #777;
+  margin-bottom: 10px;
+  z-index: 99999
+}
+
+.remo-registration select {
+    appearance:none;
+    -moz-appearance:none; /* Firefox */
+    -webkit-appearance:none; /* Safari and Chrome */
+}
+
+.remo-registration select{
+  background: #333 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEoAAABGCAQAAADBG8qBAAAAkUlEQVR4Ae3O0QmEQBAE0Q3B0AzBYCcAM1qPzmCo4RCsLujvt7L960UTJUrUN1GiRIkSJUqUKFGiRIkSJaru2q2uWp1ybdQRFicxFGCFxFGMBUgA1WCFxFGMBUgA1WCFxFGMBUgA1WCFNI8irJDmUYQV0jyKsEKaRxHWCSgA9beJEiVKlChRokSJEiVKlChRoh4GlelzLr6YJwAAAABJRU5ErkJggg==);
+  background-position: 100% 10%;
+  background-size: 27% 100%;;
+  background-repeat: no-repeat;
+  border: solid 1px #333;
+  border-radius: 0;
+  color: #c4c4c4;
+  height: 40px
+}
+
+.remo-registration select:focus{
+  border: solid 1px #fff
+}
+
+.remo-registration select option{
+  background: #fff;
+  color: #c4c4c4
+}
+
+.remo-first-form-group .text-left, .remo-first-form-group .text-right{
+  padding: 0
+}
+
+.remo-first-form-group .radio{
+  margin: 10px 0 0
+}
+
+.remo-first-form-group label{
+  margin-bottom: -3px
+}
+
+.remo-registration-title
+{
+    font-size: 15px;
+
+    margin: 3px 0;
+
+    text-align: center;
+}
+
+.remo-registration .form-group
+{
+    margin-bottom: 0;
+}
+
+.remo-radio-span
+{
+    display: inline-block;
+    float: left;
+
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    margin-bottom: -5px;
+
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAQAAAAm93DmAAAA3klEQVRIx+3WTRHDIBAF4EiIhEpg5hmIBCREAhKQgIRIQEIkIAEJONgemqY5ZPnZcmhn2Hf/hh3CbqZp1L8VFBx20JkIjxWzDFsQLtQ1CbYRxQzPYB9UtzSaCtwrri9HIGw1zdZzBIIpgb6JIxBU/mapOXsODAKQsPDXQaJwVwMnBIkDdynINC3muI/nC9AO8ACjGNS93vE7j3twFXKh1+gqjzBYAZcy+0V0xvyIhe44DQUzJ1atU2zVnKpdpKam2aZlD5Wdjqm47ZiVddd8gBH+3ZysgT2imUc26pfrCYbpSAbqfwojAAAAAElFTkSuQmCC);
+    background-position: left;
+    background-size: 100% 100%;
+}
+
+.remo-radio
+{
+    position: absolute;
+    left: -999px;
+
+    display: inline-block;
+
+    width: auto !important;
+    height: 15px;
+}
+
+.remo-radio:checked + span
+{
+    display: inline-block;
+    float: left;
+
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    margin-bottom: -5px;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAQAAAAm93DmAAABLElEQVRIx+2WvW3DMBCFPYJHyAgC3gJcIIBadx6BgBbgAgHUqnPlWiNoBLXuVKkWoAFeCgeKSJHUnZAiCfyuPXzA4/3xdHrprwkFanTgEgNaXHE+BjPoV6h1THBKKM5oE7BvaKkxOu3gnlH/LI4gbhKzchxB2D1gq8IRRJGvbJD+zjtHPjWyodkCuxwwaBTHmb5mVlukSZcjwMVVSUuD2jc7J4DzxngKuB4y3plWIzPtJ40Z4EPWPH5SXgHQ/Qug6g0TwGGd1GSAHyGwFMyxUfQh3uLAq59WJYCXENeLV1cVmeWLZoXBhcmGDR9LKaLbZsrcF/V63V+xKJW4bv8I1ArcIDqnuIlxhfSQWolZ1bFH4W/HTWXtsc9IzHwPe/B3s2At3FeUiSF76TfrE1KJ2Vwh/3jLAAAAAElFTkSuQmCC);
+    background-position: left;
+    background-size: 100% 100%;
+}
+
+.remo-radio-span2
+{
+    display: inline-block;
+    float: left;
+
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    margin-bottom: -5px;
+
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAQAAAAm93DmAAAA3klEQVRIx+3WTRHDIBAF4EiIhEpg5hmIBCREAhKQgIRIQEIkIAEJONgemqY5ZPnZcmhn2Hf/hh3CbqZp1L8VFBx20JkIjxWzDFsQLtQ1CbYRxQzPYB9UtzSaCtwrri9HIGw1zdZzBIIpgb6JIxBU/mapOXsODAKQsPDXQaJwVwMnBIkDdynINC3muI/nC9AO8ACjGNS93vE7j3twFXKh1+gqjzBYAZcy+0V0xvyIhe44DQUzJ1atU2zVnKpdpKam2aZlD5Wdjqm47ZiVddd8gBH+3ZysgT2imUc26pfrCYbpSAbqfwojAAAAAElFTkSuQmCC);
+    background-position: left;
+    background-size: 100% 100%;
+}
+
+
+.radio label
+{
+    padding-left: 0;
+}
+
+#secondradiobutton
+{
+    display: none;
+}
+
+.radio-inline-no-radio
+{
+    padding-left: 0;
+}
+
+.remo-checkbox
+{
+    position: absolute;
+    left: -999px;
+
+    width: auto !important;
+    margin-left: 20px;
+}
+
+.remo-checkbox-span
+{
+    position: absolute;
+    top: 1px;
+    left: 0;
+
+    display: inline-block;
+    float: left;
+
+    width: 20px;
+    height: 20px;
+
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAQAAAAm93DmAAAAOUlEQVRIx+3MMREAMAgEQSwxBP9uEPAGwMR3udl+IydlNPHWK0q1RiIkJCQkJCQkJCT8PWz1GvnDA04Hc2Z5I0XhAAAAAElFTkSuQmCC);
+    background-position: left;
+    background-size: 100% 100%;
+}
+
+.remo-checkbox:checked + span
+{
+    display: inline-block;
+
+    width: 20px;
+    height: 20px;
+
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAQAAAAm93DmAAABgElEQVR4Ae3VMWsUQRgG4GtsPDeKdwcmFxLjcWJykjt3ZsdYCP4CLYII4l/QQmJnYWUjiMTGRisLKwXtbSxELfwBgqCQ1LKFIdUjiAiixcbdRjneaot9Zhg+3q8VyqDBlK1UJg2mbP6GU/A/AnN5k2BhyRGrimbApOuGTSOTJsCkL7eLB7ryumC0ouMNdl10tP4NC213wHVZ/TdMOi6AFzJjsR5YGFjyCVuGjimqjU00/tPZoonMM7CuI1Wbw2hiYNHybz8UMlfBprYoVANPWfDIc30LTv/yenPWfMVbXcvVwXmXwUvH9STx57D0vMOOM/qSUBUcCR6CD846KP4g2+6BazJJqA4mJ2Rugi8uOWBszWHr4On37z22TWFV2xU7YENm1tAWPhsYKPZeX1Ew45yP4L59noDzOtLf9mHSteIVeA/u2i/WKdhk3qzHgNe6RvXAIBk65DYI+lL9FVA4acYtG3pSMzslCuYsSk0uqVz+j63RKTgFNZtW2A5lg9n+BpInokg+LjCJAAAAAElFTkSuQmCC);
+    background-position: left;
+    background-size: 100% 100%;
+}
+
+.remo-at-email::before
+{
+    position: absolute;
+    top: 37px;
+    left: -7px;
+
+    content: '@';
+}
+
+.visibility-none
+{
+    visibility: hidden;
+}
+
+@-moz-document url-prefix(){
+  .remo-form input{
+    padding: 0 !important;
+  }
+}

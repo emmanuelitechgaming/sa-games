@@ -19,10 +19,10 @@
 
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/jess-style.css">
-    <link rel="stylesheet" href="css/media-queries/jess-mq.css">
-
-
+    <link rel="stylesheet" href="css/remo-style.css">
+    <link rel="stylesheet" href="css/em-style.css">
+    <link rel="stylesheet" href="css/media-queries/remo-mq.css">
+    <link rel="stylesheet" href="css/media-queries/em-mq.css">
 
 </head>
 
@@ -42,7 +42,14 @@
               <ul class="second-ul pull-right">
                   <li><a href="#">登陆</a></li>
                   <li><a href="#"> 注册 </a></li>
-
+                  <li>
+                      <a href="#" data-toggle="modal" data-target="#myModal">
+                          <div class="selected">
+                              <img class="selector-country" src="img/svg/cn.svg" alt="CN">
+                              <span class="language-selector">简体中文</span>
+                          </div>
+                      </a>
+                  </li>
               </ul>
             </div>
         </div>
@@ -53,6 +60,12 @@
             <div class="logo">
                 <a href="index.html"></a>
             </div>
+            <div class="mselect-country">
+              <button type="button" class="buttonmodal" data-toggle="modal" data-target="#myModal" href="#responsive">
+                  <a href="#" class="" style=""><img src="img/svg/cn.svg" class="languangeimage" alt="">简体中文</a>
+                  <i class="fa fa-caret-down " style="color: white;     margin-left: 3px;   font-size: 10px;"></i>
+              </button>
+              </div>
         </div> <!-- LOGO  -->
         <nav class="nav-head  hidden-sm hidden-xs hidden-md"> <!--NAV MENU -->
             <div class="nav-menu collapse navbar-collapse ">
@@ -202,69 +215,124 @@
   <div ></div>
       <main>    <!--CONTENT INSERT HERE -->
           <div class="content-body">
-            <div class="content-title">
-              <h1>电投娱乐</h1>
-              <h2>我们的电话投注（电投）系统整合方案，有完善的配套设施，如高清直播技术、实时路纸，是实地娱乐场拓展网上业务的理想之选。</h2>
-            </div>
-            <div class="content-banner">
-              <img src="img/second-page/banner-d.png" class="img-responsive hidden-sm hidden-xs" alt="">
-              <img src="img/second-page/banner-m.png" class="img-responsive hidden-lg hidden-md" alt="">
-            </div>
 
             <div class="content-title">
-              <h1>高清视频传播</h1>
-              <h2>我们的电投系统备有现场控端，确保您的娱乐场实况全以高清视频直播，让玩家仿如亲临现场，直接与荷官互动。</h2>
-            </div>
-            <div class="content-banner">
-              <img src="img/betting/bett1.png" class="img-responsive " alt="">
+              <h1>彩票游戏</h1>
+              <h2>采用先进技术，自家研发的彩票产品，每天早上十时开始首场搅珠，每小时开彩一次至晚上十时</h2>
             </div>
 
-            <div class="content-title">
-              <h1>实时路纸</h1>
-              <h2>游戏视频旁边设置实时路纸，纪录即时牌局资讯，清楚易明，有助玩家掌握游戏动向。</h2>
-            </div>
             <div class="content-banner">
-              <img src="img/betting/bett2.png" class="img-responsive " alt="">
+              <img src="img/lotto/lotto.jpg" class="img-responsive" alt="">
             </div>
 
-            <div class="content-title">
-              <h1>支援各类移动装置</h1>
-              <h2>电投系统亦支援各类移动装置，玩家可自在的投注玩乐，一通电话即可下注，自然为您带来更多收益。</h2>
+            <div class="lotto-container">
+              <div class="col-lg-12 content-body">
+
+                <div class="col-md-6 col-md-offset-3 col-xs-12 lotto-bg " >
+                  <div class="lotto-header col-md-3 col-xs-12">
+                  住在：<div> <span id="time">03:00</span></div><div class="join-btn btn-generate ">
+                      <a href="javascript:void(0);" id="generate">生成!!</a>
+                  </div>
+                  </div>
+                  <div class="wrapper-l col-md-3 col-xs-12">
+
+
+                      <p class="ball">1</p>
+                      <p class="ball">2</p>
+                      <p class="ball">3</p>
+                      <p class="ball">4</p>
+                      <p class="ball">5</p>
+                      <p class="ball">6</p>
+                      <p class="ball">7</p>
+
+                      <p class="ball">8</p>
+                      <p class="ball">9</p>
+                      <p class="ball">10</p>
+                      <p class="ball">11</p>
+                      <p class="ball">12</p>
+                      <p class="ball">13</p>
+                      <p class="ball">14</p>
+
+                      <p class="ball">15</p>
+                      <p class="ball">16</p>
+                      <p class="ball">17</p>
+                      <p class="ball">18</p>
+                      <p class="ball">19</p>
+                      <p class="ball">20</p>
+                      <p class="ball">21</p>
+
+                      <p class="ball">22</p>
+                      <p class="ball">23</p>
+                      <p class="ball">24</p>
+                      <p class="ball">25</p>
+                      <p class="ball">26</p>
+                      <p class="ball">27</p>
+                      <p class="ball">28</p>
+
+                      <p class="ball">29</p>
+                      <p class="ball">30</p>
+                      <p class="ball">31</p>
+                      <p class="ball">32</p>
+                      <p class="ball">33</p>
+                      <p class="ball">34</p>
+                      <p class="ball">35</p>
+
+                      <p class="ball">36</p>
+                      <p class="ball">37</p>
+                      <p class="ball">38</p>
+                      <p class="ball">39</p>
+                      <p class="ball">40</p>
+                      <p class="ball">41</p>
+                      <p class="ball">42</p>
+
+                      <p class="ball">43</p>
+                      <p class="ball">44</p>
+                      <p class="ball">45</p>
+                      <p class="ball">46</p>
+                      <p class="ball">47</p>
+                      <p class="ball">48</p>
+                      <p class="ball">49</p>
+
+                  </div>
+
+                </div>
+              </div>
+
+
             </div>
-            <div class="content-banner">
-              <img src="img/betting/bett3.png" class="img-responsive" alt="">
+
+
             </div>
+          <div class="content-title">
+            <h1>相关优惠</h1>
           </div>
-
-            <div class="content-title">
-              <h1>相关优惠</h1>
-
-            </div>
 
           <div class=" container main-container" style="">
             <div class="col-lg-12  col-md-12 col-sm-12 col-xs-12">
 
-              <div class="col-lg-4">
-                <img src="img/promo/36.png"class="img-responsive" alt="">
-                <div class="promo-txt">娱乐场首存奖金 36% 高达 36,666 元</div>
-              </div>
+                <div class="col-lg-4 hidden-sm hidden-xs hidden-md">
+                  <img src="img/promo/36.png"class="img-responsive" alt="">
+                  <div class="promo-txt">娱乐场首存奖金 36% 高达 36,666 元</div>
+                </div>
 
-              <div class="col-lg-4 hidden-sm hidden-xs">
-                <img src="img/promo/1.png" class="img-responsive  hidden-sm hidden-xs"alt="">
-                <div class="promo-txt">存款奖金 1% 无限次 无上限</div>
-              </div>
+                <div class="col-lg-4 remo-promotional">
+                  <img src="img/promo/1.png" class="img-responsive"alt="">
+                  <div class="promo-txt">存款奖金 1% 无限次 无上限</div>
+                </div>
 
-              <div class="col-lg-4 hidden-sm hidden-xs">
-                <img src="img/promo/0.6.png" class="img-responsive hidden-sm hidden-xs "alt="">
-                <div class="promo-txt">娱乐场每周 0.6% 返水 无上限 无限制</div>
-              </div>
+                <div class="col-lg-4 hidden-sm hidden-xs hidden-md">
+                  <img src="img/promo/0.6.png" class="img-responsive"alt="">
+                  <div class="promo-txt">娱乐场每周 0.6% 返水 无上限 无限制</div>
+                </div>
 
             </div>
 
-            <div style="height: 40px; display:block;" class="mobile-links hidden-md hidden-lg">
+            <div style="background:#000;height: 40px; display:block;" class="mobile-links hidden-md hidden-lg">
               <a class="back left" onclick="history.back(-1)"><i class="fa fa-angle-left" style="padding: 0px 5px; font-size:1.5em;vertical-align: middle;" aria-hidden="true"></i><span style="padding: 20px;vertical-align: middle;">背部</span></a>
               <a class="back-to-top right scrollToTop"><i class="fa fa-angle-up" style="font-size:1.5em;" aria-hidden="true"></i></a>
+
             </div>
+          </div>
           </div>
 
       </main> <!--CONTENT END HERE -->
@@ -416,7 +484,49 @@
             </footer>
         </div>
 
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
 
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <img src="img/logo-new.png" width="150px" alt="">
+                    </div>
+                    <div class="modal-body">
+                        <div class="container">
+                            <label class="c-selector">
+                                <span class="label-text">
+                                            国家</span>
+                                <span class="moz-select">
+                                            <select>
+                                                <option value="">选择国家</option>
+                                                <option >中国</option>
+                                                <option >U.S</option>
+                                            </select>
+
+                                        </span>
+                            </label>
+                            <label class="c-selector">
+                                <span class="label-text">
+                                            语言</span>
+                                <span class="moz-select">
+                                            <select>
+                                                <option value="">选择语言</option>
+                                                <option >中文</option>
+                                                <option >ENGLISH</option>
+                                            </select>
+
+                                        </span>
+                            </label>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script>
         window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')
@@ -427,21 +537,14 @@
     <script src="js/vendor/swiper.min.js"></script>
 
     <script src="js/main.js"></script>
+    <script src="js/scripts/em-js.js"></script>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
-    var swiper = new Swiper('.swiper-container', {
-        pagination: '.swiper-pagination',
-        nextButton: '.swiper-button-next',
-        prevButton: '.swiper-button-prev',
-        paginationClickable: true,
-        spaceBetween: 30,
-        centeredSlides: true,
-        autoplay: 2500,
-        autoplayDisableOnInteraction: false
-
-
-    });
+    $('join-btn a').click(function (event) {
+    event.preventDefault();
+    // or use return false;
+  });
     </script>
     <script>
         (function(b, o, i, l, e, r) {
@@ -462,5 +565,3 @@
 </body>
 
 </html>
-
-
