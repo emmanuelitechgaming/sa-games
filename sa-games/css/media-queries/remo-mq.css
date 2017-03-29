@@ -87,6 +87,21 @@
   .remo-sitemap-container{
     padding: 0 180px;
   }
+
+  .remo-collapse-cross {
+    padding: 15px 0;
+    border-top: 1px solid #333;
+    background: url(../../img/sitemap/cross.png) no-repeat;
+    background-size: 15px;
+    background-position: right;
+  }
+
+  .remo-collapse-line{
+    background: url(../../img/sitemap/line.png) no-repeat;
+    background-size: 15px;
+    background-position: right;
+    text-decoration: none
+  }
 }
 
 /* Large Devices, Wide Screens */
