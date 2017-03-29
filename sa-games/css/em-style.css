@@ -70,3 +70,35 @@ background: -webkit-linear-gradient(top,#1e1e1e 0,#3f3f3f 50%,#1e1e1e 100%);
 background: linear-gradient(to bottom,#1e1e1e 0,#3f3f3f 50%,#1e1e1e 100%);
 padding: 50px 10px;
         }
+        .bank-container{
+          padding: 30px;
+        }
+        .bank-container .bank-logo{
+          padding-left: 0px;
+          padding-right:0px;
+        }
+        .online-payment{
+          padding: 30% 5% 40% 5%;
+        }
+        .mode-payment{
+          padding: 9.5% 3%;
+        }
+
+.debug{
+  background: green;
+}
+.display-txt{
+
+  bottom: 1px;
+  text-align: center;
+  left: 0;
+  right: 0;
+
+}
+.display-txt span{
+  display: block;
+
+}
+.up-mp img{
+  padding: 0px 47px;
+}
