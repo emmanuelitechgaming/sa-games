@@ -45,7 +45,7 @@
       .remo-reset{
         width: 100%;
       }
-      .moz-select{
+      .moz-select-nathan{
           transition: outline .3s;
           outline: 1px solid #1a1a1a;
           display: inline-block;
@@ -113,7 +113,7 @@
           border: 2px solid #9f9f9f;
           padding: 2px;
       }
-      .moz-select{
+      .moz-select-nathan{
           transition: outline .3s;
           outline: 1px solid #1a1a1a;
           display: inline-block;
@@ -197,7 +197,7 @@
       .remo-submit{
         margin-top: 0px
       }
-      .moz-select{
+      .moz-select-nathan{
           transition: outline .3s;
           outline: 1px solid #1a1a1a;
           display: inline-block;
@@ -275,7 +275,7 @@
       .remo-submit{
         margin-top: 0px
       }
-      .moz-select{
+      .moz-select-nathan{
           transition: outline .3s;
           outline: 1px solid #1a1a1a;
           display: inline-block;
@@ -342,7 +342,7 @@
           border: 2px solid #9f9f9f;
           padding: 2px;
       }
-      .moz-select{
+      .moz-select-nathan{
           transition: outline .3s;
           outline: 1px solid #1a1a1a;
           display: inline-block;
@@ -410,7 +410,7 @@
           border: 2px solid #9f9f9f;
           padding: 2px;
       }
-      .moz-select{
+      .moz-select-nathan{
           transition: outline .3s;
           outline: 1px solid #1a1a1a;
           display: inline-block;
