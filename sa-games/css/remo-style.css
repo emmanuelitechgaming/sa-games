@@ -1,7 +1,8 @@
 /* remo-style.css */
 
-.form-control{
-  color: none
+.form-control
+{
+    color: none;
 }
 
 .content-title h2
@@ -20,19 +21,15 @@
     margin: 30px 0 20px 0;
 }
 
-.remo-promotional
-{
-    margin-bottom: 50px;
-}
-
 .remo-contactus
 {
+    margin-top: -10px;
+    margin-right: -10px;
+    margin-left: -10px;
+
     background-image: url('../img/contactus/contact_banner.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    margin-left: -10px;
-    margin-right: -10px;
-    margin-top: -10px;
 }
 
 .remo-contactus h1
@@ -251,77 +248,96 @@ textarea
 .remo-registration
 {
     margin: 30px 0;
+    padding: 0 20px;
+
     border: 1px solid #777;
-    padding: 0 20px
 }
 
-.remo-registration .row:nth-child(2){
-  padding: 20px 0 0;
+.remo-registration .row:nth-child(2)
+{
+    padding: 20px 0 0;
 }
 
 
-.remo-registration .row:nth-child(3){
-  padding: 20px 0 0;
+.remo-registration .row:nth-child(3)
+{
+    padding: 20px 0 0;
 }
 
-.remo-registration .row:nth-child(4){
-  padding: 5px 0 20px
+.remo-registration .row:nth-child(4)
+{
+    padding: 5px 0 20px;
 }
 
-.remo-registration .row:nth-child(5){
-  padding: 5px 0
+.remo-registration .row:nth-child(5)
+{
+    padding: 5px 0;
 }
 
-.remo-registration .row:nth-child(6){
-  padding: 5px 0
+.remo-registration .row:nth-child(6)
+{
+    padding: 5px 0;
 }
 
-.remo-registration .row:nth-child(7){
-  padding: 5px 0
+.remo-registration .row:nth-child(7)
+{
+    padding: 5px 0;
 }
 
-.remo-first-form-group{
-  border-bottom: solid 1px #777;
-  margin-bottom: 10px;
-  z-index: 99999
+.remo-first-form-group
+{
+    z-index: 99999;
+
+    margin-bottom: 10px;
+
+    border-bottom: solid 1px #777;
 }
 
-.remo-registration select {
-    appearance:none;
-    -moz-appearance:none; /* Firefox */
-    -webkit-appearance:none; /* Safari and Chrome */
+.remo-registration select
+{
+            appearance: none;
+       -moz-appearance: none; /* Firefox */
+    -webkit-appearance: none; /* Safari and Chrome */
 }
 
-.remo-registration select{
-  background: #333 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEoAAABGCAQAAADBG8qBAAAAkUlEQVR4Ae3O0QmEQBAE0Q3B0AzBYCcAM1qPzmCo4RCsLujvt7L960UTJUrUN1GiRIkSJUqUKFGiRIkSJaru2q2uWp1ybdQRFicxFGCFxFGMBUgA1WCFxFGMBUgA1WCFxFGMBUgA1WCFNI8irJDmUYQV0jyKsEKaRxHWCSgA9beJEiVKlChRokSJEiVKlChRoh4GlelzLr6YJwAAAABJRU5ErkJggg==);
-  background-position: 100% 10%;
-  background-size: 27% 100%;;
-  background-repeat: no-repeat;
-  border: solid 1px #333;
-  border-radius: 0;
-  color: #c4c4c4;
-  height: 40px
+.remo-registration select
+{
+    height: 40px;
+
+    color: #c4c4c4;
+    border: solid 1px #333;
+    border-radius: 0;
+    background: #333 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEoAAABGCAQAAADBG8qBAAAAkUlEQVR4Ae3O0QmEQBAE0Q3B0AzBYCcAM1qPzmCo4RCsLujvt7L960UTJUrUN1GiRIkSJUqUKFGiRIkSJaru2q2uWp1ybdQRFicxFGCFxFGMBUgA1WCFxFGMBUgA1WCFxFGMBUgA1WCFNI8irJDmUYQV0jyKsEKaRxHWCSgA9beJEiVKlChRokSJEiVKlChRoh4GlelzLr6YJwAAAABJRU5ErkJggg==);
+    background-repeat: no-repeat;
+    background-position: 100% 10%;
+    background-size: 27% 100%;;
 }
 
-.remo-registration select:focus{
-  border: solid 1px #fff
+.remo-registration select:focus
+{
+    border: solid 1px #fff;
 }
 
-.remo-registration select option{
-  background: #fff;
-  color: #c4c4c4
+.remo-registration select option
+{
+    color: #c4c4c4;
+    background: #fff;
 }
 
-.remo-first-form-group .text-left, .remo-first-form-group .text-right{
-  padding: 0
+.remo-first-form-group .text-left,
+.remo-first-form-group .text-right
+{
+    padding: 0;
 }
 
-.remo-first-form-group .radio{
-  margin: 10px 0 0
+.remo-first-form-group .radio
+{
+    margin: 10px 0 0;
 }
 
-.remo-first-form-group label{
-  margin-bottom: -3px
+.remo-first-form-group label
+{
+    margin-bottom: -3px;
 }
 
 .remo-registration-title
@@ -373,6 +389,7 @@ textarea
     height: 20px;
     margin-right: 5px;
     margin-bottom: -5px;
+
     background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAQAAAAm93DmAAABLElEQVRIx+2WvW3DMBCFPYJHyAgC3gJcIIBadx6BgBbgAgHUqnPlWiNoBLXuVKkWoAFeCgeKSJHUnZAiCfyuPXzA4/3xdHrprwkFanTgEgNaXHE+BjPoV6h1THBKKM5oE7BvaKkxOu3gnlH/LI4gbhKzchxB2D1gq8IRRJGvbJD+zjtHPjWyodkCuxwwaBTHmb5mVlukSZcjwMVVSUuD2jc7J4DzxngKuB4y3plWIzPtJ40Z4EPWPH5SXgHQ/Qug6g0TwGGd1GSAHyGwFMyxUfQh3uLAq59WJYCXENeLV1cVmeWLZoXBhcmGDR9LKaLbZsrcF/V63V+xKJW4bv8I1ArcIDqnuIlxhfSQWolZ1bFH4W/HTWXtsc9IzHwPe/B3s2At3FeUiSF76TfrE1KJ2Vwh/3jLAAAAAElFTkSuQmCC);
     background-position: left;
     background-size: 100% 100%;
@@ -461,8 +478,36 @@ textarea
     visibility: hidden;
 }
 
-@-moz-document url-prefix(){
-  .remo-form input{
-    padding: 0 !important;
-  }
+@-moz-document url-prefix()
+{
+    .remo-form input
+    {
+        padding: 0 !important;
+    }
+}
+
+.remo-dtab
+{
+    border-bottom: none;
+}
+
+.remo-dtab li
+{
+    width: 33.33%;
+    margin-left: -4px;
+
+    text-align: center;
+}
+
+.remo-dtab li{
+  border: solid 1px #333;
+  border-radius: 0;
+}
+
+.remo-dtab li a{
+  
+}
+
+.remo-dtab>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus{
+
 }
