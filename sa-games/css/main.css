@@ -29,6 +29,7 @@ header {
     background-position: 50% 50%;
     -webkit-transform: translateZ(0);
 }
+
 .logo a{
   width: 10%;
 height: 100%;
@@ -36,6 +37,7 @@ display: block;
 margin: 0 auto;
 
 }
+
 .header-menu ul {
     display: inline-block;
     margin-bottom: -5px;
