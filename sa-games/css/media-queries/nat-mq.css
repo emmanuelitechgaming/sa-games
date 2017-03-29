@@ -86,6 +86,14 @@
         text-align: justify;
         margin-bottom: 20px;
       }
+
+      .myacounttextalign{
+        text-align: justify;
+        margin-bottom: 20px;
+        border-bottom: 1px solid #333;
+        padding-bottom: 10px;
+      }
+
     }
 
     /* Extra Small Devices, Phones */
@@ -156,6 +164,12 @@
       .withdrawtextalign{
         text-align: justify;
         margin-bottom: 20px;
+      }
+      .myacounttextalign{
+        text-align: justify;
+        margin-bottom: 20px;
+        border-bottom: 1px solid #333;
+        padding-bottom: 10px;
       }
     }
 
@@ -238,6 +252,12 @@
         text-align: center;
         margin-bottom: 10px;
       }
+      .myacounttextalign{
+        text-align: justify;
+        margin-bottom: 20px;
+        border-bottom: 1px solid #333;
+        padding-bottom: 10px;
+      }
     }
 
     /* Medium Devices, Desktops */
@@ -316,6 +336,12 @@
         text-align: center;
         margin-bottom: 10px;
       }
+      .myacounttextalign{
+        text-align: justify;
+        margin-bottom: 20px;
+        border-bottom: 1px solid #333;
+        padding-bottom: 10px;
+      }
     }
 /* Large Devices, Wide Screens */
     @media only screen and (min-width : 1024px) {
@@ -368,25 +394,35 @@
       }
       .nathan-content-label{
         margin-bottom: 20px;
-     padding-bottom: 28px;
-     border-bottom: 1px solid #272727;
-     line-height: 18px;
-     text-align: left;
-     padding-top: 15px;
-  width:100%;
-     margin:0 auto;
+        padding-bottom: 28px;
+        border-bottom: 1px solid #272727;
+        line-height: 18px;
+        text-align: left;
+        padding-top: 15px;
+        width:100%;
+        margin:0 auto;
       }
-      .activitiescontentbody{
+      .activitiescontentbody
+      {
         width: 50%; margin: 0 auto;
       }
-      .withdrawtextalign{
+      .withdrawtextalign
+      {
         text-align: center;
         margin-bottom: 10px;
+      }
+      .myacounttextalign
+      {
+        text-align: justify;
+        margin-bottom: 20px;
+        border-bottom: 1px solid #333;
+        padding-bottom: 10px;
       }
     }
 
 
-    @media only screen and (min-width : 1200px) {
+    @media only screen and (min-width : 1200px)
+    {
       .editable ul li {
           list-style: none;
           border-top: 0px solid #333;
@@ -405,12 +441,14 @@
       .editable a {
             color:#fff1d3;
       }
-      .editable table td{
+      .editable table td
+      {
           background-color:  #515151 !important;
           border: 2px solid #9f9f9f;
           padding: 2px;
       }
-      .moz-select-nathan{
+      .moz-select-nathan
+      {
           transition: outline .3s;
           outline: 1px solid #1a1a1a;
           display: inline-block;
@@ -424,33 +462,45 @@
           vertical-align: baseline;
           overflow: hidden;
       }
-      .activities-content-banner{
+      .activities-content-banner
+      {
         text-align: center;
-      padding: 20px;
+        padding: 20px;
         width: 1000px;
-      margin: 0 auto;
+        margin: 0 auto;
       }
-      .nathan-activities-content{
+      .nathan-activities-content
+      {
         width: 1000px;
         margin:0 auto;
       }
-      .nathan-content-label{
+      .nathan-content-label
+      {
         margin-bottom: 20px;
-     padding-bottom: 28px;
-     border-bottom: 1px solid #272727;
-     line-height: 18px;
-     text-align: left;
-     padding-top: 15px;
-     width:570px;
-     margin:0 auto;
+        padding-bottom: 28px;
+        border-bottom: 1px solid #272727;
+        line-height: 18px;
+        text-align: left;
+        padding-top: 15px;
+        width:570px;
+        margin:0 auto;
       }
 
-  .activitiescontentbody{
-    width: 700px; margin: 0 auto;
-  }
+      .activitiescontentbody
+      {
+        width: 700px; margin: 0 auto;
+      }
+
     .withdrawtextalign{
       text-align: center;
       margin-bottom: 10px;
+    }
+
+    .myacounttextalign{
+      text-align: justify;
+      margin-bottom: 20px;
+      border-bottom: 1px solid #333;
+      padding-bottom: 10px;
     }
 
     }
