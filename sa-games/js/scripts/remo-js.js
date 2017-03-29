@@ -17,4 +17,7 @@ $( document ).ready(function() {
     $("#secondradiobutton").css("display", "block");
   });
 
+  $('.remo-toggleline').click( function() {
+    $(this).toggleClass("remo-collapse-line");
+  } );
 });
