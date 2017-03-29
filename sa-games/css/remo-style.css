@@ -307,7 +307,8 @@ textarea
     color: #c4c4c4;
     border: solid 1px #333;
     border-radius: 0;
-    background: #333 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEoAAABGCAQAAADBG8qBAAAAkUlEQVR4Ae3O0QmEQBAE0Q3B0AzBYCcAM1qPzmCo4RCsLujvt7L960UTJUrUN1GiRIkSJUqUKFGiRIkSJaru2q2uWp1ybdQRFicxFGCFxFGMBUgA1WCFxFGMBUgA1WCFxFGMBUgA1WCFNI8irJDmUYQV0jyKsEKaRxHWCSgA9beJEiVKlChRokSJEiVKlChRoh4GlelzLr6YJwAAAABJRU5ErkJggg==);
+    background: #333 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEoAAABGCAQAAADBG8qBAAAAkUlEQVR4Ae3O0QmEQBAE0Q3B0AzBYCcAM1qPzmCo4RCsLujvt7L960UTJUrUN1GiRIkSJUqUKFGiRIkSJaru2q2uWp1ybdQRFicxFGCFxFGMBUgA1WCFxFGMBUgA1WCFxFGMBUgA1WCFNI8irJDmUYQV0jyKsEKaRxHWCSgA9beJEiVKlChRokSJEiVKlChRoh4GlelzLr6YJwAAAABJRU5ErkJggg==);
+
     background-repeat: no-repeat;
     background-position: 100% 10%;
     background-size: 27% 100%;;
@@ -494,20 +495,96 @@ textarea
 .remo-dtab li
 {
     width: 33.33%;
-    margin-left: -4px;
+    margin-left: -1px;
 
     text-align: center;
 }
 
 .remo-dtab li{
+  border-radius: 0;
+  margin-left: -3px;
+}
+
+.remo-dtab li a{
+  color: #fff1d3;
   border: solid 1px #333;
   border-radius: 0;
 }
 
-.remo-dtab li a{
-  
+.remo-dtab>li>a:hover{
+  border: none;
+  border-bottom: solid 2px #fff1d3;
+  color: #fff1d3;
+  border: solid 1px #333;
+  border-bottom: none;
+  border-bottom: 2px solid #fff1d3;
 }
 
-.remo-dtab>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus{
+.remo-dtab>li.active>a, .remo-dtab>li.active>a:focus, .remo-dtab>li.active>a:hover{
+  color: #fff1d3;
+  background-color: transparent;
+  border-bottom-color: transparent;
+  border: solid 1px #333;
+  border-bottom: none;
+  border-bottom: 2px solid #fff1d3;
+}
 
+.remo-dtab>li.active>a:hover{
+  background-color: transparent;
+  border-bottom-color: transparent;
+  border: solid 1px #333;
+  border-bottom: none;
+  border-bottom: 2px solid #fff1d3;
+}
+
+.remo-sitemap-content{
+  border: solid 1px #333;
+  border-top: none;
+  margin: 0px 11px 0 -3px;
+  padding: 30px 15px;
+}
+
+.remo-mtab{
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px
+}
+
+.remo-mtab li{
+  list-style: none
+}
+.remo-mtab li a{
+  color: #fff1d3;
+  display: block
+}
+
+.remo-mtab .active a{
+  text-decoration: none
+}
+
+.remo-collapse-cross{
+  padding: 15px 0;
+  border-top: 1px solid #333;
+  background: url(../img/sitemap/cross.png) no-repeat;
+  background-size: 5%;
+  background-position: right
+}
+
+.remo-mtab li:last-child{
+  border-bottom: solid 1px #333
+}
+
+.remo-collapse-content{
+  margin-bottom: 15px
+}
+
+.remo-collapse-line{
+  background: url(../img/sitemap/line.png) no-repeat;
+  background-size: 5%;
+  background-position: right;
+  text-decoration: none
+}
+
+.remo-mtab li a:active, .remo-mtab li a:focus{
+  text-decoration: none
 }
