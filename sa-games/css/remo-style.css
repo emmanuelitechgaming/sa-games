@@ -1,5 +1,9 @@
 /* remo-style.css */
 
+.form-control{
+  color: none
+}
+
 .content-title h2
 {
     font-size: 1em;
@@ -102,7 +106,8 @@ textarea
     border-radius: 0;
     outline: 1px solid #1a1a1a;
     outline-offset: 0;
-    background-color: #333;    ;
+    background-color: #333;
+    ;
 }
 
 .remo-form input:focus,
@@ -251,11 +256,12 @@ textarea
 }
 
 .remo-registration .row:nth-child(2){
-  padding: 20px 0 0
+  padding: 20px 0 0;
 }
 
+
 .remo-registration .row:nth-child(3){
-  padding: 20px 0 0
+  padding: 20px 0 0;
 }
 
 .remo-registration .row:nth-child(4){
@@ -288,12 +294,13 @@ textarea
 
 .remo-registration select{
   background: #333 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEoAAABGCAQAAADBG8qBAAAAkUlEQVR4Ae3O0QmEQBAE0Q3B0AzBYCcAM1qPzmCo4RCsLujvt7L960UTJUrUN1GiRIkSJUqUKFGiRIkSJaru2q2uWp1ybdQRFicxFGCFxFGMBUgA1WCFxFGMBUgA1WCFxFGMBUgA1WCFNI8irJDmUYQV0jyKsEKaRxHWCSgA9beJEiVKlChRokSJEiVKlChRoh4GlelzLr6YJwAAAABJRU5ErkJggg==);
-  background-position: 50px -3px;
-  background-size: 40px 40px;
+  background-position: 100% 10%;
+  background-size: 27% 100%;;
   background-repeat: no-repeat;
   border: solid 1px #333;
   border-radius: 0;
   color: #c4c4c4;
+  height: 40px
 }
 
 .remo-registration select:focus{
@@ -452,4 +459,10 @@ textarea
 .visibility-none
 {
     visibility: hidden;
+}
+
+@-moz-document url-prefix(){
+  .remo-form input{
+    padding: 0 !important;
+  }
 }

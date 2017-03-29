@@ -24,6 +24,14 @@
       width: 100%;
     }
 
+    .remo-registration .row:nth-child(2) label{
+      letter-spacing: -3px
+    }
+
+    .remo-registration select{
+      padding: 5px
+    }
+
 }
 
 /* Extra Small Devices, Phones */
@@ -51,16 +59,6 @@
     margin-top: 0px
   }
 
-  .remo-registration select {
-    background: #333 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEoAAABGCAQAAADBG8qBAAAAkUlEQVR4Ae3O0QmEQBAE0Q3B0AzBYCcAM1qPzmCo4RCsLujvt7L960UTJUrUN1GiRIkSJUqUKFGiRIkSJaru2q2uWp1ybdQRFicxFGCFxFGMBUgA1WCFxFGMBUgA1WCFxFGMBUgA1WCFNI8irJDmUYQV0jyKsEKaRxHWCSgA9beJEiVKlChRokSJEiVKlChRoh4GlelzLr6YJwAAAABJRU5ErkJggg==);;
-    background-position: 110px -3px;
-    background-size: 40px 40px;
-    background-repeat: no-repeat;
-    border: solid 1px #333;
-    border-radius: 0;
-    color: #c4c4c4;
-  }
-
   .remo-contactus
   {
     background-size: 100% 100%;
@@ -80,6 +78,10 @@
 
   .remo-submit{
     margin-top: 0px
+  }
+
+  .remo-registration select{
+    padding: 6px 12px
   }
 }
 
