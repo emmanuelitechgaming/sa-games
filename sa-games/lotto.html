@@ -61,12 +61,14 @@
                 <a href="index.html"></a>
             </div>
 
-            <div class="mselect-country">
+          <div class="mselect-country hidden-md hidden-lg">
+
               <button type="button" class="buttonmodal" data-toggle="modal" data-target="#myModal" href="#responsive">
                   <a href="#" class="" style=""><img src="img/svg/cn.svg" class="languangeimage" alt="">简体中文</a>
                   <i class="fa fa-caret-down " style="color: white;     margin-left: 3px;   font-size: 10px;"></i>
               </button>
-            </div>
+          </div>
+
         </div> <!-- LOGO  -->
         <nav class="nav-head  hidden-sm hidden-xs hidden-md"> <!--NAV MENU -->
             <div class="nav-menu collapse navbar-collapse ">
@@ -227,7 +229,7 @@
             </div>
 
             <div class="lotto-container">
-              <div class="col-lg-12">
+              <div class="col-lg-12 content-body">
 
                 <div class="col-md-6 col-md-offset-3 col-xs-12 lotto-bg " >
                   <div class="lotto-header col-md-3 col-xs-12">
@@ -393,7 +395,10 @@
       </div> <!-- MOBILE FOOTER -->
 
           <div class="footerContainer open hidden-sm hidden-xs"> <!-- FOOTER CONTENT STARTS HERE -->
-            <footer class="slide slider open">
+
+            <footer class="slide open slider">
+                <!-- <div class="arrow"></div> -->
+
                 <div class="inner">
                     <a href="#" class="">网站指南 </a>
                     <div class="contacts-and-press sub ">
@@ -487,8 +492,11 @@
             </footer>
         </div>
 
-
         <!-- Modal -->
+        <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+
+
         <div class="modal fade" id="myModal" role="dialog">
             <div class="modal-dialog">
 
@@ -531,7 +539,6 @@
 
             </div>
         </div>
-
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script>

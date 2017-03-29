@@ -30,29 +30,48 @@
     <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-    <header class=" hidden-sm hidden-xs">
-        <div class="wrapper">
-          <div class="header-menu">
-              <ul class="">
-                  <li><a href="#">我的帳戶</a></li>
-                  <li><a href="#">存款中心 </a></li>
-                  <li><a href="#">取款中心</a></li>
-                  <li><a href="#">活動中心</a></li>
-              </ul>
-              <ul class="second-ul pull-right">
-                  <li><a href="#">登陆</a></li>
-                  <li><a href="#"> 注册 </a></li>
 
-              </ul>
+        <header class=" hidden-sm hidden-xs">
+            <div class="wrapper">
+                <div class="header-menu">
+                    <ul class="">
+                        <li><a href="#">我的帳戶</a></li>
+                        <li><a href="#">存款中心 </a></li>
+                        <li><a href="#">取款中心</a></li>
+                        <li><a href="#">活動中心</a></li>
+                    </ul>
+                    <ul class="second-ul pull-right">
+                        <li><a href="#">登陆</a></li>
+                        <li><a href="#"> 注册 </a></li>
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#myModal">
+                                <div class="selected">
+                                    <img class="selector-country" src="img/svg/cn.svg" alt="CN">
+                                    <span class="language-selector">简体中文</span>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </header>
+        </header>
+
+
+
 
     <div class="wrapper">
         <div class="topnav"> <!-- LOGO  -->
             <div class="logo">
                 <a href="index.html"></a>
             </div>
+
+            <div class="mselect-country hidden-md hidden-lg">
+            <button type="button" class="buttonmodal" data-toggle="modal" data-target="#myModal" href="#responsive">
+                <a href="#" class="" style=""><img src="img/svg/cn.svg" class="languangeimage" alt="">简体中文</a>
+                <i class="fa fa-caret-down " style="color: white;     margin-left: 3px;   font-size: 10px;"></i>
+            </button>
+            </div>
+
         </div> <!-- LOGO  -->
         <nav class="nav-head  hidden-sm hidden-xs hidden-md"> <!--NAV MENU -->
             <div class="nav-menu collapse navbar-collapse ">
@@ -357,102 +376,144 @@
           </div>
       </div> <!-- MOBILE FOOTER -->
 
-          <div class="footerContainer  hidden-sm hidden-xs"> <!-- FOOTER CONTENT STARTS HERE -->
-            <footer class="slide ">
-                <div class="arrow"></div>
-                <div class="inner">
-                    <a href="#" class="">网站指南 </a>
-                    <div class="contacts-and-press sub ">
-                        <a href="#" >
-                            <span>游戲指南</span>
-                        </a>
-                        <a href="#" >
-                            <span>幫助中心</span>
-                        </a>
-                        <a href="#">
-                            <span>網站地圖</span>
-                        </a>
-                    </div>
-                    <a href="#" class="">關於我們</a>
-                    <div class="about-us sub ">
-                        <a href="#">
-                            <span>沙龍世界簡介</span>
-                        </a>
-                        <a href="#">
-                            <span>沙龍世界動向 </span>
-                        </a>
 
-                    </div>
-                    <a href="#" data-href="#" class="sa-games "> 沙龙世界</a>
-                    <div class="sa-games sub">
-                        <a href="#"  target="_blank"><img src="img/logo-new.png" style="width: 110px;" alt=""></a>
-                    </div>
-                    <a href="#" data-href="#" class="follow-us ">關注我們</a>
-                    <div class="follow-us sub ">
-                      <div class="social-icons">
-                        <a href=""><i class="fa fa-weibo" aria-hidden="true"></i></a>
-                        <a href=""> <i class="fa fa-youtube-play" aria-hidden="true"></i></a>
-                        <a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                        <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></i></a>
-                        <a href=""><i class="fa fa-tencent-weibo" aria-hidden="true"></i></a>
+      <div class="footerContainer  open hidden-sm hidden-xs">
+      <!-- FOOTER CONTENT STARTS HERE -->
+      <footer class="slide slider open">
+          <!-- <div class="arrow"></div> -->
+          <div class="inner">
+              <a href="#" class="">网站指南 </a>
+              <div class="contacts-and-press sub ">
+                  <a href="#">
+                      <span>游戲指南</span>
+                  </a>
+                  <a href="#">
+                      <span>幫助中心</span>
+                  </a>
+                  <a href="#">
+                      <span>網站地圖</span>
+                  </a>
+              </div>
+              <a href="#" class="">關於我們</a>
+              <div class="about-us sub ">
+                  <a href="#">
+                      <span>沙龍世界簡介</span>
+                  </a>
+                  <a href="#">
+                      <span>沙龍世界動向 </span>
+                  </a>
+
+              </div>
+              <a href="#" data-href="#" class="sa-games "> 沙龙世界</a>
+              <div class="sa-games sub">
+                  <a href="#" target="_blank"><img src="img/logo-new.png" style="width: 110px;" alt=""></a>
+              </div>
+              <a href="#" data-href="#" class="follow-us ">關注我們</a>
+              <div class="follow-us sub ">
+                  <div class="social-icons">
+                      <a href=""><i class="fa fa-weibo" aria-hidden="true"></i></a>
+                      <a href=""> <i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                      <a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                      <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                      <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></i></a>
+                      <a href=""><i class="fa fa-tencent-weibo" aria-hidden="true"></i></a>
+                  </div>
+
+                  <div class="social-icons">
+                      <p>支持浏览器</p>
+                      <a href="#"><i class="fa fa-safari" aria-hidden="true"></i></a>
+                      <a href="#"><i class="fa fa-internet-explorer" aria-hidden="true"></i></a>
+                      <a href="#"><i class="fa fa-firefox" aria-hidden="true"></i></a>
+                      <a href="#"><i class="fa fa-chrome" aria-hidden="true"></i></a>
+                  </div>
+
+                  <div class="social-icons">
+                      <p>支持手机</p>
+                      <a href=""><i class="fa fa-desktop" aria-hidden="true"></i></a>
+                      <a href=""><i class="fa fa-html5" aria-hidden="true"></i></a>
+                      <a href=""><i class="fa fa-android" aria-hidden="true"></i></a>
+                      <a href=""><i class="fa fa-apple" aria-hidden="true"></i></a>
+                  </div>
+
+                  <div class="platform social-icons">
+                      <p>认可监督</p>
+
+                      <a class="app" target="_blank" href="#">
+                          <img src="img/cert4.png" alt="">
+                      </a>
+                      <a class="play" target="_blank" href="#">
+                          <img src="img/cert5.png" alt="">
+                      </a>
+
+                  </div>
+
+              </div>
+              <a href="#" class="">條款</a>
+              <div class="terms sub ">
+                  <a href="#" class="terms-of-use ">
+                      <span>責任博彩</span>
+                  </a>
+                  <a href="#" class="privacy-policy ">
+                      <span>博彩規則</span>
+                  </a>
+                  <a href="#" class="cookies ">
+                      <span>私隱政策</span>
+                  </a>
+                  <a href="#" class="cookies ">
+                      <span>網絡安全</span>
+                  </a>
+              </div>
+          </div>
+      </footer>
+      <footer role="contentinfo">
+          <div class="inner">
+              <span class="copy"><img src="img/s.png" style="width: 70px;" alt="s-salon"> 2017 &copy; 版权所有 <img src="img/21.png" style="width: 12px; margin-bottom:3px;" alt="s-salon"> 未滿二十一歲禁止使用本網站</span>
+
+          </div>
+      </footer>
+  </div>
+        <div class="modal fade" id="myModal" role="dialog">
+                <div class="modal-dialog">
+
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <img src="img/logo-new.png" width="150px" alt="">
                         </div>
+                        <div class="modal-body">
+                            <div class="container">
+                                <label class="c-selector">
+                                    <span class="label-text">
+                                                国家</span>
+                                    <span class="moz-select">
+                                                <select>
+                                                    <option value="">选择国家</option>
+                                                    <option >中国</option>
+                                                    <option >U.S</option>
+                                                </select>
 
-                        <div class="social-icons">
-                          <p>支持浏览器</p>
-                          <a href="#"><i class="fa fa-safari" aria-hidden="true"></i></a>
-                          <a href="#"><i class="fa fa-internet-explorer" aria-hidden="true"></i></a>
-                          <a href="#"><i class="fa fa-firefox" aria-hidden="true"></i></a>
-                          <a href="#"><i class="fa fa-chrome" aria-hidden="true"></i></a>
-                          </div>
+                                            </span>
+                                </label>
+                                <label class="c-selector">
+                                    <span class="label-text">
+                                                语言</span>
+                                    <span class="moz-select">
+                                                <select>
+                                                    <option value="">选择语言</option>
+                                                    <option >中文</option>
+                                                    <option >ENGLISH</option>
+                                                </select>
 
-                          <div class="social-icons">
-                              <p>支持手机</p>
-                            <a href=""><i class="fa fa-desktop" aria-hidden="true"></i></a>
-                            <a href=""><i class="fa fa-html5" aria-hidden="true"></i></a>
-                            <a href=""><i class="fa fa-android" aria-hidden="true"></i></a>
-                            <a href=""><i class="fa fa-apple" aria-hidden="true"></i></a>
+                                            </span>
+                                </label>
                             </div>
-
-
-                        <div class="platform social-icons">
-                          <p>认可监督</p>
-
-                          <a class="app" target="_blank" href="#">
-                            <img src="img/cert4.png" alt="">
-                          </a>
-                          <a class="play" target="_blank" href="#">
-                            <img src="img/cert5.png" alt="">
-                          </a>
-
                         </div>
 
                     </div>
-                    <a href="#" class="">條款</a>
-                    <div class="terms sub ">
-                        <a href="#" class="terms-of-use ">
-                            <span>責任博彩</span>
-                        </a>
-                        <a href="#" class="privacy-policy ">
-                            <span>博彩規則</span>
-                        </a>
-                        <a href="#" class="cookies ">
-                            <span>私隱政策</span>
-                        </a>
-                        <a href="#" class="cookies ">
-                            <span>網絡安全</span>
-                        </a>
-                    </div>
-                </div>
-            </footer>
-            <footer role="contentinfo">
-                <div class="inner">
-                    <span class="copy"><img src="img/s.png" style="width: 70px;" alt="s-salon"> 2017 &copy; 版权所有 <img src="img/21.png" style="width: 12px; margin-bottom:3px;" alt="s-salon"> 未滿二十一歲禁止使用本網站</span>
 
                 </div>
-            </footer>
-        </div>
-
+            </div>
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script>

@@ -9,6 +9,29 @@
 
     /* Custom, iPhone Retina */
     @media only screen and (min-width : 320px) {
+      .editable ul li {
+          list-style: none;
+          border-top: 1px solid #333;
+          padding-top: 8px;
+          margin-bottom: 2px;
+          padding-bottom: 5px;
+          margin-left: -40px;
+          background-image: url('../../img/rules/arrow-down.png');
+          background-size: 25px 25px;
+          background-repeat: no-repeat;
+          background-position: right;
+          font-size: 14px;
+
+
+      }
+      .editable a {
+            color:#fff1d3;
+      }
+      .editable table td{
+          background-color:  #515151 !important;
+          border: 2px solid #9f9f9f;
+          padding: 2px;
+      }
       .caption-cta
       {
           text-align: center;
@@ -22,7 +45,7 @@
       .remo-reset{
         width: 100%;
       }
-      .moz-select{
+      .moz-select-nathan{
           transition: outline .3s;
           outline: 1px solid #1a1a1a;
           display: inline-block;
@@ -67,7 +90,30 @@
 
     /* Extra Small Devices, Phones */
     @media only screen and (min-width : 480px) {
-      .moz-select{
+      .editable ul li {
+          list-style: none;
+          border-top: 1px solid #333;
+          padding-top: 8px;
+          margin-bottom: 2px;
+          padding-bottom: 5px;
+          margin-left: -40px;
+          background-image: url('../../img/rules/arrow-down.png');
+          background-size: 25px 25px;
+          background-repeat: no-repeat;
+          background-position: right;
+          font-size: 14px;
+
+
+      }
+      .editable a {
+            color:#fff1d3;
+      }
+      .editable table td{
+          background-color:  #515151 !important;
+          border: 2px solid #9f9f9f;
+          padding: 2px;
+      }
+      .moz-select-nathan{
           transition: outline .3s;
           outline: 1px solid #1a1a1a;
           display: inline-block;
@@ -115,6 +161,29 @@
 
     /* Small Devices, Tablets */
     @media only screen and (min-width : 768px) {
+      .editable ul li {
+          list-style: none;
+          border-top: 0px solid #333;
+          background-image: url('');
+          background-position: right center;
+          background-repeat: no-repeat;
+          padding-top: 8px;
+          margin-bottom: 2px;
+          padding-bottom: 5px;
+          margin-left: -40px;
+          background-size: 25px 25px;
+          background-repeat: no-repeat;
+          background-position: right;
+          font-size: 14px;
+      }
+      .editable a {
+            color:#fff1d3;
+      }
+      .editable table td{
+          background-color:  #515151 !important;
+          border: 2px solid #9f9f9f;
+          padding: 2px;
+      }
       .remo-contactus-list ul
       {
           display: inline-block;
@@ -128,7 +197,7 @@
       .remo-submit{
         margin-top: 0px
       }
-      .moz-select{
+      .moz-select-nathan{
           transition: outline .3s;
           outline: 1px solid #1a1a1a;
           display: inline-block;
@@ -173,6 +242,29 @@
 
     /* Medium Devices, Desktops */
     @media only screen and (min-width : 992px) {
+      .editable ul li {
+          list-style: none;
+          border-top: 0px solid #333;
+          background-image: url('');
+          background-position: right center;
+          background-repeat: no-repeat;
+          padding-top: 8px;
+          margin-bottom: 2px;
+          padding-bottom: 5px;
+          margin-left: -40px;
+          background-size: 25px 25px;
+          background-repeat: no-repeat;
+          background-position: right;
+          font-size: 14px;
+      }
+      .editable a {
+            color:#fff1d3;
+      }
+      .editable table td{
+          background-color:  #515151 !important;
+          border: 2px solid #9f9f9f;
+          padding: 2px;
+      }
       .remo-form.remo-login
       {
           padding: 15px 35px 25px 35px;
@@ -183,7 +275,7 @@
       .remo-submit{
         margin-top: 0px
       }
-      .moz-select{
+      .moz-select-nathan{
           transition: outline .3s;
           outline: 1px solid #1a1a1a;
           display: inline-block;
@@ -227,7 +319,30 @@
     }
 /* Large Devices, Wide Screens */
     @media only screen and (min-width : 1024px) {
-      .moz-select{
+      .editable ul li {
+          list-style: none;
+          border-top: 0px solid #333;
+          background-image: url('');
+          background-position: right center;
+          background-repeat: no-repeat;
+          padding-top: 8px;
+          margin-bottom: 2px;
+          padding-bottom: 5px;
+          margin-left: -40px;
+          background-size: 25px 25px;
+          background-repeat: no-repeat;
+          background-position: right;
+          font-size: 14px;
+      }
+      .editable a {
+            color:#fff1d3;
+      }
+      .editable table td{
+          background-color:  #515151 !important;
+          border: 2px solid #9f9f9f;
+          padding: 2px;
+      }
+      .moz-select-nathan{
           transition: outline .3s;
           outline: 1px solid #1a1a1a;
           display: inline-block;
@@ -272,7 +387,30 @@
 
 
     @media only screen and (min-width : 1200px) {
-      .moz-select{
+      .editable ul li {
+          list-style: none;
+          border-top: 0px solid #333;
+          background-image: url('');
+          background-position: right center;
+          background-repeat: no-repeat;
+          padding-top: 8px;
+          margin-bottom: 2px;
+          padding-bottom: 5px;
+          margin-left: -40px;
+          background-size: 25px 25px;
+          background-repeat: no-repeat;
+          background-position: right;
+          font-size: 14px;
+      }
+      .editable a {
+            color:#fff1d3;
+      }
+      .editable table td{
+          background-color:  #515151 !important;
+          border: 2px solid #9f9f9f;
+          padding: 2px;
+      }
+      .moz-select-nathan{
           transition: outline .3s;
           outline: 1px solid #1a1a1a;
           display: inline-block;
@@ -314,5 +452,5 @@
       text-align: center;
       margin-bottom: 10px;
     }
-    
+
     }
