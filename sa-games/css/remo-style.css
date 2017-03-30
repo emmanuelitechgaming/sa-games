@@ -195,6 +195,11 @@ textarea
     letter-spacing: 1px;
 }
 
+.remo-forget p{
+  text-align: center;
+  margin-bottom: 15px
+}
+
 .remo-login-title
 {
     font-size: 18px;
@@ -203,6 +208,12 @@ textarea
 
     text-align: center;
     letter-spacing: 1px;
+}
+
+.remo-forget-title{
+  color: #fff1d3;
+  font-size: 18px;
+  text-align: center
 }
 
 .remo-form-footer
