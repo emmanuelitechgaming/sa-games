@@ -32,6 +32,39 @@
       padding: 5px
     }
 
+    .remo-activities-wrapper{
+      margin-top: -10px;
+      padding-top: 10px;
+    }
+
+    .remo-activities-body p{
+      margin-bottom: 45px;
+      padding: 0 10px
+    }
+
+    .remo-activities-body h1{
+      font-size: 15px;
+      text-align: left;
+      padding: 0 10px;
+      margin-bottom: 20px
+    }
+
+    .remo-activities-body h1:nth-child(1){
+      color: #c4c4c4;
+      font-weight: 700;
+      margin-bottom: 3px
+    }
+
+    .remo-activities-body h1:nth-child(2){
+      padding-top: 0;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+
+    .featherlight img{
+      width: 100%
+    }
+
 }
 
 /* Extra Small Devices, Phones */
@@ -102,6 +135,33 @@
     background-position: right;
     text-decoration: none
   }
+
+  .remo-activities-head{
+    padding: 50px 80px 10px;
+  }
+
+  .remo-activities-body{
+    padding: 20px 80px
+  }
+
+  .remo-activities-head h1:first-child{
+    margin-top: 50px
+  }
+
+  .remo-activities-head img{
+    height: 400px;
+  }
+
+  .remo-activities-body img:last-child{
+    margin-top: 30px
+  }
+
+  .remo-activities-body h1{
+    text-align: center;
+    font-size: 20px;
+    color: #fff1d3
+  }
+
 }
 
 /* Large Devices, Wide Screens */
