@@ -19,8 +19,8 @@
 
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/media-queries/nat-mq.css">
-    <link rel="stylesheet" href="css/nat-style.css">
+    <link rel="stylesheet" href="css/media-queries/remo-mq.css">
+    <link rel="stylesheet" href="css/remo-style.css">
 
 
 </head>
@@ -30,36 +30,36 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         <header class=" hidden-sm hidden-xs">
-      <div class="wrapper">
-          <div class="header-menu">
-              <ul class="">
-                  <li><a href="myaccount.html">我的帳戶</a></li>
-                  <li><a href="deposit.html">存款中心 </a></li>
-                  <li><a href="withdraw.html">取款中心</a></li>
-                  <li><a href="activities.html">活動中心</a></li>
-              </ul>
-              <ul class="second-ul pull-right">
-                  <li><a href="login.html">登陆</a></li>
-                  <li><a href="registration.html"> 注册 </a></li>
-                  <li>
-                      <a href="#" data-toggle="modal" data-target="#myModal">
-                          <div class="selected">
-                              <img class="selector-country" src="img/svg/cn.svg" alt="CN">
-                              <span class="language-selector">简体中文</span>
-                          </div>
-                      </a>
-                  </li>
-              </ul>
+          <div class="wrapper">
+              <div class="header-menu">
+                  <ul class="">
+                      <li><a href="#">我的帳戶</a></li>
+                      <li><a href="#">存款中心 </a></li>
+                      <li><a href="withdraw.html">取款中心</a></li>
+                      <li><a href="activities.html">活動中心</a></li>
+                  </ul>
+                  <ul class="second-ul pull-right">
+                      <li><a href="login.html">登陆</a></li>
+                      <li><a href="registration.html"> 注册 </a></li>
+                      <li>
+                          <a href="#" data-toggle="modal" data-target="#myModal">
+                              <div class="selected">
+                                  <img class="selector-country" src="img/svg/cn.svg" alt="CN">
+                                  <span class="language-selector">简体中文</span>
+                              </div>
+                          </a>
+                      </li>
+                  </ul>
+              </div>
           </div>
-      </div>
-    </header>
+      </header>
 
     <div class="wrapper">
         <div class="topnav"> <!-- LOGO  -->
             <div class="logo">
                 <a href="index.html"></a>
             </div>
-            <div class="mselect-country hidden-md hidden-lg">
+          <div class="mselect-country hidden-md hidden-lg">
             <button type="button" class="buttonmodal" data-toggle="modal" data-target="#myModal" href="#responsive">
                 <a href="#" class="" style=""><img src="img/svg/cn.svg" class="languangeimage" alt="">简体中文</a>
                 <i class="fa fa-caret-down " style="color: white;     margin-left: 3px;   font-size: 10px;"></i>
@@ -91,10 +91,10 @@
                 <a href="registration.html">注册</a>
             </li>
             <li>
-                <a href="myaccount.html">我的帳戶</a>
+                <a href="#">我的帳戶</a>
             </li>
             <li>
-                <a href="deposit.html">存款中心</a>
+                <a href="#">存款中心</a>
             </li>
             <li>
                 <a href="withdraw.html">取款中心</a>
@@ -212,125 +212,168 @@
 </div>
 <!-- /#wrapper -->
   <div ></div>
-      <main>    <!--CONTENT INSERT HERE -->
-          <div class="content-body">
-          <div class="content-title">
-            <h1>活动消息</h1>
+  <main>    <!--CONTENT INSERT HERE -->
+      <div class="content-body remo-hidden-overflow-x">
+        <div class="row remo-activities-wrapper">
+          <div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12 remo-activities-head">
+            <div class="row">
+              <div class="col-md-6 col-sm-12 col-xs-12">
+                <img src="img/activities/ICE.jpg" class="img-responsive" alt="">
+              </div>
+              <div class="col-md-6 col-sm-12 col-xs-12">
+                <h1 class="remo-latest-focus">最新焦點</h1>
+                <h1 class="remo-color-fff1d3">ICE 完全游戏 2017</h1>
+                <h1>2017年2月7-9日</h1>
+              </div>
+            </div>
+            <div class="row hidden-sm hidden-xs">
+              <form action="" class="remo-activities-form">
+                <div class="col-md-2">
+                  <select class="form-control">
+                    <option value="">年</option>
+                    <option value="">2011</option>
+                    <option value="">2012</option>
+                    <option value="">2013</option>
+                    <option value="">2014</option>
+                    <option value="">2015</option>
+                    <option value="">2016</option>
+                    <option value="">2017</option>
+                  </select>
+                </div>
+                <div class="col-md-2">
+                  <select class="form-control">
+                    <option value="">月</option>
+                    <option value="">一月</option>
+                    <option value="">二月</option>
+                    <option value="">游行</option>
+                    <option value="">四月</option>
+                    <option value="">可能</option>
+                    <option value="">六月</option>
+                    <option value="">七月</option>
+                    <option value="">八月</option>
+                    <option value="">九月</option>
+                    <option value="">十月</option>
+                    <option value="">十一月</option>
+                    <option value="">十二月</option>
+                  </select>
+                </div>
+                <div class="col-md-3 col-md-offset-5 text-right">
+                  <div class="remo-activities-search">
+                    <input type="text" class="form-control">
+                    <i class="fa fa-search"></i>
+                  </div>
+                </div>
+              </form>
+            </div>
+
           </div>
-          <div class="nathan-content-banner">
-            <img src="img/activities/event_ban-d.jpg" class="img-responsive hidden-sm hidden-xs" style="margin: 0 auto;" alt="">
-            <img src="img/activities/event_ban-m.jpg" class="img-responsive hidden-lg hidden-md" style="margin: 0 auto;" alt="">
-          </div>
+        </div>
 
-
-
-          <div class="activities-content-banner" >
-              <div class="">
-              <span class="moz-select-nathan" style="float: left;margin-right: 0px;">
-              <select>
-
-              <option value="content_0">年</option>
-
-              <option value="content_1">2017</option>
-
-              <option value="content_2">2016</option>
-
-              <option value="content_3">2015</option>
-
-              <option value="content_4">2014</option>
-
-              <option value="content_5"> 2013</option>
-
-              <option value="content_6">2012</option>
-
-              <option value="content_7">2011</option>
-
+        <div class="row hidden-lg hidden-md mremo-activities-form">
+          <form action="" class="remo-activities-form">
+            <div class="col-sm-5 col-xs-5">
+              <select class="form-control">
+                <option value="">年</option>
+                <option value="">2011</option>
+                <option value="">2012</option>
+                <option value="">2013</option>
+                <option value="">2014</option>
+                <option value="">2015</option>
+                <option value="">2016</option>
+                <option value="">2017</option>
               </select>
-              </span>
+            </div>
 
+            <div class="col-sm-5 col-sm-offset-2 col-xs-5 col-xs-offset-2">
+              <select class="form-control">
+                <option value="">月</option>
+                <option value="">一月</option>
+                <option value="">二月</option>
+                <option value="">游行</option>
+                <option value="">四月</option>
+                <option value="">可能</option>
+                <option value="">六月</option>
+                <option value="">七月</option>
+                <option value="">八月</option>
+                <option value="">九月</option>
+                <option value="">十月</option>
+                <option value="">十一月</option>
+                <option value="">十二月</option>
+              </select>
+            </div>
+          </form>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
+            <div class="remo-activities-list-pager hidden-sm hidden-xs">
+              <ul>
+                <li><a href="#"><i class="fa fa-arrow-left"></i></a></li>
+                <li><a href="#" class="active">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#"><i class="fa fa-arrow-right"></i></a></li>
+              </ul>
+            </div>
+            <div class="row remo-activities-list">
+              <div class="col-md-6">
+                <a href="#">
+                  <img src="img/activities/ICE.jpg" alt="" class="img-responsive">
+                  <h1>ICE 完全游戏 2017</h1>
+                  <h1>2017年2月7-9日</h1>
+                </a>
               </div>
-              <div class="">
 
-
-                <span class="moz-select-nathan" style="  float: right;margin-right: 0px;">
-                <select>
-
-                <option value="content_0">月</option>
-
-                <option value="content_1">January</option>
-
-                <option value="content_2">February</option>
-
-                <option value="content_3">March</option>
-
-                <option value="content_4">April</option>
-
-                <option value="content_5"> May</option>
-
-                <option value="content_6">June</option>
-
-                <option value="content_7">July</option>
-                <option value="content_7">August</option>
-                <option value="content_7">September</option>
-                <option value="content_7">October</option>
-                <option value="content_7">November</option>
-                <option value="content_7">December</option>
-
-                </select>
-              </span>
+              <div class="col-md-6">
+                <a href="#">
+                  <img src="img/activities/ICE.jpg" alt="" class="img-responsive">
+                  <h1>G2E Asia 2016</h1>
+                  <h1>2016年5月17-19日</h1>
+                </a>
               </div>
-          </div>
+            </div>
 
+            <div class="row remo-activities-list">
+              <div class="col-md-6">
+                <a href="#">
+                  <img src="img/activities/ICE.jpg" alt="" class="img-responsive">
+                  <h1>ICE 完全游戏 2017</h1>
+                  <h1>2017年2月7-9日</h1>
+                </a>
+              </div>
 
-          <div class="nathan-activities-content" style="">
-          <div class="content-banner"style="margin-bottom:30px" >
-          <img src="img/activities/img_ice2017.jpg"class="img-responsive" alt="">
-          <div class="nathan-content-label" >
+              <div class="col-md-6">
+                <a href="#">
+                  <img src="img/activities/ICE.jpg" alt="" class="img-responsive">
+                  <h1>G2E Asia 2016</h1>
+                  <h1>2016年5月17-19日</h1>
+                </a>
+              </div>
+            </div>
 
-          <div class="" style="color: #bdbdbd;font-size: 14px;">
-          2017年2月7-9日
+            <div class="remo-activities-list-pager">
+              <ul>
+                <li><a href="#"><i class="fa fa-arrow-left"></i></a></li>
+                <li><a href="#" class="active">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#"><i class="fa fa-arrow-right"></i></a></li>
+              </ul>
+            </div>
           </div>
-          <div class="" style="font-size: 14px;color: #fff;">
-          ICE Totally Gaming 2017
-          </div>
-          <style media="screen">
+        </div>
 
-          </style>
-          <div class="activitiesanchor">
-          <a href="activitiescontentICE.html" class=" right scrollToTop"><i class="fa fa-angle-right" style="font-size:1.5em;" aria-hidden="true"></i></a>
-          </div>
-          </div>
-          </div>
+        <div style="height: 40px; display:block;" class="mobile-links hidden-md hidden-lg">
+          <a class="back left" onclick="history.back(-1)"><i class="fa fa-angle-left" style="padding: 0px 5px; font-size:1.5em;vertical-align: middle;" aria-hidden="true"></i><span style="padding: 20px;vertical-align: middle;">背部</span></a>
+          <a class="back-to-top right scrollToTop"><i class="fa fa-angle-up" style="font-size:1.5em;" aria-hidden="true"></i></a>
+        </div>
+      </div>
 
-          <div class="content-banner" style="margin-bottom:30px">
-          <img src="img/activities/img_g2e2016.jpg" class="img-responsive"alt="">
-          <div class="nathan-content-label" >
-
-
-          <div class="" style="color: #bdbdbd;font-size: 14px;">
-          2016年5月17-19日
-          </div>
-          <div class="" style="font-size: 14px;color: #fff;">
-          G2E Asia 2016
-          </div>
-          <div class="activitiesanchor">
-          <a href="activitiescontentASIA.html"class=" right scrollToTop"><i class="fa fa-angle-right" style="font-size:1.5em;" aria-hidden="true"></i></a>
-          </div>
-          </div>
-
-          </div>
-          </div>
-          <div class=" container main-container" style="">
-
-    <div style="height: 40px; display:block;" class="mobile-links hidden-md hidden-lg">
-      <a class="back left" onclick="history.back(-1)"><i class="fa fa-angle-left" style="padding: 0px 5px; font-size:1.5em;vertical-align: middle;" aria-hidden="true"></i><span style="padding: 20px;vertical-align: middle;">背部</span></a>
-      <a class="back-to-top right scrollToTop"><i class="fa fa-angle-up" style="font-size:1.5em;" aria-hidden="true"></i></a>
-
-    </div>
-          </div>
-          </div>
-
-      </main> <!--CONTENT END HERE -->
+  </main>
 
     <!-- MOBILE FOOTER -->
       <div class="mobileFooter hidden-md hidden-lg">
@@ -479,48 +522,50 @@
   </footer>
 </div>
 
-        <div class="modal fade" id="myModal" role="dialog">
-                <div class="modal-dialog">
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
 
-                    <!-- Modal content-->
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal">&times;</button>
-                            <img src="img/logo-new.png" width="150px" alt="">
-                        </div>
-                        <div class="modal-body">
-                            <div class="container">
-                                <label class="c-selector">
-                                    <span class="label-text">
-                                                国家</span>
-                                    <span class="moz-select">
-                                                <select>
-                                                    <option value="">选择国家</option>
-                                                    <option >中国</option>
-                                                    <option >U.S</option>
-                                                </select>
-
-                                            </span>
-                                </label>
-                                <label class="c-selector">
-                                    <span class="label-text">
-                                                语言</span>
-                                    <span class="moz-select">
-                                                <select>
-                                                    <option value="">选择语言</option>
-                                                    <option >中文</option>
-                                                    <option >ENGLISH</option>
-                                                </select>
-
-                                            </span>
-                                </label>
-                            </div>
-                        </div>
-
-                    </div>
-
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <img src="img/logo-new.png" width="150px" alt="">
                 </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <label class="c-selector">
+                            <span class="label-text">
+                                        国家</span>
+                            <span class="moz-select">
+                                        <select>
+                                            <option value="">选择国家</option>
+                                            <option >中国</option>
+                                            <option >U.S</option>
+                                        </select>
+
+                                    </span>
+                        </label>
+                        <label class="c-selector">
+                            <span class="label-text">
+                                        语言</span>
+                            <span class="moz-select">
+                                        <select>
+                                            <option value="">选择语言</option>
+                                            <option >中文</option>
+                                            <option >ENGLISH</option>
+                                        </select>
+
+                                    </span>
+                        </label>
+                    </div>
+                </div>
+
             </div>
+
+        </div>
+    </div>
+
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script>
         window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')
