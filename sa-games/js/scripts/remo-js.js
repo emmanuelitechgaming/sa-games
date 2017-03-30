@@ -20,4 +20,6 @@ $( document ).ready(function() {
   $('.remo-toggleline').click( function() {
     $(this).toggleClass("remo-collapse-line");
   } );
+
+  $('#mylightbox').featherlight($content, configuration);
 });

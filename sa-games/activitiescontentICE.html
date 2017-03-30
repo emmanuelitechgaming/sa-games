@@ -17,10 +17,12 @@
     <link rel="stylesheet" href="css/media-queries/media-queries.css">
     <link rel="stylesheet" href="css/swiper.min.css">
 
+    <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.1/release/featherlight.min.css" type="text/css" rel="stylesheet" />
+
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/media-queries/nat-mq.css">
-    <link rel="stylesheet" href="css/nat-style.css">
+    <link rel="stylesheet" href="css/media-queries/remo-mq.css">
+    <link rel="stylesheet" href="css/remo-style.css">
 
 
 </head>
@@ -212,35 +214,54 @@
 </div>
 <!-- /#wrapper -->
   <div ></div>
-      <main>    <!--CONTENT INSERT HERE -->
-          <div class="content-body">
-          <div class="content-banner">
-            <img src="img/activities/ICE.jpg" class="img-responsive hidden-sm hidden-xs" style="margin: 0 auto;" alt="">
-            <img src="img/activities/ICE.jpg" class="img-responsive hidden-lg hidden-md" style="margin: 0 auto;" alt="">
+  <main>    <!--CONTENT INSERT HERE -->
+      <div class="content-body remo-hidden-overflow-x">
+        <div class="row remo-activities-wrapper">
+          <div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12 remo-activities-head">
+            <div class="row">
+              <div class="col-md-6 col-sm-12 col-xs-12">
+                <img src="img/activities/ICE.jpg" class="img-responsive" alt="">
+              </div>
+              <div class="col-md-6 col-sm-12 col-xs-12 hidden-sm hidden-xs">
+                <h1>ICE 完全游戏 2017</h1>
+                <h1>2017年2月7-9日</h1>
+              </div>
+            </div>
+            <a href="#" class="hidden-sm hidden-xs">下一項 ></a>
           </div>
+        </div>
 
-          <div class="content-banner activitiescontentbody" style="text-align:justify;">
-          We would like to express our sincere gratitude to you for paying a visit to our booth during ICE 2017.
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12 remo-activities-body">
+            <h1 class="hidden-lg hidden-md">2017年2月7-9日</h1>
+            <h1>ICE 完全游戏 2017</h1>
+            <div class="row">
+              <div class="col-md-9 div col-sm-12 col-xs-12">
 
+                <p>我们衷心感谢您在2017年ICE期间拜访我们的展台。</p>
+                <p>讨论简短而不是建设性，使我们能够对整个行业有更好的了解。通过您宝贵的支持，我们将进一步向客户提供更好的游戏体验，从而长期帮助企业发展</p>
+                <p>我们希望您的最好，同时期待未来的合作前景。</p>
+              </div>
+              <div class="col-md-3 col-sm-12 col-xs-12 remo-activities-body-img-div">
+                <img src="img/cross.png" class="hidden-sm hidden-xs" data-featherlight="#mylightbox" alt="">
+                <img src="img/activities/ICE.jpg"  data-featherlight="#mylightbox" class="img-responsive" alt="">
+                <a href="#" class="hidden-lg hidden-md">下一項 ></a>
+
+                <div class="featherlight">
+                  <div id="mylightbox"><img src="img/activities/ICE.jpg" alt="" ></div>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="content-banner activitiescontentbody" style="text-align:justify;">
-          Discussions were brief yet more than constructive, enabling us to have a better understanding on the whole industry. With your invaluable support, we shall go even further, providing players with better gaming experience, eventually aiding the growth of businesses in the long term.
-          </div>
-          <div class="content-banner activitiescontentbody" style="text-align:justify;">
-          We wish the best of you and, at the same time, look forward to future co-operation prospect.
-          </div>
+        </div>
 
-          <div class=" container main-container" style="">
+        <div style="height: 40px; display:block;" class="mobile-links hidden-md hidden-lg">
+          <a class="back left" onclick="history.back(-1)"><i class="fa fa-angle-left" style="padding: 0px 5px; font-size:1.5em;vertical-align: middle;" aria-hidden="true"></i><span style="padding: 20px;vertical-align: middle;">背部</span></a>
+          <a class="back-to-top right scrollToTop"><i class="fa fa-angle-up" style="font-size:1.5em;" aria-hidden="true"></i></a>
+        </div>
+      </div>
 
-          <div style="height: 40px; display:block;" class="mobile-links hidden-md hidden-lg">
-      <a class="back left" onclick="history.back(-1)"><i class="fa fa-angle-left" style="padding: 0px 5px; font-size:1.5em;vertical-align: middle;" aria-hidden="true"></i><span style="padding: 20px;vertical-align: middle;">背部</span></a>
-      <a class="back-to-top right scrollToTop"><i class="fa fa-angle-up" style="font-size:1.5em;" aria-hidden="true"></i></a>
-
-    </div>
-          </div>
-          </div>
-
-      </main> <!--CONTENT END HERE -->
+  </main>
 
     <!-- MOBILE FOOTER -->
       <div class="mobileFooter hidden-md hidden-lg">
@@ -388,53 +409,57 @@
       </div>
   </footer>
 </div>
-        <div class="modal fade" id="myModal" role="dialog">
-                <div class="modal-dialog">
 
-                    <!-- Modal content-->
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal">&times;</button>
-                            <img src="img/logo-new.png" width="150px" alt="">
-                        </div>
-                        <div class="modal-body">
-                            <div class="container">
-                                <label class="c-selector">
-                                    <span class="label-text">
-                                                国家</span>
-                                    <span class="moz-select">
-                                                <select>
-                                                    <option value="">选择国家</option>
-                                                    <option >中国</option>
-                                                    <option >U.S</option>
-                                                </select>
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
 
-                                            </span>
-                                </label>
-                                <label class="c-selector">
-                                    <span class="label-text">
-                                                语言</span>
-                                    <span class="moz-select">
-                                                <select>
-                                                    <option value="">选择语言</option>
-                                                    <option >中文</option>
-                                                    <option >ENGLISH</option>
-                                                </select>
-
-                                            </span>
-                                </label>
-                            </div>
-                        </div>
-
-                    </div>
-
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <img src="img/logo-new.png" width="150px" alt="">
                 </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <label class="c-selector">
+                            <span class="label-text">
+                                        国家</span>
+                            <span class="moz-select">
+                                        <select>
+                                            <option value="">选择国家</option>
+                                            <option >中国</option>
+                                            <option >U.S</option>
+                                        </select>
+
+                                    </span>
+                        </label>
+                        <label class="c-selector">
+                            <span class="label-text">
+                                        语言</span>
+                            <span class="moz-select">
+                                        <select>
+                                            <option value="">选择语言</option>
+                                            <option >中文</option>
+                                            <option >ENGLISH</option>
+                                        </select>
+
+                                    </span>
+                        </label>
+                    </div>
+                </div>
+
             </div>
+
+        </div>
+    </div>
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script>
         window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')
     </script>
+
+    <script src="//cdn.rawgit.com/noelboss/featherlight/1.7.1/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
 
     <script src="js/vendor/bootstrap.min.js"></script>
     <script src="js/vendor/font-awesome.js"></script>
