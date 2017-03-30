@@ -15,8 +15,7 @@
   background-color: #000;
 }
 .content-desc > .content-title > h2 {
-  font-weight: 700;
-  font-size: 1.625em;
+  font-family: "Gotham Medium";
   color: #fff;
   margin-bottom: 0.5em!important;
   text-align: center;
