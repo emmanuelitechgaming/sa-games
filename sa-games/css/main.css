@@ -808,14 +808,16 @@ div.side-nav-menu > a::after {
 }
 
 .swiper-wrapper .desktop a {
-    position: absolute;
-    bottom: 20%;
-    right: 10%;
-    font-weight: 700px;
-    text-decoration: none;
-    border: 1px solid #fff1d3;
-    color: #fff1d3;
-    padding: 5px 65px;
+  position: absolute;
+  bottom: 14%;
+  right: 3%;
+  font-weight: 700px;
+  text-decoration: none;
+  border: 1px solid #f9dfa8;
+  color: #f9dfa8;
+  padding: 2px 67px;
+
+
 }
 
 .mobileFooter {
