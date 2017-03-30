@@ -6,6 +6,10 @@
 }
 .mobile-links a {
   background-color: #000;
+  margin-bottom: 15px;
+}
+.mobileFooter {
+  margin: 0px;
 }
 .main-container .col-lg-12 {
   background-color: #000;
