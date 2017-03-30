@@ -807,6 +807,17 @@ div.side-nav-menu > a::after {
     padding: 0px 55px;
 }
 
+.swiper-wrapper .desktop a {
+    position: absolute;
+    bottom: 20%;
+    right: 10%;
+    font-weight: 700px;
+    text-decoration: none;
+    border: 1px solid #fff1d3;
+    color: #fff1d3;
+    padding: 5px 65px;
+}
+
 .mobileFooter {
     margin: 15px 0px;
 }
@@ -1033,10 +1044,14 @@ text-align: center;
 }
 
 .promo-txt {
-    text-align: center;
-    font-weight: 700;
-}
+  text-align: center;
+  font-weight: 700;
+  margin-top: 15px;
 
+}
+.promo-container{
+  margin:0 auto;
+}
 .join-btn {
     text-align: center;
     margin: auto;
@@ -1051,13 +1066,14 @@ text-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+    margin:20px 0px;
 }
 
 .join-btn a {
     color: #FFFFFF;
     line-height: 22px;
     padding: 10px 20px;
-    background-color: rgba(0, 0, 0, 0.3);
+
     max-width: 160px;
     border: solid 1px #383838;
     text-transform: uppercase;
