@@ -5,6 +5,11 @@
     color: none;
 }
 
+.remo-hidden-overflow-x
+{
+    overflow-x: hidden !important;
+}
+
 .content-title h2
 {
     font-size: 1em;
@@ -308,7 +313,6 @@ textarea
     border: solid 1px #333;
     border-radius: 0;
     background: #333 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEoAAABGCAQAAADBG8qBAAAAkUlEQVR4Ae3O0QmEQBAE0Q3B0AzBYCcAM1qPzmCo4RCsLujvt7L960UTJUrUN1GiRIkSJUqUKFGiRIkSJaru2q2uWp1ybdQRFicxFGCFxFGMBUgA1WCFxFGMBUgA1WCFxFGMBUgA1WCFNI8irJDmUYQV0jyKsEKaRxHWCSgA9beJEiVKlChRokSJEiVKlChRoh4GlelzLr6YJwAAAABJRU5ErkJggg==);
-
     background-repeat: no-repeat;
     background-position: 100% 10%;
     background-size: 27% 100%;;
@@ -500,91 +504,205 @@ textarea
     text-align: center;
 }
 
-.remo-dtab li{
-  border-radius: 0;
-  margin-left: -3px;
+.remo-dtab li
+{
+    margin-left: -3px;
+
+    border-radius: 0;
 }
 
-.remo-dtab li a{
-  color: #fff1d3;
-  border: solid 1px #333;
-  border-radius: 0;
+.remo-dtab li a
+{
+    color: #fff1d3;
+    border: solid 1px #333;
+    border-radius: 0;
 }
 
-.remo-dtab>li>a:hover{
-  border: none;
-  border-bottom: solid 2px #fff1d3;
-  color: #fff1d3;
-  border: solid 1px #333;
-  border-bottom: none;
-  border-bottom: 2px solid #fff1d3;
+.remo-dtab > li > a:hover
+{
+    color: #fff1d3;
+    border: none;
+    border: solid 1px #333;
+    border-bottom: solid 2px #fff1d3;
+    border-bottom: none;
+    border-bottom: 2px solid #fff1d3;
 }
 
-.remo-dtab>li.active>a, .remo-dtab>li.active>a:focus, .remo-dtab>li.active>a:hover{
-  color: #fff1d3;
-  background-color: transparent;
-  border-bottom-color: transparent;
-  border: solid 1px #333;
-  border-bottom: none;
-  border-bottom: 2px solid #fff1d3;
+.remo-dtab > li.active > a,
+.remo-dtab > li.active > a:focus,
+.remo-dtab > li.active > a:hover
+{
+    color: #fff1d3;
+    border: solid 1px #333;
+    border-bottom: none;
+    border-bottom: 2px solid #fff1d3;
+    border-bottom-color: transparent;
+    background-color: transparent;
 }
 
-.remo-dtab>li.active>a:hover{
-  background-color: transparent;
-  border-bottom-color: transparent;
-  border: solid 1px #333;
-  border-bottom: none;
-  border-bottom: 2px solid #fff1d3;
+.remo-dtab > li.active > a:hover
+{
+    border: solid 1px #333;
+    border-bottom: none;
+    border-bottom: 2px solid #fff1d3;
+    border-bottom-color: transparent;
+    background-color: transparent;
 }
 
-.remo-sitemap-content{
-  border: solid 1px #333;
-  border-top: none;
-  margin: 0px 11px 0 -3px;
-  padding: 30px 15px;
+.remo-sitemap-content
+{
+    margin: 0 11px 0 -3px;
+    padding: 30px 15px;
+
+    border: solid 1px #333;
+    border-top: none;
 }
 
-.remo-mtab{
-  margin: 0;
+.remo-mtab
+{
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+.remo-mtab li
+{
+    list-style: none;
+}
+.remo-mtab li a
+{
+    display: block;
+
+    color: #fff1d3;
+}
+
+.remo-mtab .active a
+{
+    text-decoration: none;
+}
+
+.remo-collapse-cross
+{
+    padding: 15px 0;
+
+    border-top: 1px solid #333;
+    background: url(../img/sitemap/cross.png) no-repeat;
+    background-position: right;
+    background-size: 5%;
+}
+
+.remo-mtab li:last-child
+{
+    border-bottom: solid 1px #333;
+}
+
+.remo-collapse-content
+{
+    margin-bottom: 15px;
+}
+
+.remo-collapse-line
+{
+    text-decoration: none;
+
+    background: url(../img/sitemap/line.png) no-repeat;
+    background-position: right;
+    background-size: 5%;
+}
+
+.remo-mtab li a:active,
+.remo-mtab li a:focus
+{
+    text-decoration: none;
+}
+
+.remo-activities-wrapper
+{
+    margin-top: -10px;
+
+    background: #000;
+}
+
+.remo-activities-head h1
+{
+    font-size: 15px;
+
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.remo-activities-head h1:last-child
+{
+    color: #c4c4c4;
+}
+
+.remo-activities-head a
+{
+    display: block;
+
+    margin-right: -60px;
+    margin-bottom: 20px;
+
+    text-align: right;
+    letter-spacing: 1px;
+
+    color: #c4c4c4;
+}
+
+.remo-activities-head a:hover
+{
+    transition: color .5s;
+    text-decoration: none;
+
+    color: #fff1d3;
+}
+
+.remo-activities-body h1
+{
+    font-size: 20px;
+
+    text-align: center;
+
+    color: #fff1d3;
+}
+
+.remo-activities-body p
+{
+    margin: 30px 0;
+    padding-right: 50px;
+}
+
+.remo-activities-body a
+{
+    float: right;
+
+    margin: 20px 0;
+    padding: 10px 20px;
+
+    letter-spacing: 1px;
+
+    color: #fff;
+    border: solid 1px #333;
+}
+
+.remo-activities-body-img-div{
+  position: relative;
+}
+
+.remo-activities-body img{
+  cursor: pointer;
+}
+
+.remo-activities-body img:first-child{
+  position: absolute;
+  height: 20px;
+  width: 21px;
+  bottom: 10px;
+  right: 20px;
+  color: #fff
+}
+
+.featherlight .featherlight-content{
+  background: none;
   padding: 0;
-  margin-bottom: 10px
-}
-
-.remo-mtab li{
-  list-style: none
-}
-.remo-mtab li a{
-  color: #fff1d3;
-  display: block
-}
-
-.remo-mtab .active a{
-  text-decoration: none
-}
-
-.remo-collapse-cross{
-  padding: 15px 0;
-  border-top: 1px solid #333;
-  background: url(../img/sitemap/cross.png) no-repeat;
-  background-size: 5%;
-  background-position: right
-}
-
-.remo-mtab li:last-child{
-  border-bottom: solid 1px #333
-}
-
-.remo-collapse-content{
-  margin-bottom: 15px
-}
-
-.remo-collapse-line{
-  background: url(../img/sitemap/line.png) no-repeat;
-  background-size: 5%;
-  background-position: right;
-  text-decoration: none
-}
-
-.remo-mtab li a:active, .remo-mtab li a:focus{
-  text-decoration: none
 }
