@@ -14,15 +14,18 @@
 .main-container .col-lg-12 {
   background-color: #000;
 }
-.content-desc h2{
-  border-top: 1px solid #333;
-  border-bottom: 1px solid #333;
-}
-.content-desc > h2 {
+.content-desc > .content-title > h2 {
   font-weight: 700;
   font-size: 30px;
   color: #bf9a5d;
   margin-bottom: 0.5em!important;
+  text-align: center;
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+  padding: .65em 2em;
+  display: inline-block;
+  margin-right: auto;
+  margin-left: auto;
   text-align: center;
 }
 .content-desc {
