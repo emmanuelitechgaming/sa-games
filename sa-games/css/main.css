@@ -326,7 +326,7 @@ margin: 0 auto;
     font-family: "Gotham Book", Verdana, sans-serif
 }
 .main-container {
-  
+
 }
 .footerContainer footer.slide {
     height: 239px;
@@ -953,10 +953,10 @@ div.side-nav-menu > a::after {
 .promo-c{
   padding: 20px 15px;
 }
-.promo-c img{
-  width: 65%;
-  margin:0 auto;
+.promos{
+  padding-top:20px;
 }
+
 .content-title h1 {
     color: #fff;
     font-family: "Gotham Medium";

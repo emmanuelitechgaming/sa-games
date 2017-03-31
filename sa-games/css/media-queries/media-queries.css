@@ -39,6 +39,10 @@
       main{
         margin-top: 0px;
       }
+      .promo-c img{
+        width: 85%;
+        margin:0 auto;
+      }
       .content-title h1{
         font-size: 1em;
       }
@@ -76,7 +80,7 @@
 
 }
 
-      
+
       .promo-container {
     padding-bottom: 20px;
 }
@@ -170,5 +174,9 @@
 
       main{
         margin-top: 109px;
+      }
+      .promo-c img{
+        width: 65%;
+        margin:0 auto;
       }
     }
