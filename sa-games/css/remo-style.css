@@ -225,6 +225,14 @@ textarea
     color: #fff1d3;
 }
 
+.remo-forget-radios label{
+  padding-bottom: 8px
+}
+
+.remo-forget-first-radio{
+  border-bottom: 2px solid #fff
+}
+
 .remo-form-footer
 {
     margin: 10px 0 20px;
