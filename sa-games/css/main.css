@@ -1257,11 +1257,7 @@ select {
     font-size: .875em;
     line-height: 1.5;
 }
-.casino-games img{
-  width: 80%;
-  margin: 0 auto;
-  text-align: center;
-}
+
 
 .mselect-country{
   position: fixed;
