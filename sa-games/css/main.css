@@ -250,8 +250,8 @@ margin: 0 auto;
 }
 
 .footerContainer footer[role=contentinfo] {
-    height: 25px;
-    line-height: 25px;
+    height: 47px;
+    line-height: 17px;
     padding: 0
 }
 
@@ -325,9 +325,11 @@ margin: 0 auto;
     color: #fff1d3;
     font-family: "Gotham Book", Verdana, sans-serif
 }
-
+.main-container {
+  
+}
 .footerContainer footer.slide {
-    height: 150px;
+    height: 239px;
     -webkit-transform: translate3d(0, 0, 0);
     -moz-transform: translate(0, 0);
     -ms-transform: translate(0, 0);
@@ -341,7 +343,7 @@ margin: 0 auto;
 }
 
 .footerContainer footer.slider {
-    height: 210px;
+    height: 222px;
     -webkit-transform: translate3d(0, 0, 0);
     -moz-transform: translate(0, 0);
     -ms-transform: translate(0, 0);
@@ -949,7 +951,11 @@ div.side-nav-menu > a::after {
     text-align: center;
 }
 .promo-c{
-  padding: 20px 23px;
+  padding: 20px 15px;
+}
+.promo-c img{
+  width: 65%;
+  margin:0 auto;
 }
 .content-title h1 {
     color: #fff;
@@ -1370,4 +1376,20 @@ background: black;
 }
 .col-container{
   margin-top: 25px;
+}
+/*jessica*/
+.promo-btn a {
+  color: #fff;
+  line-height: 22px;
+  padding: 7px 40px;
+  max-width: 160px;
+  border: solid 1px #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.promo-container {
+  text-align: center;
+}
+.main-container .col-lg-12 {
+  margin-bottom: 0px !important;
 }
