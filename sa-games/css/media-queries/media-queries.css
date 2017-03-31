@@ -10,21 +10,31 @@
     /* Custom, iPhone Retina */
     @media only screen and (min-width : 320px) {
       .logo {
-          position: fixed;
-          background: #000 url(../../img/logo-new.png) no-repeat center center;
-              background-size: auto auto;
-          background-size: auto auto;
-          background-size: 107px auto;
-          background-position-y : 10px ;
-          width: auto;
-          height: 45px;
-          border-bottom: 5px solid #000;
-          top: 0px;
-          left: 0;
-          right: 0;
-          overflow: hidden;
-          font-size: 0;
-          z-index: 3;
+        position: fixed;
+        background: #000 url(../../img/logo-new.png) no-repeat center center;
+            background-position-y: center;
+            background-size: auto auto;
+        background-size: auto auto;
+        background-size: auto auto;
+        background-size: 130px auto;
+        background-position-y:11px;
+        width: auto;
+        height: 57px;
+        border-bottom: 5px solid #000;
+        top: 0px;
+        left: 0;
+        right: 0;
+        overflow: hidden;
+        font-size: 0;
+        z-index: 3;
+
+      }
+      .swiper-container-horizontal > .swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+        bottom: 1px;
+        right: 0;
+        width: 100%;
+        background: transparent;
+
       }
       main{
         margin-top: 0px;
@@ -38,6 +48,43 @@
       .main-container{
         margin-bottom: 0px;
       }
+
+      .modal-dialog{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      .modal-content{
+        height: auto;
+        min-height: 100%;
+        border-radius: 0;
+
+      }
+      .modal-content{
+        position: relative;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #999;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 1px;
+    outline: 0;
+    -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+    background-color: #1a1a1a;
+
+}
+
+      }
+      .promo-container {
+    padding-bottom: 20px;
+}
+.nav-pager a {
+    border: 0px solid #3a3a3a;
+    color: #fff1d3;
+    padding: 0px 10px;
+}
     }
 
     /* Extra Small Devices, Phones */
@@ -47,8 +94,27 @@
 
     /* Small Devices, Tablets */
     @media only screen and (min-width : 768px) {
+      .modal-dialog {
+       width: 600px;
+       margin: 30px auto;
+   }
 
-    }
+   .modal-content {
+       position: relative;
+       background-color: #fff;
+       -webkit-background-clip: padding-box;
+       background-clip: padding-box;
+       border: 1px solid #999;
+       border: 1px solid rgba(0, 0, 0, .2);
+       border-radius: 1px;
+       outline: 0;
+       -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+       box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+       background-color: #1a1a1a;
+         min-height: auto;
+   }
+
+  }
 
     /* Medium Devices, Desktops */
     @media only screen and (min-width : 992px) {
@@ -64,10 +130,11 @@
       .logo{
         position: absolute;
         background: #000 url(../../img/logo-new.png) no-repeat center center;
+
         background-size: auto auto;
-        background-size: 155px auto;
+        background-size: 180px auto;
         width: auto;
-        height: 98px;
+        height: 110px;
         border-bottom: 5px solid #000;
         top: 32px;
         left: 0;
@@ -75,6 +142,7 @@
         overflow: hidden;
         font-size: 0;
         z-index: 3;
+
 
       }
       .content-title h1{
@@ -87,7 +155,20 @@
         margin-top: 20px;
         margin-bottom: 50px;
       }
+
+      .swiper-container-horizontal > .swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+          bottom: 40%;
+          right: 1px;
+          width: 20px;
+          background: #0F070F;
+      }
+      .nav-pager a {
+          border: 1px solid #3a3a3a;
+          color: #fff1d3;
+          padding: 0px 10px;
+      }
+
       main{
-        margin-top: 99px;
+        margin-top: 109px;
       }
     }

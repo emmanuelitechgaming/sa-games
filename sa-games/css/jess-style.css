@@ -2,32 +2,21 @@
   background-color: #1A1A1A;
 }
 .mobile-links {
-  background-color: #1A1A1A;
+  /*background-color: #0e0e0e;*/
 }
 .mobile-links a {
-  background-color: #000;
-  margin-bottom: 15px;
-}
-.mobileFooter {
-  margin: 0px;
+  /*background-color: #000;*/
 }
 .main-container .col-lg-12 {
   background-color: #000;
 }
-.content-desc > .content-title > h2 {
-  font-family: "Gotham Medium";
-  color: #fff;
+.content-desc > h2 {
+  font-weight: 700;
+  font-size: 30px;
+  color: #bf9a5d;
   margin-bottom: 0.5em!important;
   text-align: center;
-  border-top: 1px solid #333;
-  border-bottom: 1px solid #333;
-  padding: .65em 2em;
-  display: inline-block;
-  margin-right: auto;
-  margin-left: auto;
-  text-align: center;
 }
-
 .content-desc {
   max-width: 50%;
   margin-right: auto;
@@ -43,7 +32,7 @@
   text-align: center;
 }
 .main-container .col-lg-12 {
-  /*margin-bottom: 40px;*/
+  margin-bottom: 40px;
 }
 .content-desc .aboutus p {
   color: #fff1d3;
@@ -123,9 +112,6 @@
   padding-bottom: 40px;
   padding-top: 20px;
 }
-.list {
-  list-style: none;
-}
 .list-content {
   border-top: 1px solid #333;
   padding-bottom: 5px;
@@ -138,10 +124,9 @@
   color: #fff1d3 !important;
   text-decoration: none;
   font-weight: bold;
-  margin: 20px;
 }
 .arrow-pull-right {
-  max-width: 3%;
+  max-width: 4%;
   float: right;
   margin-top: -15px;
 }
@@ -156,21 +141,4 @@
   color: #c4c4c4;
   line-height: 1.4em;
   text-align: justify;
-}
-.main-body table {
-  width: 100%;
-}
-.tabnav-left {
-  padding-top: 10px;
-}
-.tabnav-left ul {
-  list-style: none;
-  text-align: center;
-  padding-left:  0px;
-}
-.tabnav-left ul li a {
-  color: #fff !important;
-}
-.promo-txt {
-  display: none;
 }

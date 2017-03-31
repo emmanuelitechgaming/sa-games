@@ -20,7 +20,9 @@
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/remo-style.css">
+    <link rel="stylesheet" href="css/em-style.css">
     <link rel="stylesheet" href="css/media-queries/remo-mq.css">
+    <link rel="stylesheet" href="css/media-queries/em-mq.css">
 
 </head>
 
@@ -32,15 +34,22 @@
         <div class="wrapper">
           <div class="header-menu">
               <ul class="">
-                  <li><a href="#">我的帳戶</a></li>
-                  <li><a href="#">存款中心 </a></li>
-                  <li><a href="#">取款中心</a></li>
-                  <li><a href="#">活動中心</a></li>
+                  <li><a href="myaccount.html">我的帳戶</a></li>
+                <li><a href="deposit.html">存款中心 </a></li>
+                  <li><a href="withdraw.html">取款中心</a></li>
+                  <li><a href="activities.html">活動中心</a></li>
               </ul>
               <ul class="second-ul pull-right">
-                  <li><a href="#">登陆</a></li>
-                  <li><a href="#"> 注册 </a></li>
-
+                  <li><a href="login.html">登陆</a></li>
+                  <li><a href="registration.html"> 注册 </a></li>
+                  <li>
+                      <a href="#" data-toggle="modal" data-target="#myModal">
+                          <div class="selected">
+                              <img class="selector-country" src="img/svg/cn.svg" alt="CN">
+                              <span class="language-selector">简体中文</span>
+                          </div>
+                      </a>
+                  </li>
               </ul>
             </div>
         </div>
@@ -51,15 +60,24 @@
             <div class="logo">
                 <a href="index.html"></a>
             </div>
+
+          <div class="mselect-country hidden-md hidden-lg">
+
+              <button type="button" class="buttonmodal" data-toggle="modal" data-target="#myModal" href="#responsive">
+                  <a href="#" class="" style=""><img src="img/svg/cn.svg" class="languangeimage" alt="">简体中文</a>
+                  <i class="fa fa-caret-down " style="color: white;     margin-left: 3px;   font-size: 10px;"></i>
+              </button>
+          </div>
+
         </div> <!-- LOGO  -->
         <nav class="nav-head  hidden-sm hidden-xs hidden-md"> <!--NAV MENU -->
             <div class="nav-menu collapse navbar-collapse ">
                 <ul class="nav navbar-nav">
-                    <li><a href="#">真人游戏</a></li>
-                    <li><a href="#">电子游艺</a></li>
-                    <li><a href="#">彩票游戏</a></li>
-                    <li><a href="#">多人游戏</a></li>
-                    <li><a href="#">优惠</a></li>
+                    <li><a href="secondpage.html">真人游戏</a></li>
+                    <li><a href="slots.html">电子游艺</a></li>
+                    <li><a href="lotto.html">彩票游戏</a></li>
+                    <li><a href="multi.html">多人游戏</a></li>
+                    <li><a href="promo.html">优惠</a></li>
                 </ul>
             </div>
           </nav> <!--NAV MENU -->
@@ -71,49 +89,49 @@
     <nav class="navbar navbar-inverse navbar-fixed-top hidden-md hidden-lg" id="sidebar-wrapper" role="navigation">
         <ul class="nav sidebar-nav">
             <li>
-                <a href="#">登陆</a>
+                <a href="login.html">登陆</a>
             </li>
             <li>
-                <a href="#">注册</a>
+                <a href="registration.html">注册</a>
             </li>
             <li>
-                <a href="#">我的帳戶</a>
+                <a href="myaccount.html">我的帳戶</a>
             </li>
             <li>
-                <a href="#">存款中心</a>
+                <a href="deposit.html">存款中心</a>
             </li>
             <li>
-                <a href="#">取款中心</a>
+                <a href="withdraw.html">取款中心</a>
             </li>
             <li>
-                <a href="#">活動中心</a>
+                <a href="activities.html">活動中心</a>
             </li>
         </ul>
         <div class="side-nav-menu">
-            <a href="#">真人游戏</a>
-            <a href="#">电子游艺</a>
-            <a href="#">彩票游戏</a>
-            <a href="#">多人游戏</a>
-            <a href="#">优惠</a>
+            <a href="secondpage.html">真人游戏</a>
+            <a href="slots.html">电子游艺</a>
+            <a href="lotto.html">彩票游戏</a>
+            <a href="multi.html">多人游戏</a>
+            <a href="promo.html">优惠</a>
         </div>
         <div class="side-nav-footer">
           <a href="#" class="nav-footer-color"><b>网站指南</b> </a>
-          <a href="#">游戲指南</a>
-          <a href="#">幫助中心</a>
-          <a href="#">網站地圖</a>
+          <a href="rules.html">游戲指南</a>
+          <a href="helpcenter.html">幫助中心</a>
+          <a href="sitemap.html">網站地圖</a>
         </div>
         <div class="side-nav-footer">
           <a href="#" class="nav-footer-color"><b>關於我們</b></a>
-          <a href="#">沙龍世界簡介</a>
-          <a href="#">沙龍世界動向</a>
+          <a href="aboutus.html">沙龍世界簡介</a>
+          <a href="activities.html">沙龍世界動向</a>
 
         </div>
         <div class="side-nav-footer">
           <a href="#" class="nav-footer-color"><b>條款</b></a>
-          <a href="#">責任博彩</a>
-          <a href="#">博彩規則 </a>
-          <a href="#">私隱政策  </a>
-          <a href="#">網絡安全  </a>
+          <a href="responsible.html">責任博彩</a>
+          <a href="rules.html">博彩規則 </a>
+          <a href="policy.html">私隱政策  </a>
+          <a href="security.html">網絡安全  </a>
         </div>
         <div class="side-nav-footer">
           <a href="#">  <img src="img/logo-new.png" width="100px" walt=""></a>
@@ -185,15 +203,18 @@
         </div>
             <!-- MOBILE NAV CS -->
 
-    <!--  MOBILE HAMBURGER -->
-    <div id="page-content-wrapper hidden-md hidden-lg">
-        <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
-            <span class="hamb-top"></span>
-      <span class="hamb-middle"></span>
-    <span class="hamb-bottom"></span>
-        </button>
-    </div>
-    <!-- /#MOBILE HAMBURGER -->
+            <!--  MOBILE HAMBURGER -->
+            <div class="burger-container">
+
+            <div id="page-content-wrapper hidden-md hidden-lg">
+                <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
+                    <span class="hamb-top"></span>
+                    <span class="hamb-middle"></span>
+                    <span class="hamb-bottom"></span>
+                </button>
+            </div>
+          </div>
+            <!-- /#MOBILE HAMBURGER -->
 
 </div>
 <!-- /#wrapper -->
@@ -207,57 +228,93 @@
             </div>
 
             <div class="content-banner">
-              <img src="img/lotto/lotto.jpg" class="img-responsive" alt="">
+              <img src="img/lotto/lottery-m.png" class="img-responsive hidden-lg hidden-md" alt="">
+              <img src="img/lotto/lottery-d.png" class="img-responsive hidden-xs hidden-sm " alt="">
+              <div class="join-btn">
+                  <a href="#"> <i class="fa fa-play" aria-hidden="true" style="padding-right: 20px;"></i>现在加入</a>
+              </div>
             </div>
 
-            <div class="content-title remo-content-title">
-              <h1>自选单式</h1>
-              <h2>自选单式
-自选单式是最简单的玩法，玩家只需从1至48号码球中选出6个不同的号码，即可视为完成此项投注。
-立即试玩</h2>
+            <div class="lotto-container">
+              <div class="col-lg-12 content-body">
+
+                <div class="col-md-6 col-md-offset-3 col-xs-12 lotto-bg " >
+                  <div class="lotto-header col-md-3 col-xs-12">
+                  住在：<div> <span id="time">03:00</span></div><div class="join-btn btn-generate ">
+                      <a href="javascript:void(0);" id="generate">生成!!</a>
+                  </div>
+                  </div>
+                  <div class="wrapper-l col-md-3 col-xs-12">
+
+
+                      <p class="ball">1</p>
+                      <p class="ball">2</p>
+                      <p class="ball">3</p>
+                      <p class="ball">4</p>
+                      <p class="ball">5</p>
+                      <p class="ball">6</p>
+                      <p class="ball">7</p>
+
+                      <p class="ball">8</p>
+                      <p class="ball">9</p>
+                      <p class="ball">10</p>
+                      <p class="ball">11</p>
+                      <p class="ball">12</p>
+                      <p class="ball">13</p>
+                      <p class="ball">14</p>
+
+                      <p class="ball">15</p>
+                      <p class="ball">16</p>
+                      <p class="ball">17</p>
+                      <p class="ball">18</p>
+                      <p class="ball">19</p>
+                      <p class="ball">20</p>
+                      <p class="ball">21</p>
+
+                      <p class="ball">22</p>
+                      <p class="ball">23</p>
+                      <p class="ball">24</p>
+                      <p class="ball">25</p>
+                      <p class="ball">26</p>
+                      <p class="ball">27</p>
+                      <p class="ball">28</p>
+
+                      <p class="ball">29</p>
+                      <p class="ball">30</p>
+                      <p class="ball">31</p>
+                      <p class="ball">32</p>
+                      <p class="ball">33</p>
+                      <p class="ball">34</p>
+                      <p class="ball">35</p>
+
+                      <p class="ball">36</p>
+                      <p class="ball">37</p>
+                      <p class="ball">38</p>
+                      <p class="ball">39</p>
+                      <p class="ball">40</p>
+                      <p class="ball">41</p>
+                      <p class="ball">42</p>
+
+                      <p class="ball">43</p>
+                      <p class="ball">44</p>
+                      <p class="ball">45</p>
+                      <p class="ball">46</p>
+                      <p class="ball">47</p>
+                      <p class="ball">48</p>
+                      <p class="ball">49</p>
+
+                  </div>
+
+                </div>
+              </div>
+
+
             </div>
 
-            <div class="content-banner">
-              <img src="img/lotto/singlebet.png" class="img-responsive" alt="">
-            </div>
 
-            <div class="content-title remo-content-title">
-              <h1>自选复式</h1>
-              <h2>自选单式
-自选复式玩法容许玩家任选多个号码球作单式投注，例如玩家任意拣选了8个号码，该8个号码将会以6个一组分成28注单式注项。
-立即试玩</h2>
             </div>
-
-            <div class="content-banner">
-              <img src="img/lotto/multibets.png" class="img-responsive" alt="">
-            </div>
-
-            <div class="content-title remo-content-title">
-              <h1>自选胆拖注项</h1>
-              <h2>玩家可自由拣选七个或以上的号码，再从中选出1至5个号码作胆，然后再加上其他号码作配脚，而胆将出现在每一注项中。</h2>
-            </div>
-
-            <div class="content-banner">
-              <img src="img/lotto/mob_lot_ban.jpg" class="img-responsive" alt="">
-            </div>
-
-            <div class="content-title remo-content-title">
-              <h1>运财号码</h1>
-              <h2>如玩家没有心水号码，可选择运财号码玩法，由电脑自动为您拣选号码，按您所选的下注方式完成投注。</h2>
-            </div>
-
-            <div class="content-banner">
-              <img src="img/lotto/mob_lot_qui.png" class="img-responsive" alt="">
-            </div>
-
-            <div class="content-title remo-content-title">
-              <h1>其他玩法</h1>
-              <h2>除了上述下注方式外，玩家亦可就搅出号码球的颜色、单双数以及大小作出投注。</h2>
-            </div>
-
-            <div class="content-banner">
-              <img src="img/lotto/mob_lot_nov.png" class="img-responsive" alt="">
-            </div>
+          </div>
+          </div>
 
           <div class="content-title">
             <h1>相关优惠</h1>
@@ -266,7 +323,7 @@
           <div class=" container main-container" style="">
             <div class="col-lg-12  col-md-12 col-sm-12 col-xs-12">
 
-                <div class="col-lg-4 hidden-sm hidden-xs">
+                <div class="col-lg-4 hidden-sm hidden-xs hidden-md">
                   <img src="img/promo/36.png"class="img-responsive" alt="">
                   <div class="promo-txt">娱乐场首存奖金 36% 高达 36,666 元</div>
                 </div>
@@ -276,7 +333,7 @@
                   <div class="promo-txt">存款奖金 1% 无限次 无上限</div>
                 </div>
 
-                <div class="col-lg-4 hidden-sm hidden-xs">
+                <div class="col-lg-4 hidden-sm hidden-xs hidden-md">
                   <img src="img/promo/0.6.png" class="img-responsive"alt="">
                   <div class="promo-txt">娱乐场每周 0.6% 返水 无上限 无限制</div>
                 </div>
@@ -288,7 +345,7 @@
               <a class="back-to-top right scrollToTop"><i class="fa fa-angle-up" style="font-size:1.5em;" aria-hidden="true"></i></a>
 
             </div>
-          </div>
+
           </div>
 
       </main> <!--CONTENT END HERE -->
@@ -344,19 +401,21 @@
           </div>
       </div> <!-- MOBILE FOOTER -->
 
-          <div class="footerContainer  hidden-sm hidden-xs"> <!-- FOOTER CONTENT STARTS HERE -->
-            <footer class="slide ">
-                <div class="arrow"></div>
+          <div class="footerContainer open hidden-sm hidden-xs"> <!-- FOOTER CONTENT STARTS HERE -->
+
+            <footer class="slide open slider">
+                <!-- <div class="arrow"></div> -->
+
                 <div class="inner">
                     <a href="#" class="">网站指南 </a>
                     <div class="contacts-and-press sub ">
                         <a href="#" >
                             <span>游戲指南</span>
                         </a>
-                        <a href="#" >
+                        <a href="helpcenter.html" >
                             <span>幫助中心</span>
                         </a>
-                        <a href="#">
+                        <a href="sitemap.html">
                             <span>網站地圖</span>
                         </a>
                     </div>
@@ -417,16 +476,16 @@
                     </div>
                     <a href="#" class="">條款</a>
                     <div class="terms sub ">
-                        <a href="#" class="terms-of-use ">
+                        <a href="responsible.html" class="terms-of-use ">
                             <span>責任博彩</span>
                         </a>
-                        <a href="#" class="privacy-policy ">
+                        <a href="rules.html" class="privacy-policy ">
                             <span>博彩規則</span>
                         </a>
-                        <a href="#" class="cookies ">
+                        <a href="policy.html" class="cookies ">
                             <span>私隱政策</span>
                         </a>
-                        <a href="#" class="cookies ">
+                        <a href="security.html" class="cookies ">
                             <span>網絡安全</span>
                         </a>
                     </div>
@@ -440,6 +499,41 @@
             </footer>
         </div>
 
+        <!-- Modal -->
+              <div class="modal fade" id="myModal" role="dialog">
+                  <div class="modal-dialog">
+                      <div class="modal-content language-modal">
+                          <div class="modal-header">
+                              <button type="button" class="close" data-dismiss="modal">&times;</button>
+                              <img src="img/logo-new.png" width="150px" alt="">
+                          </div>
+                          <div class="modal-body">
+                              <div class="row">
+                                <div class="col-md-6 col-sm-12 col-xs-12">
+                                  <div class="form-group">
+                                    <label>国家</label>
+                                    <select class="form-control moz-select-2">
+                                      <option value="">选择国家</option>
+                                      <option >中国</option>
+                                      <option >U.S</option>
+                                    </select>
+                                  </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12 col-xs-12">
+                                  <div class="form-group">
+                                    <label>语言</label>
+                                    <select class="form-control moz-select-2">
+                                      <option value="">选择语言</option>
+                                      <option >中文</option>
+                                      <option >ENGLISH</option>
+                                    </select>
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script>
@@ -451,21 +545,14 @@
     <script src="js/vendor/swiper.min.js"></script>
 
     <script src="js/main.js"></script>
+    <script src="js/scripts/em-js.js"></script>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
-    var swiper = new Swiper('.swiper-container', {
-        pagination: '.swiper-pagination',
-        nextButton: '.swiper-button-next',
-        prevButton: '.swiper-button-prev',
-        paginationClickable: true,
-        spaceBetween: 30,
-        centeredSlides: true,
-        autoplay: 2500,
-        autoplayDisableOnInteraction: false
-
-
-    });
+    $('join-btn a').click(function (event) {
+    event.preventDefault();
+    // or use return false;
+  });
     </script>
     <script>
         (function(b, o, i, l, e, r) {

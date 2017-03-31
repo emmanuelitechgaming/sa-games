@@ -49,9 +49,6 @@
         font-size: 20px;
         padding-bottom: 20px;
       }
-      .content-desc > .content-title > h2 {
-        font-size: 1em;
-      }
       .list-content {
         margin-right: 0px;
       }
@@ -227,10 +224,10 @@
         margin-right: auto;
         margin-left: auto;
       }
-      .content-desc > .content-title > h2 {
+      .content-title h2 {
         letter-spacing:  2px;
         line-height: 1.3em;
-        font-size: 1.625em;
+        font-size: 1.375em;
       }
       .error p {
         max-width: 30%;
