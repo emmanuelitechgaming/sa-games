@@ -10,21 +10,31 @@
     /* Custom, iPhone Retina */
     @media only screen and (min-width : 320px) {
       .logo {
-          position: fixed;
-          background: #000 url(../../img/logo-new.png) no-repeat center center;
-              background-size: auto auto;
-          background-size: auto auto;
-          background-size: 107px auto;
-          background-position-y : 10px ;
-          width: auto;
-          height: 45px;
-          border-bottom: 5px solid #000;
-          top: 0px;
-          left: 0;
-          right: 0;
-          overflow: hidden;
-          font-size: 0;
-          z-index: 3;
+        position: fixed;
+        background: #000 url(../../img/logo-new.png) no-repeat center center;
+            background-position-y: center;
+            background-size: auto auto;
+        background-size: auto auto;
+        background-size: auto auto;
+        background-size: 130px auto;
+        background-position-y: 8px;
+        width: auto;
+        height: 52px;
+        border-bottom: 5px solid #000;
+        top: 0px;
+        left: 0;
+        right: 0;
+        overflow: hidden;
+        font-size: 0;
+        z-index: 3;
+
+      }
+      .swiper-container-horizontal > .swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+        bottom: 1px;
+        right: 0;
+        width: 100%;
+        background: transparent;
+
       }
       main{
         margin-top: 0px;
@@ -115,10 +125,11 @@
       .logo{
         position: absolute;
         background: #000 url(../../img/logo-new.png) no-repeat center center;
+
         background-size: auto auto;
-        background-size: 155px auto;
+        background-size: 180px auto;
         width: auto;
-        height: 98px;
+        height: 110px;
         border-bottom: 5px solid #000;
         top: 32px;
         left: 0;
@@ -126,6 +137,7 @@
         overflow: hidden;
         font-size: 0;
         z-index: 3;
+
 
       }
       .content-title h1{
@@ -139,8 +151,14 @@
         margin-bottom: 50px;
       }
 
+      .swiper-container-horizontal > .swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+          bottom: 40%;
+          right: 1px;
+          width: 20px;
+          background: #0F070F;
+      }
 
       main{
-        margin-top: 99px;
+        margin-top: 109px;
       }
     }
