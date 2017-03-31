@@ -116,14 +116,14 @@
         </div>
         <div class="side-nav-footer">
           <a href="#" class="nav-footer-color"><b>网站指南</b> </a>
-          <a href="#">游戲指南</a>
+          <a href="rules.html">游戲指南</a>
           <a href="helpcenter.html">幫助中心</a>
           <a href="sitemap.html">網站地圖</a>
         </div>
         <div class="side-nav-footer">
           <a href="#" class="nav-footer-color"><b>關於我們</b></a>
-          <a href="#">沙龍世界簡介</a>
-          <a href="#">沙龍世界動向</a>
+          <a href="aboutus.html">沙龍世界簡介</a>
+          <a href="activities.html">沙龍世界動向</a>
 
         </div>
         <div class="side-nav-footer">
@@ -222,12 +222,21 @@
               <h1>多人游戏</h1>
               <h2>如果你喜欢与荷官直接较量，但更爱与对手激烈比拼，那么全新推出的多人游戏系列，将会完全符合你的所需！</h2>
             </div>
+
             <div class="content-banner">
-              <img src="../sa-games/img/multi/mobfish.jpg" class="img-responsive" alt="">
+              <img src="img/multi/mobfish-m.png" class="img-responsive hidden-lg hidden-md" alt="">
+              <img src="img/multi/mobfish-d.png" class="img-responsive hidden-xs hidden-sm " alt="">
+              <div class="join-btn">
+                  <a href="#"> <i class="fa fa-play" aria-hidden="true" style="padding-right: 20px;"></i>现在加入</a>
+              </div>
             </div>
 
             <div class="content-desc">
-              <h2 style="">鱼乐无穷</h2>
+              <div class="content-title">
+                  <h1>鱼乐无穷</h1>
+
+              </div>
+
               <p>头炮游戏鱼乐无穷将带领玩家到海洋深处探秘，寻找海底宝藏，
               能以最少子弹捕获最多高价大鱼的玩家，便有机会问鼎「捕鱼王」宝座；
               而游戏期间，玩家可随时查看其他对手的表现，随时调整战略，
@@ -235,10 +244,7 @@
             </div>
           </div>
 
-          <div class="content-title">
-            <h1>所有游戏</h1>
 
-          </div>
 
           <div class=" container main-container" style="">
             <div class="col-lg-12  col-md-12 col-sm-12 col-xs-12">
@@ -422,44 +428,36 @@
         <!-- Modal -->
         <div class="modal fade" id="myModal" role="dialog">
             <div class="modal-dialog">
-
-                <!-- Modal content-->
-                <div class="modal-content">
+                <div class="modal-content language-modal">
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
                         <img src="img/logo-new.png" width="150px" alt="">
                     </div>
                     <div class="modal-body">
-                        <div class="container">
-                            <label class="c-selector">
-                                <span class="label-text">
-                                            国家</span>
-                                <span class="moz-select">
-                                            <select>
-                                                <option value="">选择国家</option>
-                                                <option >中国</option>
-                                                <option >U.S</option>
-                                            </select>
-
-                                        </span>
-                            </label>
-                            <label class="c-selector">
-                                <span class="label-text">
-                                            语言</span>
-                                <span class="moz-select">
-                                            <select>
-                                                <option value="">选择语言</option>
-                                                <option >中文</option>
-                                                <option >ENGLISH</option>
-                                            </select>
-
-                                        </span>
-                            </label>
+                        <div class="row">
+                          <div class="col-md-6 col-sm-12 col-xs-12">
+                            <div class="form-group">
+                              <label>国家</label>
+                              <select class="form-control moz-select-2">
+                                <option value="">选择国家</option>
+                                <option >中国</option>
+                                <option >U.S</option>
+                              </select>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-sm-12 col-xs-12">
+                            <div class="form-group">
+                              <label>语言</label>
+                              <select class="form-control moz-select-2">
+                                <option value="">选择语言</option>
+                                <option >中文</option>
+                                <option >ENGLISH</option>
+                              </select>
+                            </div>
+                          </div>
                         </div>
                     </div>
-
                 </div>
-
             </div>
         </div>
 
