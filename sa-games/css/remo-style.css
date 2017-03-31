@@ -788,3 +788,7 @@ textarea
 .remo-activities-list-pager li .active{
   color: #fff
 }
+
+.act-body{
+  padding: 10px 10px;
+}

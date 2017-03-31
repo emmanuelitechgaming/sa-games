@@ -437,6 +437,7 @@
           background-repeat: no-repeat;
           background-position: right;
           font-size: 14px;
+          margin: 0 auto;
       }
       .editable a {
             color:#fff1d3;
