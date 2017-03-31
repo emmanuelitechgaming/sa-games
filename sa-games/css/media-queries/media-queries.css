@@ -17,9 +17,9 @@
         background-size: auto auto;
         background-size: auto auto;
         background-size: 130px auto;
-        background-position-y: 8px;
+        background-position-y:11px;
         width: auto;
-        height: 52px;
+        height: 57px;
         border-bottom: 5px solid #000;
         top: 0px;
         left: 0;
@@ -79,6 +79,11 @@
       }
       .promo-container {
     padding-bottom: 20px;
+}
+.nav-pager a {
+    border: 0px solid #3a3a3a;
+    color: #fff1d3;
+    padding: 0px 10px;
 }
     }
 
@@ -156,6 +161,11 @@
           right: 1px;
           width: 20px;
           background: #0F070F;
+      }
+      .nav-pager a {
+          border: 1px solid #3a3a3a;
+          color: #fff1d3;
+          padding: 0px 10px;
       }
 
       main{

@@ -606,13 +606,13 @@ div.side-nav-menu > a::after {
 
 .sidebar-nav li:nth-child(even) {
     border-top: 1px solid #333;
-    border-right: 1px solid #333;
+    /*border-right: 1px solid #333;*/
     border-left: 1px solid #333;
 }
 
 .sidebar-nav li:nth-child(odd) {
     border-top: 1px solid #333;
-    border-left: 1px solid #333;
+    /*border-left: 1px solid #333;*/
 }
 
 .sidebar-nav li:nth-child(5) {
@@ -622,12 +622,19 @@ div.side-nav-menu > a::after {
 .sidebar-nav li:nth-child(6) {
     border-bottom: 1px solid #333;
 }
+.sidebar-nav li:nth-child(1) {
+    border-top: 0px solid #333;
+}
+
+.sidebar-nav li:nth-child(2) {
+    border-top: 0px solid #333;
+}
 
 .sidebar-nav li a {
     display: block;
     color: #c4c4c4;
     text-decoration: none;
-    padding: 15px;
+    padding: 18px;
 }
 
 .sidebar-nav li a:hover,
@@ -800,12 +807,14 @@ div.side-nav-menu > a::after {
 }*/
 
 .swiper-wrapper a {
-    position: absolute;
-    bottom: 22px;
-    text-decoration: none;
-    border: 1px solid #fff1d3;
-    color: #fff1d3;
-    padding: 0px 55px;
+  position: absolute;
+  bottom: 19px;
+  text-decoration: none;
+  border: 2px solid #fff1d3;
+  color: #fff1d3;
+  padding: 0px 96px;
+  font-weight: 700;
+
 }
 
 .swiper-wrapper .desktop a {
@@ -1273,7 +1282,7 @@ select {
 .buttonmodal{
   background: #000;
 border: 0px solid black;
-margin-top: -10px;
+margin-top: -7px;
 
 }
 .buttonmodal a:link {
@@ -1324,8 +1333,8 @@ margin-top: -10px;
   width: 30%;
   display: inline-block;
   color: #fff;
-  font-weight: 400;
-  font-size: .875em;
+  font-weight: 700;
+  font-size: .975em;
   line-height: 1.5;
   line-height: 1.2em;
   margin: 1em 0;
@@ -1339,15 +1348,11 @@ margin-top: -10px;
 text-align: center;
 color: #fff1d3;
 padding: 10px;
+margin-top: 15px;
 }
-.nav-pager span{
-  padding: 0px 29px;
-}
-.nav-pager a{
-  border:1px solid #3a3a3a;
-  color: #fff1d3;
-  padding: 0px 10px;
-}
+
+
+
 .sp-slot-container{
   /*padding-top: 30px;*/
   padding-bottom: 100px;
@@ -1358,7 +1363,10 @@ top: 0px;
 z-index: 999;
 display: block;
 width: 15%;
-height: 52px;
+height: 57px;
 background: black;
 
+}
+.col-container{
+  margin-top: 25px;
 }
