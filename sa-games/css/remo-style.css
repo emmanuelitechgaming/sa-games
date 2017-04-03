@@ -865,7 +865,12 @@ textarea
   margin-top: 10px
 }
 
-.remo-afterlogin button{
+.remo-afterlogin a{
+  color: #fff;
+  padding: 3px 5px
+}
+
+.remo-afterlogin button, .remo-afterlogin a{
   background: transparent;
   border: solid 1px #333;
   position: absolute;
