@@ -5,13 +5,19 @@
     color: none;
 }
 
+.remo-content-body
+{
+    padding-top: 10px;
+}
+
 .remo-hidden-overflow-x
 {
     overflow-x: hidden !important;
 }
 
-.remo-color-fff1d3{
-  color: #fff1d3
+.remo-color-fff1d3
+{
+    color: #fff1d3;
 }
 
 .content-title h2
@@ -93,7 +99,8 @@ textarea
 }
 
 .remo-form input,
-.remo-form textarea, .remo-activities-form input
+.remo-form textarea,
+.remo-activities-form input
 {
     font-size: .875em;
     font-weight: 400;
@@ -117,7 +124,9 @@ textarea
 }
 
 .remo-form input:focus,
-.remo-form textarea:focus, .remo-activities-form select:focus, .remo-activities-form input:focus
+.remo-form textarea:focus,
+.remo-activities-form select:focus,
+.remo-activities-form input:focus
 {
     transition: border .3s;
 
@@ -225,12 +234,14 @@ textarea
     color: #fff1d3;
 }
 
-.remo-forget-radios label{
-  padding-bottom: 8px
+.remo-forget-radios label
+{
+    padding-bottom: 8px;
 }
 
-.remo-forget-first-radio{
-  border-bottom: 2px solid #fff
+.remo-forget-first-radio
+{
+    border-bottom: 2px solid #fff;
 }
 
 .remo-form-footer
@@ -326,14 +337,16 @@ textarea
     border-bottom: solid 1px #777;
 }
 
-.remo-registration select, .remo-activities-form select
+.remo-registration select,
+.remo-activities-form select
 {
             appearance: none;
        -moz-appearance: none; /* Firefox */
     -webkit-appearance: none; /* Safari and Chrome */
 }
 
-.remo-registration select, .remo-activities-form select
+.remo-registration select,
+.remo-activities-form select
 {
     height: 40px;
 
@@ -729,74 +742,149 @@ textarea
     background: none;
 }
 
-.remo-activities-form{
-  margin: 20px 0 0
+.remo-activities-form
+{
+    margin: 20px 0 0;
 }
 
-.mremo-activities-form{
-  margin-bottom: 20px
+.mremo-activities-form
+{
+    margin-bottom: 20px;
 }
 
-.remo-activities-form input, .remo-activities-form select{
+.remo-activities-form input,
+.remo-activities-form select
+{
+    border: solid 1px #333;
+    background-color: transparent;
+    background-size: 30% 100%;
+}
+
+.remo-activities-search i
+{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 36px;
+
+    position: absolute;
+    top: 1px;
+    right: 25px;
+
+    padding-left: 10px;
+
+    color: #c4c4c4;
+    border-left: solid 1px #333;
+}
+
+.remo-activities-list a
+{
+    text-decoration: none;
+
+    color: #fff;
+}
+
+.remo-activities-list h1
+{
+    font-size: 15px;
+}
+
+.remo-activities-list a > h1:last-child
+{
+    margin-top: 50px;
+    padding-bottom: 20px;
+
+    color: #c4c4c4;
+    border-bottom: solid 1px #333;
+}
+
+.remo-activities-list-pager
+{
+    padding: 25px 0;
+
+    text-align: center;
+}
+
+.remo-activities-list-pager li
+{
+    display: inline;
+
+    list-style: none;
+}
+
+.remo-activities-list-pager li a
+{
+    font-weight: 700;
+
+    margin: 0 5px;
+
+    color: #333;
+}
+
+.remo-activities-list-pager li a:hover
+{
+    transition: color .3s;
+    text-decoration: none;
+
+    color: #fff;
+}
+
+.remo-activities-list-pager li .active
+{
+    color: #fff;
+}
+
+.act-body
+{
+    padding: 10px 10px;
+}
+
+.side-nav-menu a:first-child{
+  border-top: solid 1px #333;
+}
+
+.remo-afterlogin{
+  padding: 10px;
+  position: relative;
+}
+
+.remo-afterlogin img{
+  width: 90px;
+  border-radius: 50%;
+  border: 2px solid #C19C5E
+}
+
+.remo-afterlogin p{
+  padding: 0;
+  margin: 0;
+  margin-left: 10px;
+  color: #c4c4c4;
+  font-size: 14px;
+}
+
+.remo-afterlogin p:first-child{
+  margin-top: 10px
+}
+
+.remo-afterlogin button{
+  background: transparent;
   border: solid 1px #333;
-  background-color: transparent;
-  background-size: 30% 100%;
-}
-
-.remo-activities-search i{
   position: absolute;
-  top: 1px;
-  right: 25px;
-  color: #c4c4c4;
-  font-size: 15px;
-  font-weight: 400;
-  border-left: solid 1px #333;
-  padding-left: 10px;
-  line-height: 36px
+  right: 30px;
+  bottom: -45px;
+  border-radius: 3px
 }
 
-.remo-activities-list a{
-  text-decoration: none;
-  color: #fff;
+.remo-afterlogin-signout{
+  color: #fff1d3 !important;
 }
 
-.remo-activities-list h1{
-  font-size: 15px;
-}
-
-.remo-activities-list a>h1:last-child{
-  margin-top: 50px;
-  color: #c4c4c4;
-  border-bottom: solid 1px #333;
-  padding-bottom: 20px;
-}
-
-.remo-activities-list-pager {
-  text-align: center;
-  padding: 25px 0;
-}
-
-.remo-activities-list-pager li{
-  list-style: none;
-  display: inline;
-}
-
-.remo-activities-list-pager li a{
-  color: #333;
-  font-weight: 700;
-  margin: 0 5px
-}
-
-.remo-activities-list-pager li a:hover{
-  color: #fff;
-  transition: color .3s;
-  text-decoration: none
-}
-
-.remo-activities-list-pager li .active{
-  color: #fff
-}
-
-.act-body{
-  padding: 10px 10px;
+.remo-afterlogin-signout i{
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background: url(../img/signout.png) ;
+  background-size: 100% 100%;
+  transform: scaleX(-1);
+  margin-bottom: -3px;
+  margin-left: 5px
 }
