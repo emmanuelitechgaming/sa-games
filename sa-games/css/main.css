@@ -1388,3 +1388,6 @@ background: black;
 .main-container .col-lg-12 {
   margin-bottom: 0px !important;
 }
+.lotto-container > .content-body{ /* Apr.3.2017 */
+  display: inline-block;
+}
