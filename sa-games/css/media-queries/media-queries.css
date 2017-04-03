@@ -113,6 +113,16 @@
        background-color: #1a1a1a;
          min-height: auto;
    }
+   .logo {
+     position: relative;
+   }
+   .nav-menu {
+     top: 0px !important;
+     position: relative !important;
+   }
+   .topnav {
+     background: #000 !important;
+   }
 
   }
 
