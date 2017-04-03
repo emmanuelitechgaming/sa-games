@@ -76,7 +76,7 @@ margin: 0 auto;
 }
 
 .nav-menu {
-    top: 115px;
+    top: 126px;
     border-top: 1px solid #262626;
     border-bottom: 1px solid #262626;
     position: absolute;
@@ -250,8 +250,8 @@ margin: 0 auto;
 }
 
 .footerContainer footer[role=contentinfo] {
-    height: 25px;
-    line-height: 25px;
+    height: 47px;
+    line-height: 17px;
     padding: 0
 }
 
@@ -325,9 +325,11 @@ margin: 0 auto;
     color: #fff1d3;
     font-family: "Gotham Book", Verdana, sans-serif
 }
+.main-container {
 
+}
 .footerContainer footer.slide {
-    height: 150px;
+    height: 239px;
     -webkit-transform: translate3d(0, 0, 0);
     -moz-transform: translate(0, 0);
     -ms-transform: translate(0, 0);
@@ -341,7 +343,7 @@ margin: 0 auto;
 }
 
 .footerContainer footer.slider {
-    height: 210px;
+    height: 228px;
     -webkit-transform: translate3d(0, 0, 0);
     -moz-transform: translate(0, 0);
     -ms-transform: translate(0, 0);
@@ -555,7 +557,7 @@ margin: 0 auto;
 }
 
 .side-nav-footer {
-    margin: 10px 0px;
+    margin: 25px 0px;
     font-size: 12px;
     color: #fff;
 }
@@ -606,13 +608,13 @@ div.side-nav-menu > a::after {
 
 .sidebar-nav li:nth-child(even) {
     border-top: 1px solid #333;
-    border-right: 1px solid #333;
+    /*border-right: 1px solid #333;*/
     border-left: 1px solid #333;
 }
 
 .sidebar-nav li:nth-child(odd) {
     border-top: 1px solid #333;
-    border-left: 1px solid #333;
+    /*border-left: 1px solid #333;*/
 }
 
 .sidebar-nav li:nth-child(5) {
@@ -622,12 +624,19 @@ div.side-nav-menu > a::after {
 .sidebar-nav li:nth-child(6) {
     border-bottom: 1px solid #333;
 }
+.sidebar-nav li:nth-child(1) {
+    border-top: 0px solid #333;
+}
+
+.sidebar-nav li:nth-child(2) {
+    border-top: 0px solid #333;
+}
 
 .sidebar-nav li a {
     display: block;
     color: #c4c4c4;
     text-decoration: none;
-    padding: 15px;
+    padding: 18px;
 }
 
 .sidebar-nav li a:hover,
@@ -668,18 +677,27 @@ div.side-nav-menu > a::after {
 /*-------------------------------*/
 
 .hamburger {
-    position: fixed;
-    top: 9px;
-    z-index: 999;
-    display: block;
-    width: 25px;
-    height: 30px;
-    margin-left: 15px;
-    background: transparent;
-    border: none;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  display: block;
+  width: 15%;
+  height: 57px;
+  background: #000;
+  border: none;
+
+
 }
 
+.a{
+  display: block;
+  width: 100px;
+  height: 100px;
+  background: red;
 
+
+
+}
 /*.hamburger:hover,
 .hamburger:focus,
 .hamburger:active {
@@ -798,14 +816,23 @@ div.side-nav-menu > a::after {
   -webkit-transition: all .35s ease-in-out;
 }*/
 
-.swiper-wrapper a {
-    position: absolute;
-    bottom: 22px;
-    text-decoration: none;
-    border: 1px solid #fff1d3;
-    color: #fff1d3;
-    padding: 0px 55px;
+.swiper-wrapper .link{
+  position: absolute;
+  bottom: 9px;
+  left: 0;
+  right: 0;
 }
+.swiper-wrapper .mobile .link a {
+
+  bottom: 1px;
+  text-decoration: none;
+  border: 2px solid #fff1d3;
+  color: #fff1d3;
+  width: 40%;
+  font-weight: 700;
+  padding: 0 60px;
+}
+
 
 .swiper-wrapper .desktop a {
   position: absolute;
@@ -816,7 +843,6 @@ div.side-nav-menu > a::after {
   border: 1px solid #f9dfa8;
   color: #f9dfa8;
   padding: 2px 67px;
-
 
 }
 
@@ -929,13 +955,27 @@ div.side-nav-menu > a::after {
     margin-top: -1px
 }
 
-.content-body {
-    padding: 50px 10px;
-    background: #1A1A1A;
+.a{
+  position: fixed;
+top: 12px;
+z-index: 1009;
+display: block;
+width: 25px;
+height: 30px;
+margin-left: 18px;
+background: red;
+border: none;
+
 }
 
 .content-title {
     text-align: center;
+}
+.promo-c{
+  padding: 20px 15px;
+}
+.promos{
+  padding-top:20px;
 }
 
 .content-title h1 {
@@ -1238,11 +1278,7 @@ select {
     font-size: .875em;
     line-height: 1.5;
 }
-.casino-games img{
-  width: 80%;
-  margin: 0 auto;
-  text-align: center;
-}
+
 
 .mselect-country{
   position: fixed;
@@ -1263,14 +1299,14 @@ select {
 .mselect-country a{
     text-decoration: none;
     color: white;
-    font-size: 11px;
+    font-size: 12px;
     font-weight: bold;
 }
 
 .buttonmodal{
   background: #000;
 border: 0px solid black;
-margin-top: -10px;
+margin-top: -7px;
 
 }
 .buttonmodal a:link {
@@ -1321,8 +1357,8 @@ margin-top: -10px;
   width: 30%;
   display: inline-block;
   color: #fff;
-  font-weight: 400;
-  font-size: .875em;
+  font-weight: 700;
+  font-size: .975em;
   line-height: 1.5;
   line-height: 1.2em;
   margin: 1em 0;
@@ -1336,16 +1372,41 @@ margin-top: -10px;
 text-align: center;
 color: #fff1d3;
 padding: 10px;
+margin-top: 15px;
 }
-.nav-pager span{
-  padding: 0px 29px;
-}
-.nav-pager a{
-  border:1px solid #3a3a3a;
-  color: #fff1d3;
-  padding: 0px 10px;
-}
+
+
+
 .sp-slot-container{
-  padding-top: 30px;
+  /*padding-top: 30px;*/
   padding-bottom: 100px;
+}
+.burger-container{
+  position: fixed;
+top: 0px;
+z-index: 999;
+display: block;
+width: 15%;
+height: 57px;
+background: black;
+
+}
+.col-container{
+  margin-top: 25px;
+}
+/*jessica*/
+.promo-btn a {
+  color: #fff;
+  line-height: 22px;
+  padding: 7px 40px;
+  max-width: 160px;
+  border: solid 1px #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.promo-container {
+  text-align: center;
+}
+.main-container .col-lg-12 {
+  margin-bottom: 0px !important;
 }
