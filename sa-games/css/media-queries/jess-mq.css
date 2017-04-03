@@ -46,7 +46,7 @@
         width: 30%;
       }
       .condition-container-title p{
-        font-size: 20px;
+        font-size: 1em;  /* Apr.3.2017 */
         padding-bottom: 20px;
       }
       .list-content {
@@ -253,10 +253,10 @@
         display: inline-block;
       }
       .main-body {
-        font-size: 14px;
+        font-size: .9375em; /* Apr.3.2017 */
       }
       .main-title {
-        font-size: 18px;
+        font-size: 1em; /* Apr.3.2017 */
         font-weight: bold;
       }
     }
