@@ -171,7 +171,7 @@
         margin-bottom: 50px;
       }
       .content-body {
-    padding: 20px 10px 40px 10px;
+    padding: 20px 10px 120px 10px;
     background: #1A1A1A;
     }
 
@@ -191,7 +191,7 @@
         margin-top: 109px;
       }
       .promo-c img{
-        width: 65%;
+        width: 100%;
         margin:0 auto;
       }
 
