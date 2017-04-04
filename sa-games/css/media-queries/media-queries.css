@@ -29,6 +29,11 @@
         z-index: 3;
 
       }
+      /*jessica*/
+      .lotto-container > .content-body {
+        padding: 0px 10px 40px 10px;
+        display: inline-block;
+      }
         .content-body {
       padding: 0px 10px 40px 10px;
       background: #1A1A1A;
