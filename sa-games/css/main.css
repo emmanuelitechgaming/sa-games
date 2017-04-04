@@ -250,8 +250,8 @@ margin: 0 auto;
 }
 
 .footerContainer footer[role=contentinfo] {
-    height: 25px;
-    line-height: 25px;
+    height: 47px;
+    line-height: 17px;
     padding: 0
 }
 
@@ -325,9 +325,11 @@ margin: 0 auto;
     color: #fff1d3;
     font-family: "Gotham Book", Verdana, sans-serif
 }
+.main-container {
 
+}
 .footerContainer footer.slide {
-    height: 150px;
+    height: 239px;
     -webkit-transform: translate3d(0, 0, 0);
     -moz-transform: translate(0, 0);
     -ms-transform: translate(0, 0);
@@ -341,7 +343,7 @@ margin: 0 auto;
 }
 
 .footerContainer footer.slider {
-    height: 210px;
+    height: 228px;
     -webkit-transform: translate3d(0, 0, 0);
     -moz-transform: translate(0, 0);
     -ms-transform: translate(0, 0);
@@ -676,18 +678,26 @@ div.side-nav-menu > a::after {
 
 .hamburger {
   position: fixed;
-  top: 12px;
+  top: 0;
   z-index: 999;
   display: block;
-  width: 25px;
-  height: 30px;
-  margin-left: 18px;
-  background: transparent;
+  width: 15%;
+  height: 57px;
+  background: #000;
   border: none;
+
 
 }
 
+.a{
+  display: block;
+  width: 100px;
+  height: 100px;
+  background: red;
 
+
+
+}
 /*.hamburger:hover,
 .hamburger:focus,
 .hamburger:active {
@@ -806,16 +816,23 @@ div.side-nav-menu > a::after {
   -webkit-transition: all .35s ease-in-out;
 }*/
 
-.swiper-wrapper a {
+.swiper-wrapper .link{
   position: absolute;
+  bottom: 9px;
+  left: 0;
+  right: 0;
+}
+.swiper-wrapper .mobile .link a {
+
   bottom: 1px;
   text-decoration: none;
   border: 2px solid #fff1d3;
   color: #fff1d3;
-  padding: 0px 96px;
+  width: 40%;
   font-weight: 700;
-
+  padding: 0 60px;
 }
+
 
 .swiper-wrapper .desktop a {
   position: absolute;
@@ -826,7 +843,6 @@ div.side-nav-menu > a::after {
   border: 1px solid #f9dfa8;
   color: #f9dfa8;
   padding: 2px 67px;
-
 
 }
 
@@ -939,18 +955,29 @@ div.side-nav-menu > a::after {
     margin-top: -1px
 }
 
-.content-body {
-    padding: 0px 10px 40px 10px;
+.a{
+  position: fixed;
+top: 12px;
+z-index: 1009;
+display: block;
+width: 25px;
+height: 30px;
+margin-left: 18px;
+background: red;
+border: none;
 
-    background: #1A1A1A;
 }
 
 .content-title {
     text-align: center;
 }
 .promo-c{
-  padding: 20px 23px;
+  padding: 20px 15px;
 }
+.promos{
+  padding-top:20px;
+}
+
 .content-title h1 {
     color: #fff;
     font-family: "Gotham Medium";
@@ -1251,11 +1278,7 @@ select {
     font-size: .875em;
     line-height: 1.5;
 }
-.casino-games img{
-  width: 80%;
-  margin: 0 auto;
-  text-align: center;
-}
+
 
 .mselect-country{
   position: fixed;
@@ -1371,7 +1394,6 @@ background: black;
 .col-container{
   margin-top: 25px;
 }
-
 /*jessica*/
 .promo-btn a {
   color: #fff;
@@ -1387,7 +1409,4 @@ background: black;
 }
 .main-container .col-lg-12 {
   margin-bottom: 0px !important;
-}
-.lotto-container > .content-body{ /* Apr.3.2017 */
-  display: inline-block;
 }

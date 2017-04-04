@@ -16,10 +16,11 @@
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/media-queries/media-queries.css">
     <link rel="stylesheet" href="css/swiper.min.css">
-
+    <link rel="stylesheet" href="css/hamburgers.min.css">
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/nat-style.css">
+    <link rel="stylesheet" href="css/remo-style.css">
     <link rel="stylesheet" href="css/media-queries/nat-mq.css">
 
 
@@ -40,8 +41,8 @@
                         <li><a href="activities.html">活動中心</a></li>
                     </ul>
                     <ul class="second-ul pull-right">
-                        <li><a href="login.html">登陆</a></li>
-                        <li><a href="registration.html"> 注册 </a></li>
+                        <li><a href="login.html" class="remo-afterlogin-signout">sa123456 <i class=""></i></a></li>
+                        <li><a href="#">余额：8888.00</a></li>
                         <li>
                             <a href="#" data-toggle="modal" data-target="#myModal">
                                 <div class="selected">
@@ -84,17 +85,22 @@
 
     <!-- MOBILE Sidebar -->
     <nav class="navbar navbar-inverse navbar-fixed-top hidden-md hidden-lg" id="sidebar-wrapper" role="navigation">
+      <div class="row remo-afterlogin">
+        <div class="col-sm-4 col-xs-4 text-center">
+          <img src="img/img.jpg" alt="">
+        </div>
+        <div class="col-sm-8 col-xs-8">
+          <p>会员：sa123456</p>
+          <p>余额：8888.00</p>
+
+          <a href="login.html">登出</a>
+        </div>
+      </div>
         <ul class="nav sidebar-nav">
-            <li>
-                <a href="login.html">登陆</a>
-            </li>
-            <li>
-                <a href="registration.html">注册</a>
-            </li>
-            <li>
+            <li style="border-top: 1px solid #333;">
                 <a href="myaccount.html">我的帳戶</a>
             </li>
-            <li>
+            <li style="border-top: 1px solid #333;">
                 <a href="deposit.html">存款中心</a>
             </li>
             <li>
@@ -201,16 +207,13 @@
             <!-- MOBILE NAV CS -->
 
             <!--  MOBILE HAMBURGER -->
-            <div class="burger-container">
-
-            <div id="page-content-wrapper hidden-md hidden-lg">
-                <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
-                    <span class="hamb-top"></span>
-                    <span class="hamb-middle"></span>
-                    <span class="hamb-bottom"></span>
-                </button>
+            <div id="page-content-wrapper hidden-md hidden-lg" class="" >
+              <div class="hamburger hamburger--squeeze is-closed" type="button" data-toggle="offcanvas">
+                <div class="hamburger-box">
+                  <div class="hamburger-inner"></div>
+                </div>
+              </div>
             </div>
-          </div>
             <!-- /#MOBILE HAMBURGER -->
 
 </div>
@@ -232,20 +235,7 @@
                   <div class="content-title myacounttextalign" >
                 基本信息
                   </div>
-                  <div class="nathan-myaccountusernamecontent">
-                  <div class="">
-                      rian yuan
-                  </div>
-                  <div class="">
-                  1234567890@emman.com
-                  </div>
-                  <div class="">
-                  emman
-                  </div>
-                  </div>
-                  <div class="content-title myacounttextalign" >
-                更多信息
-                  </div>
+
                   <div class="row">
                     <div class="col-md-12 form-group">
                       <label>用户帐号：</label>
@@ -267,11 +257,6 @@
                       <label>电子邮件： </label>
                       <input type="input" class="form-control">
                     </div>
-                  </div>
-                    <div class="content-title myacounttextalign" >
-                  登录密码修改
-                    </div>
-                  <div class="row">
                     <div class="col-md-12 form-group">
                       <label>上次登录： </label>
                       <input type="input" class="form-control">
@@ -280,13 +265,12 @@
                       <label>邮寄地址： </label>
                       <input type="input" class="form-control">
                     </div>
-                  </div>
 
                     <div class="content-title myacounttextalign" >
                   登录密码修改
                     </div>
 
-                  <div class="row">
+
                     <div class="col-md-12 form-group">
                       <label>旧密码： </label>
                       <input type="password" class="form-control">
@@ -303,13 +287,12 @@
                     <div class="col-sm-12 col-xs-12">
                       <button class="btn btn-default remo-submit"> 提交（按钮）</button>
                     </div>
-                  </div>
 
                     <div class="content-title myacounttextalign" >
                   提款密码修改
                     </div>
 
-                  <div class="row">
+
                     <div class="col-md-12 form-group">
                       <label>旧密码： </label>
                       <input type="password" class="form-control">
@@ -348,7 +331,7 @@
 
     <!-- MOBILE FOOTER -->
       <div class="mobileFooter hidden-md hidden-lg">
-        <div class="mf-line"></div>
+        <!-- <div class="mf-line"></div> -->
           <div class="m-social-link">
             <p class="m-social-txt">关注我们</p>
             <a class="tencentstyle" href="#" >
@@ -402,28 +385,27 @@
   <footer class="slide slider open">
       <!-- <div class="arrow"></div> -->
       <div class="inner">
-          <a href="#" class="">网站指南 </a>
-          <div class="contacts-and-press sub ">
-              <a href="#">
-                  <span>游戲指南</span>
-              </a>
-              <a href="helpcenter.html">
-                  <span>幫助中心</span>
-              </a>
-              <a href="sitemap.html">
-                  <span>網站地圖</span>
-              </a>
-          </div>
-          <a href="#" class="">關於我們</a>
-          <div class="about-us sub ">
-              <a href="aboutus.html">
-                  <span>沙龍世界簡介</span>
-              </a>
-              <a href="activities.html">
-                  <span>沙龍世界動向 </span>
-              </a>
-
-          </div>
+        <a href="#" class="">网站指南 </a>
+        <div class="contacts-and-press sub ">
+            <a href="#">
+                <span>游戲指南</span>
+            </a>
+            <a href="helpcenter.html">
+                <span>幫助中心</span>
+            </a>
+            <a href="sitemap.html">
+                <span>網站地圖</span>
+            </a>
+        </div>
+        <a href="#" class="">關於我們</a>
+        <div class="about-us sub ">
+            <a href="aboutus.html">
+                <span>沙龍世界簡介</span>
+            </a>
+            <a href="activities.html">
+                <span>沙龍世界動向 </span>
+            </a>
+        </div>
           <a href="#" data-href="#" class="sa-games "> 沙龙世界</a>
           <div class="sa-games sub">
               <a href="#" target="_blank"><img src="img/logo-new.png" style="width: 110px;" alt=""></a>
@@ -487,7 +469,7 @@
   </footer>
   <footer role="contentinfo">
       <div class="inner">
-          <span class="copy"><img src="img/s.png" style="width: 70px;" alt="s-salon"> 2017 &copy; 版权所有 <img src="img/21.png" style="width: 12px; margin-bottom:3px;" alt="s-salon"> 未滿二十一歲禁止使用本網站</span>
+          <span class="copy"><img src="img/s.png" style="width: 70px;" alt="s-salon"> 2017 &copy; 版权所有 <br> <img src="img/21.png" style="width: 12px; margin-bottom:3px;" alt="s-salon"> 未滿二十一歲禁止使用本網站</span>
 
       </div>
   </footer>

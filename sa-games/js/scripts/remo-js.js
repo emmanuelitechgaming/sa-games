@@ -17,6 +17,20 @@ $( document ).ready(function() {
     $("#secondradiobutton").css("display", "block");
   });
 
+  $("#firstbutton-forget").click(function() {
+    $("#remo-forget-phone").css("display", "block");
+    $(this).closest("label").css("border-bottom", "2px solid #fff");
+    $("#secondbutton-forget").closest("label").css("border-bottom", "2px solid #1a1a1a");
+    $("#remo-forget-email").css("display", "none");
+  });
+
+  $("#secondbutton-forget").click(function() {
+    $("#remo-forget-email").css("display", "block");
+    $(this).closest("label").css("border-bottom", "2px solid #fff");
+    $("#firstbutton-forget").closest("label").css("border-bottom", "2px solid #1a1a1a");
+    $("#remo-forget-phone").css("display", "none");
+  });
+
   $('.remo-toggleline').click( function() {
     $(this).toggleClass("remo-collapse-line");
   } );

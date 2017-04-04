@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/media-queries/media-queries.css">
     <link rel="stylesheet" href="css/swiper.min.css">
-
+    <link rel="stylesheet" href="css/hamburgers.min.css">
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/remo-style.css">
@@ -204,16 +204,13 @@
             <!-- MOBILE NAV CS -->
 
             <!--  MOBILE HAMBURGER -->
-            <div class="burger-container">
-
-            <div id="page-content-wrapper hidden-md hidden-lg">
-                <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
-                    <span class="hamb-top"></span>
-                    <span class="hamb-middle"></span>
-                    <span class="hamb-bottom"></span>
-                </button>
+            <div id="page-content-wrapper hidden-md hidden-lg" class="" >
+              <div class="hamburger hamburger--squeeze is-closed" type="button" data-toggle="offcanvas">
+                <div class="hamburger-box">
+                  <div class="hamburger-inner"></div>
+                </div>
+              </div>
             </div>
-          </div>
             <!-- /#MOBILE HAMBURGER -->
 
 </div>
@@ -227,7 +224,7 @@
               <h2>采用先进技术，自家研发的彩票产品，每天早上十时开始首场搅珠，每小时开彩一次至晚上十时</h2>
             </div>
 
-            <div class="content-banner">
+            <div class="content-banner clearfix">
               <img src="img/lotto/lottery-m.png" class="img-responsive hidden-lg hidden-md" alt="">
               <img src="img/lotto/lottery-d.png" class="img-responsive hidden-xs hidden-sm " alt="">
               <div class="join-btn">
@@ -240,7 +237,8 @@
 
                 <div class="col-md-6 col-md-offset-3 col-xs-12 lotto-bg " >
                   <div class="lotto-header col-md-3 col-xs-12">
-                  住在：<div> <span id="time">03:00</span></div><div class="join-btn btn-generate ">
+                  住在：<div> <span id="time">03:00</span></div>
+                  <div class="join-btn btn-generate ">
                       <a href="javascript:void(0);" id="generate">生成!!</a>
                   </div>
                   </div>
@@ -303,33 +301,33 @@
                       <p class="ball">48</p>
                       <p class="ball">49</p>
 
-                  </div>
+                  </div><!-- /.wrapper-l -->
 
-                </div>
-              </div>
-
-
-            </div>
+                </div><!-- .col-md-6 -->
+              </div><!-- /.col-lg-12 -->
 
 
-            </div>
-          </div>
-          </div>
+            </div><!-- /.lotto-container -->
+
+
+          </div><!-- /.content-body -->
+
+
 
           <div class="promo-container container main-container" style="">
             <div class=" promo col-lg-12  col-md-12 col-sm-12 col-xs-12">
 
-                <div class="col-lg-4 hidden-sm hidden-xs hidden-md">
+                <div class="col-lg-4  col-xs-4">
                   <img src="img/promo/36.png"class="img-responsive" alt="">
                   <div class="promo-txt">娱乐场首存奖金 36% 高达 36,666 元</div>
                 </div>
 
-                <div class="col-lg-4 remo-promotional">
+                <div class="col-lg-4 remo-promotional col-xs-4">
                   <img src="img/promo/1.png" class="img-responsive"alt="">
                   <div class="promo-txt">存款奖金 1% 无限次 无上限</div>
                 </div>
 
-                <div class="col-lg-4 hidden-sm hidden-xs hidden-md">
+                <div class="col-lg-4  col-xs-4 ">
                   <img src="img/promo/0.6.png" class="img-responsive"alt="">
                   <div class="promo-txt">娱乐场每周 0.6% 返水 无上限 无限制</div>
                 </div>
@@ -337,8 +335,8 @@
             </div>
 
             <div class="promo-btn join-btn">
-                <a href="#">查看更多</a>
-            </div>
+                           <a href="#">查看更多</a>
+                       </div>
 
             <div style="background:#000;height: 40px; display:block;" class="mobile-links hidden-md hidden-lg">
               <a class="back left" onclick="history.back(-1)"><i class="fa fa-angle-left" style="padding: 0px 5px; font-size:1.5em;vertical-align: middle;" aria-hidden="true"></i><span style="padding: 20px;vertical-align: middle;">背部</span></a>
@@ -352,7 +350,7 @@
 
     <!-- MOBILE FOOTER -->
       <div class="mobileFooter hidden-md hidden-lg">
-        <div class="mf-line"></div>
+        <!-- <div class="mf-line"></div> -->
           <div class="m-social-link">
             <p class="m-social-txt">关注我们</p>
             <a class="tencentstyle" href="#" >
@@ -493,7 +491,7 @@
             </footer>
             <footer role="contentinfo">
                 <div class="inner">
-                    <span class="copy"><img src="img/s.png" style="width: 70px;" alt="s-salon"> 2017 &copy; 版权所有 <img src="img/21.png" style="width: 12px; margin-bottom:3px;" alt="s-salon"> 未滿二十一歲禁止使用本網站</span>
+                    <span class="copy"><img src="img/s.png" style="width: 70px;" alt="s-salon"> 2017 &copy; 版权所有 <br> <img src="img/21.png" style="width: 12px; margin-bottom:3px;" alt="s-salon"> 未滿二十一歲禁止使用本網站</span>
 
                 </div>
             </footer>

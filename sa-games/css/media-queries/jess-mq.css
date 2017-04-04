@@ -46,7 +46,7 @@
         width: 30%;
       }
       .condition-container-title p{
-        font-size: 1em;  /* Apr.3.2017 */
+        font-size: 20px;
         padding-bottom: 20px;
       }
       .list-content {
@@ -214,7 +214,7 @@
     /* Large Devices, Wide Screens */
     @media only screen and (min-width : 1200px) {
       .content-desc > p {
-        font-size: 1.375em;
+        font-size: 1em;
         max-width: 50%;
         margin-right: auto;
         margin-left: auto;
@@ -227,7 +227,7 @@
       .content-title h2 {
         letter-spacing:  2px;
         line-height: 1.3em;
-        font-size: 1.375em;
+        font-size: 1em;
       }
       .error p {
         max-width: 30%;
@@ -242,21 +242,21 @@
         line-height: 1.5;
       }
       .tableright {
-        font-size: 15px;
+        font-size: 13px;
         width: 50%;
       }
       .tableleft {
-        font-size: 15px;
+        font-size: 13px;
         width: 25%;
       }
       .arrow-pull-right {
         display: inline-block;
       }
       .main-body {
-        font-size: .9375em; /* Apr.3.2017 */
+        font-size: 13px;
       }
       .main-title {
-        font-size: 1em; /* Apr.3.2017 */
+        font-size: 15px;
         font-weight: bold;
       }
     }
