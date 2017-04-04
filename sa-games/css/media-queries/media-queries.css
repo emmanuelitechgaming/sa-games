@@ -29,8 +29,17 @@
         z-index: 3;
 
       }
+      .lotto-container > .content-body {
+        padding: 0px 10px 40px 10px;
+        display: inline-block;
+      }
+        .content-body {
+      padding: 0px 0px 40px 0px;
+      background: #1A1A1A;
+      }
+
       .swiper-container-horizontal > .swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
-        bottom: 1px;
+        bottom: 36px;
         right: 0;
         width: 100%;
         background: transparent;
@@ -39,6 +48,16 @@
       main{
         margin-top: 0px;
       }
+      .promo-c img{
+        width: 85%;
+        margin:0 auto;
+      }
+      .casino-games img {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
       .content-title h1{
         font-size: 1em;
       }
@@ -72,11 +91,11 @@
     outline: 0;
     -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
     box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
-    background-color: #1a1a1a;
+    background-color: #000;
 
 }
 
-      }
+
       .promo-container {
     padding-bottom: 20px;
 }
@@ -112,16 +131,6 @@
        box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
        background-color: #1a1a1a;
          min-height: auto;
-   }
-   .logo {
-     position: relative;
-   }
-   .nav-menu {
-     top: 0px !important;
-     position: relative !important;
-   }
-   .topnav {
-     background: #000 !important;
    }
 
   }
@@ -165,6 +174,10 @@
         margin-top: 20px;
         margin-bottom: 50px;
       }
+      .content-body {
+    padding: 0px 0px 120px 0px;
+    background: #1A1A1A;
+    }
 
       .swiper-container-horizontal > .swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
           bottom: 40%;
@@ -181,4 +194,15 @@
       main{
         margin-top: 109px;
       }
+      .promo-c img{
+        width: 100%;
+        margin:0 auto;
+      }
+
+      .casino-games img {
+          width: 80%;
+          margin: 0 auto;
+          text-align: center;
+      }
+
     }
