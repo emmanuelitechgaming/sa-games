@@ -549,11 +549,12 @@ margin: 0 auto;
     padding: 20px 40px 20px 20px;
     position: relative;
     box-sizing: border-box;
-    color: #c4c4c4;
+    color: #ffffff;
     -webkit-transform: none;
     white-space: normal;
     width: auto;
     text-decoration: none;
+    font-weight: 900;
 }
 
 .side-nav-footer {
@@ -563,9 +564,15 @@ margin: 0 auto;
 }
 
 .side-nav-footer a {
-    text-indent: 20px;
+    /*text-indent: 20px;
     text-align: left;
     line-height: 20px;
+    display: block;
+    color: #c4c4c4;
+    text-decoration: none;*/
+    text-indent: 20px;
+    text-align: left;
+    line-height: 27px;
     display: block;
     color: #c4c4c4;
     text-decoration: none;
@@ -600,10 +607,10 @@ div.side-nav-menu > a::after {
 
 .sidebar-nav li {
     position: relative;
-    line-height: 20px;
+    line-height: 21px;
     display: inline-block;
     width: 50%;
-    margin-right: -4px;
+    margin-right: -6px;
 }
 
 .sidebar-nav li:nth-child(even) {
@@ -636,7 +643,7 @@ div.side-nav-menu > a::after {
     display: block;
     color: #c4c4c4;
     text-decoration: none;
-    padding: 18px;
+    padding: 19px 18px;
 }
 
 .sidebar-nav li a:hover,
