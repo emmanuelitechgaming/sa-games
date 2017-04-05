@@ -538,23 +538,24 @@ margin: 0 auto;
 }
 
 .side-nav-menu a {
-  text-align: left;
-  height: auto;
-  line-height: 20px;
-  background: #000;
-  display: block;
-  border-bottom: 1px solid #333;
-  left: 0;
-  font-size: 14px;
-  padding: 20px 40px 20px 20px;
-  position: relative;
-  box-sizing: border-box;
-  color: #fefefe;
-  -webkit-transform: none;
-  white-space: normal;
-  width: auto;
-  text-decoration: none;
-  font-weight: 700;
+
+    text-align: left;
+    height: auto;
+    line-height: 20px;
+    background: #000;
+    display: block;
+    border-bottom: 1px solid #333;
+    left: 0;
+    font-size: 14px;
+    padding: 20px 40px 20px 20px;
+    position: relative;
+    box-sizing: border-box;
+    color: #ffffff;
+    -webkit-transform: none;
+    white-space: normal;
+    width: auto;
+    text-decoration: none;
+    font-weight: 900;
 
 }
 
@@ -565,9 +566,15 @@ margin: 0 auto;
 }
 
 .side-nav-footer a {
-    text-indent: 20px;
+    /*text-indent: 20px;
     text-align: left;
     line-height: 20px;
+    display: block;
+    color: #c4c4c4;
+    text-decoration: none;*/
+    text-indent: 20px;
+    text-align: left;
+    line-height: 27px;
     display: block;
     color: #c4c4c4;
     text-decoration: none;
@@ -611,10 +618,10 @@ div.side-nav-menu > a::after {
 
 .sidebar-nav li {
     position: relative;
-    line-height: 20px;
+    line-height: 21px;
     display: inline-block;
     width: 50%;
-    margin-right: -4px;
+    margin-right: -6px;
 }
 
 .sidebar-nav li:nth-child(even) {
@@ -644,10 +651,11 @@ div.side-nav-menu > a::after {
 }
 
 .sidebar-nav li a {
-  display: block;
-color: #c4c4c4;
-text-decoration: none;
-padding: 20px;
+
+    display: block;
+    color: #c4c4c4;
+    text-decoration: none;
+    padding: 19px 18px;
 
 }
 
