@@ -573,6 +573,15 @@ margin: 0 auto;
     text-decoration: none;
 }
 
+.cta-btn{
+  position: relative;
+  top: -120px;
+}
+.cta-btn a{
+  border: 1px solid #fff!important;
+  background: rgba(11, 11, 11, 0.7);
+}
+
 .nav-footer-color {
     color: #ffffff!important;
 }
