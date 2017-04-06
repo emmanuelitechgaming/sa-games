@@ -90,6 +90,14 @@
       text-align: left
     }
 
+    .remo-login-content-body, .remo-registration-content-body{
+      padding-top: 10px;
+    }
+
+    .remo-registration-content-body{
+      padding-top: 30px
+    }
+
 }
 
 /* Extra Small Devices, Phones */
@@ -237,5 +245,10 @@
 {
   .remo-sitemap-container{
     padding: 0 180px;
+  }
+
+  .remo-login-content-body, .remo-registration-content-body{
+    padding: 50px 10px 20px 10px;
+    background: #1A1A1A;
   }
 }
