@@ -50,7 +50,7 @@
         margin-top: 0px;
       }
       .promo-c img{
-        width: 85%;
+        width: 100%;
         margin:0 auto;
       }
       .casino-games img {
@@ -201,7 +201,7 @@
       }
 
       .casino-games img {
-          width: 80%;
+          width: 100%;
           margin: 0 auto;
           text-align: center;
       }
