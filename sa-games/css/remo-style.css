@@ -838,64 +838,143 @@ textarea
     padding: 10px 10px;
 }
 
-.side-nav-menu a:first-child{
-  border-top: solid 1px #333;
+.side-nav-menu a:first-child
+{
+    border-top: solid 1px #333;
 }
 
-.remo-afterlogin{
-  padding: 10px;
+.remo-afterlogin
+{
+    position: relative;
+
+    padding: 10px;
+}
+
+.remo-afterlogin img
+{
+    width: 90px;
+
+    border: 2px solid #c19c5e;
+    border-radius: 50%;
+}
+
+.remo-afterlogin p
+{
+    font-size: 14px;
+
+    margin: 0;
+    margin-left: 10px;
+    padding: 0;
+
+    color: #c4c4c4;
+}
+
+.remo-afterlogin p:first-child
+{
+    margin-top: 10px;
+}
+
+.remo-afterlogin a
+{
+    padding: 3px 5px;
+
+    color: #fff;
+}
+
+.remo-afterlogin button,
+.remo-afterlogin a
+{
+    position: absolute;
+    right: 30px;
+    bottom: -45px;
+
+    border: solid 1px #333;
+    border-radius: 3px;
+    background: transparent;
+}
+
+.remo-afterlogin-signout
+{
+    color: #fff1d3 !important;
+}
+
+.remo-afterlogin-signout i
+{
+    display: inline-block;
+
+    width: 15px;
+    height: 15px;
+    margin-bottom: -3px;
+    margin-left: 5px;
+
+    transform: scaleX(-1);
+
+    background: url(../img/signout.png) ;
+    background-size: 100% 100%;
+}
+
+.remo-lotto-hover-wrapper{
+  margin: 0;
+}
+
+.remo-lotto-hover-content{
+  position: absolute;
+  top: 30%;
+  background: -webkit-linear-gradient(top,#1e1e1e 0,#3f3f3f 50%,#1e1e1e 100%);
+  background: linear-gradient(to bottom,#1e1e1e 0,#3f3f3f 50%,#1e1e1e 100%);
+  left: 65px;
+  top: 30%;
+  padding: 20px;
+  border-radius: 10px
+}
+
+.remo-lotto-hover-content .row:nth-child(2){
+  border-top: solid 1px #c4c4c4;
+  margin: 0;
+  margin-top: 10px;
+  padding-top: 5px
+}
+
+.remo-lotto-hover-content .row:nth-child(3){
+  margin-top: 20px;
+}
+
+.remo-balls-wrapper .ball{
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+  border-radius: 100%;
+  float: left;
+  background-color: rgb(61, 60, 58);
+  margin: 2px;
+  font-weight: 700;
+  box-shadow: 1px 1px 0.5px #000;
+  cursor: pointer;
+}
+
+.remo-balls-wrapper span{
+  float: left;
+  width: 30px;
+  text-align: center;
+  padding-top: 7px;
+}
+
+.remo-lotto-hover-content-body{
+  color: #fff1d3;
+  margin-top: -10px
+}
+
+.lotto-container{
   position: relative;
 }
 
-.remo-afterlogin img{
-  width: 90px;
-  border-radius: 50%;
-  border: 2px solid #C19C5E
-}
-
-.remo-afterlogin p{
-  padding: 0;
-  margin: 0;
-  margin-left: 10px;
-  color: #c4c4c4;
-  font-size: 14px;
-}
-
-.remo-afterlogin p:first-child{
-  margin-top: 10px
-}
-
-.remo-afterlogin a{
-  color: #fff;
-  padding: 3px 5px
-}
-
-.remo-afterlogin button, .remo-afterlogin a{
-  background: transparent;
-  border: solid 1px #333;
-  position: absolute;
-  right: 30px;
-  bottom: -45px;
-  border-radius: 3px
-}
-
-.remo-afterlogin-signout{
-  color: #fff1d3 !important;
-}
-
-.remo-afterlogin-signout i{
-  display: inline-block;
-  width: 15px;
-  height: 15px;
-  background: url(../img/signout.png) ;
-  background-size: 100% 100%;
-  transform: scaleX(-1);
-  margin-bottom: -3px;
-  margin-left: 5px
-}
-
 /*em*/
-button a, button a:hover{
-  text-decoration: none!important;
-  color: inherit;
+button a,
+button a:hover
+{
+    text-decoration: none!important;
+
+    color: inherit;
 }

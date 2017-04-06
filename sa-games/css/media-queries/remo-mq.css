@@ -238,6 +238,10 @@
     padding: 0 50px
   }
 
+  .remo-lotto-content-body {
+    padding: 10px 10px 0px 10px;
+  }
+
 }
 
 /* Large Devices, Wide Screens */
@@ -250,5 +254,9 @@
   .remo-login-content-body, .remo-registration-content-body{
     padding: 50px 10px 20px 10px;
     background: #1A1A1A;
+  }
+
+  .remo-lotto-content-body{
+    padding: 0px 10px 0px 10px;
   }
 }

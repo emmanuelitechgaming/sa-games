@@ -35,5 +35,13 @@ $( document ).ready(function() {
     $(this).toggleClass("remo-collapse-line");
   } );
 
+  $('.ball').hover(function(){
+    $('.remo-lotto-hover-wrapper').css('display', 'block');
+  }, function() {
+    $('.remo-lotto-hover-wrapper').css('display', 'none');
+  });
+
   $('#mylightbox').featherlight($content, configuration);
+
+
 });
