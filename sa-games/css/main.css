@@ -987,7 +987,14 @@ background: red;
 border: none;
 
 }
+.cta-img{
+  position: absolute;
+  bottom: 14%;
+  right: -30px;
+  color: #f9dfa8;
+  padding: 2px 67px;
 
+}
 .content-title {
     text-align: center;
 }
