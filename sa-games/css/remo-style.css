@@ -923,9 +923,10 @@ textarea
   background: -webkit-linear-gradient(top,#1e1e1e 0,#3f3f3f 50%,#1e1e1e 100%);
   background: linear-gradient(to bottom,#1e1e1e 0,#3f3f3f 50%,#1e1e1e 100%);
   left: 65px;
-  top: 30%;
+  top: 44%;
   padding: 20px;
-  border-radius: 10px
+  border-radius: 10px;
+  margin-left: 43%;
 }
 
 .remo-lotto-hover-content .row:nth-child(2){
@@ -969,6 +970,7 @@ textarea
 .lotto-container{
   position: relative;
 }
+
 
 /*em*/
 button a,

@@ -98,6 +98,26 @@
       padding-top: 30px
     }
 
+    .lotto-container > .content-body{
+      padding: 40px 10px;
+    }
+
+    .remo-info-button
+    {
+        display: inline-block;
+
+        width: 20px;
+        height: 20px;
+
+        background-image: url(../../img/info-button.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+
+        position: absolute;
+        bottom: 65px;
+        right: 5px;
+    }
+
 }
 
 /* Extra Small Devices, Phones */
@@ -240,6 +260,22 @@
 
   .remo-lotto-content-body {
     padding: 10px 10px 0px 10px;
+  }
+
+  .remo-info-button
+  {
+      display: inline-block;
+
+      width: 25px;
+      height: 25px;
+
+      background-image: url(../../img/info-button.png);
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+
+      position: absolute;
+      bottom: 135px;
+      right: 55px;
   }
 
 }
