@@ -922,10 +922,10 @@ textarea
   top: 30%;
   background: -webkit-linear-gradient(top,#1e1e1e 0,#3f3f3f 50%,#1e1e1e 100%);
   background: linear-gradient(to bottom,#1e1e1e 0,#3f3f3f 50%,#1e1e1e 100%);
-  left: 65px;
-  top: 30%;
+  top: 8%;
   padding: 20px;
-  border-radius: 10px
+  border-radius: 10px;
+  margin-left: 37.6%;
 }
 
 .remo-lotto-hover-content .row:nth-child(2){
@@ -970,6 +970,9 @@ textarea
   position: relative;
 }
 
+.ball-wrapper{
+  float: left
+}
 
 /*em*/
 button a,
