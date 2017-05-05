@@ -9,6 +9,44 @@
 
     /* Custom, iPhone Retina */
     @media only screen and (min-width : 320px) {
+      .nathan-jackpot{
+        margin: 0 auto;
+
+            margin-bottom: 30px;
+      }
+      .nathan-jackpotimage{
+        margin-top: 6px;
+      text-align: center;
+      }
+
+      .jumbo{
+        margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    font-size: 23px;
+    font-weight: 300;
+    letter-spacing: 1px;
+      }
+      .nathan-USER{
+        font-size: 15px;
+      letter-spacing: 1px;
+      margin-top: 5px;
+      margin-left: 11px;
+      display: block;
+
+          text-align: center;
+      }
+      .nathan-winner{
+        float: right;
+  /* margin-left: 6px; */
+  margin-right: 48px;
+  margin-top: 5px;
+      }
+
+      .nathan-myaccountusernamecontent{
+        color:#fcf8e3;
+        margin-bottom: 20px;
+      }
       .editable ul li {
           list-style: none;
           border-top: 1px solid #333;
@@ -95,9 +133,247 @@
       }
 
     }
+    @media only screen and (min-width : 360px) {
+      .nathan-winner{
+        float: right;
+      margin-left: 6px;
+      margin-right: 67px;
+      margin-top: 2px;
+      }
+      .nathan-jackpot{
+        margin: 0 auto;
+
+            margin-bottom: 30px;
+
+      }
+      .nathan-jackpotimage{
+        margin-top: 6px;
+        float: left;
+        margin-left: 29px;
+      }
+      .jumbo{
+        margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    font-size: 23px;
+    font-weight: 300;
+    letter-spacing: 1px;
+      }
+      .nathan-USER{
+        font-size: 15px;
+      letter-spacing: 1px;
+      margin-top: 5px;
+      margin-left: 11px;
+      }
+
+      .nathan-myaccountusernamecontent{
+        color:#fcf8e3;
+        margin-bottom: 20px;
+      }
+
+    }
+    @media only screen and (min-width : 375px) {
+      .nathan-winner{
+        float: right;
+        margin-left: 6px;
+        margin-right: 5px;
+        margin-top: 2px;
+      }
+      .nathan-jackpot{
+        margin: 0 auto;
+
+            margin-bottom: 30px;
+      }
+      .nathan-jackpotimage{
+        margin-top: 6px;
+        float: left;
+        margin-left: 29px;
+      }
+      .jumbo{
+        margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    font-size: 23px;
+    font-weight: 300;
+    letter-spacing: 1px;
+      }
+      .nathan-USER{
+        font-size: 12px;
+      letter-spacing: 1px;
+      margin-top: 5px;
+      margin-left: 11px;
+      }
+
+      .nathan-myaccountusernamecontent{
+        color:#fcf8e3;
+        margin-bottom: 20px;
+      }
+
+    }
+    @media only screen and (min-width : 412px) {
+      .nathan-winner{
+        float: right;
+        margin-left: 6px;
+    margin-right: 25px;
+        margin-top: 2px;
+      }
+      .nathan-jackpot{
+        margin: 0 auto;
+
+            margin-bottom: 30px;
+      }
+      .nathan-jackpotimage{
+        margin-top: 6px;
+        float: left;
+        margin-left: 29px;
+      }
+      .jumbo{
+        margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    font-size: 23px;
+    font-weight: 300;
+    letter-spacing: 1px;
+      }
+      .nathan-USER{
+        font-size: 12px;
+      letter-spacing: 1px;
+      margin-top: 5px;
+      margin-left: 11px;
+      }
+
+      .nathan-myaccountusernamecontent{
+        color:#fcf8e3;
+        margin-bottom: 20px;
+      }
+
+    }
+  @media only screen and (min-width : 414px) {
+    .nathan-winner{
+      float: right;
+      margin-left: 6px;
+      margin-right: 5px;
+      margin-top: 2px;
+    }
+    .nathan-jackpot{
+      margin: 0 auto;
+
+          margin-bottom: 50px;
+    }
+    .nathan-jackpotimage{
+      margin-top: 6px;
+      float: left;
+      margin-left: 29px;
+    }
+    .jumbo{
+      margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  font-size: 23px;
+  font-weight: 300;
+  letter-spacing: 1px;
+    }
+    .nathan-USER{
+      font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 5px;
+    margin-left: 11px;
+    }
+
+    .nathan-myaccountusernamecontent{
+      color:#fcf8e3;
+      margin-bottom: 20px;
+    }
+    .editable ul li {
+        list-style: none;
+        border-top: 1px solid #333;
+        padding-top: 8px;
+        margin-bottom: 2px;
+        padding-bottom: 5px;
+        margin-left: -40px;
+        background-image: url('../../img/rules/arrow-down.png');
+        background-size: 25px 25px;
+        background-repeat: no-repeat;
+        background-position: right;
+        font-size: 14px;
+
+
+    }
+    .editable a {
+          color:#fff1d3;
+    }
+    .editable table td{
+        background-color:  #515151 !important;
+        border: 2px solid #9f9f9f;
+        padding: 2px;
+    }
+    .caption-cta
+    {
+        text-align: center;
+    }
+
+    .remo-submit{
+      width: 100%;
+      margin-top: 10px
+    }
+
+    .remo-reset{
+      width: 100%;
+    }
+    .moz-select-nathan{
+        transition: outline .3s;
+        outline: 1px solid #1a1a1a;
+        display: inline-block;
+        background-color: #333;
+        background-image: url('../../img/activities/arrow-down.png');
+        background-position: right center;
+        background-repeat: no-repeat;
+        background-size: 36px 35px;
+        width: 30%;
+        background-color:#333333;
+        vertical-align: baseline;
+        overflow: hidden;
+    }
+    .activities-content-banner{
+      text-align: center;
+    padding: 20px;
+    width: 100%;
+    margin: 0 auto;
+    }
+    .nathan-activities-content{
+        width: 100%;
+      margin:0 auto;
+    }
+    .nathan-content-label{
+      margin-bottom: 20px;
+   padding-bottom: 28px;
+   border-bottom: 1px solid #272727;
+   line-height: 18px;
+   text-align: left;
+   padding-top: 15px;
+   width:100%;
+   margin:0 auto;
+    }
+    .activitiescontentbody{
+      width: 100%; margin: 0 auto;
+    }
+    .withdrawtextalign{
+      text-align: justify;
+      margin-bottom: 20px;
+    }
+
+    .myacounttextalign{
+      text-align: justify;
+      margin-bottom: 20px;
+      border-bottom: 1px solid #333;
+      padding-bottom: 10px;
+    }
+  }
 
     /* Extra Small Devices, Phones */
     @media only screen and (min-width : 480px) {
+
+
       .editable ul li {
           list-style: none;
           border-top: 1px solid #333;
@@ -175,6 +451,40 @@
 
     /* Small Devices, Tablets */
     @media only screen and (min-width : 768px) {
+      .nathan-winner{
+        float: right;
+        margin-left: 6px;
+        margin-right: -12px;
+        margin-top: 2px;
+      }
+      .nathan-jackpot{
+        margin: 0 auto;
+            display: flex;
+            width: 747px;
+            margin-bottom: 50px;
+            margin-right: 23px;
+      }
+      .nathan-jackpotimage{
+      margin-top: 6px;
+      }
+      .jumbo{
+        margin: 0 auto;
+        text-align: center;
+        color: #fff;
+        font-size: 23px;
+        font-weight: 300;
+      letter-spacing: 1px;
+      }
+      .nathan-USER{
+        font-size: 15px;
+      letter-spacing: 1px;
+      margin-top: 5px;
+      }
+
+      .nathan-myaccountusernamecontent{
+        color:#fcf8e3;
+        margin-bottom: 20px;
+      }
       .editable ul li {
           list-style: none;
           border-top: 0px solid #333;
@@ -262,6 +572,36 @@
 
     /* Medium Devices, Desktops */
     @media only screen and (min-width : 992px) {
+      .nathan-winner{
+
+      }
+      .nathan-jackpot{
+        margin: 0 auto;
+            display: flex;
+            width: 880px;
+            margin-bottom: 50px;
+      }
+      .nathan-jackpotimage{
+      margin-top: 15px;
+      }
+      .jumbo{
+        margin: 0 auto;
+        text-align: center;
+        color: #fff;
+        font-size: 33px;
+        font-weight: 700;
+      letter-spacing: 1px;
+      }
+      .nathan-USER{
+        font-size: 20px;
+      letter-spacing: 1px;
+      margin-top: 8px;
+      }
+
+      .nathan-myaccountusernamecontent{
+        color:#fcf8e3;
+        margin-bottom: 20px;
+      }
       .editable ul li {
           list-style: none;
           border-top: 0px solid #333;
@@ -345,6 +685,36 @@
     }
 /* Large Devices, Wide Screens */
     @media only screen and (min-width : 1024px) {
+      .nathan-winner{
+
+      }
+      .nathan-jackpot{
+        margin: 0 auto;
+            display: flex;
+            width: 880px;
+            margin-bottom: 50px;
+      }
+      .nathan-jackpotimage{
+      margin-top: 15px;
+      }
+      .jumbo{
+        margin: 0 auto;
+        text-align: center;
+        color: #fff;
+        font-size: 33px;
+        font-weight: 700;
+      letter-spacing: 1px;
+      }
+      .nathan-USER{
+        font-size: 20px;
+      letter-spacing: 1px;
+      margin-top: 8px;
+      }
+
+      .nathan-myaccountusernamecontent{
+        color:#fcf8e3;
+        margin-bottom: 20px;
+      }
       .editable ul li {
           list-style: none;
           border-top: 0px solid #333;
@@ -423,6 +793,40 @@
 
     @media only screen and (min-width : 1200px)
     {
+      .nathan-winner{
+        float: right;
+        margin-left: 6px;
+        margin-right: -12px;
+        margin-top: 2px;
+      }
+
+      .nathan-jackpot{
+        margin: 0 auto;
+            display: flex;
+            width: 880px;
+            margin-bottom: 50px;
+      }
+      .nathan-jackpotimage{
+      margin-top: 15px;
+      }
+      .jumbo{
+        margin: 0 auto;
+        text-align: center;
+        color: #fff;
+        font-size: 33px;
+        font-weight: 700;
+      letter-spacing: 1px;
+      }
+      .nathan-USER{
+        font-size: 20px;
+      letter-spacing: 1px;
+      margin-top: 8px;
+      }
+
+      .nathan-myaccountusernamecontent{
+        color:#fcf8e3;
+        margin-bottom: 20px;
+      }
       .editable ul li {
           list-style: none;
           border-top: 0px solid #333;
