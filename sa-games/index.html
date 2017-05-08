@@ -21,7 +21,7 @@
 
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="css/main.css">
-
+    <link rel="stylesheet" href="css/media-queries/nat-mq.css">
 </head>
 
 <body>
@@ -111,8 +111,8 @@
             </div>
             <div class="side-nav-footer">
                 <a href="#" class="nav-footer-color"><b>關於我們</b></a>
-                <a href="aboutus.html">沙龍世界簡介</a>
-                <a href="activities.html">沙龍世界動向</a>
+                <a href="aboutus.html">金银岛簡介</a>
+                <a href="activities.html">金银岛動向</a>
 
             </div>
             <div class="side-nav-footer">
@@ -166,6 +166,8 @@
     </div>
     <!-- /#wrapper -->
     <div></div>
+
+
     <main>
         <!--CONTENT INSERT HERE -->
         <div class="swiper-container ">
@@ -193,11 +195,32 @@
             <!-- Add Pagination -->
             <div class="swiper-pagination"></div>
 
+
             <!-- Add Arrows -->
             <!-- <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div> -->
         </div>
+
+
     </main>
+    <!-- <div class="nathan-jackpot">
+      <div class="nathan-jackpotimage">
+<img src="img/index/ALL JACKPOTS.png" alt="">
+
+      </div>
+<div class="nathan-dollarsign">$</div>
+<div class="jumbo" id="myTargetElement">0 </div>
+
+<div class="nathan-USER">
+  <img src="img/index/ALL WINNERS.png" alt="">
+<img src="img/index/flag.png" alt="" class="imgbottonmargin">
+
+<div class="nathan-winner">
+
+USER: junxxxxxx $4,510.92</div>
+</div>
+
+    </div> -->
     <!--CONTENT END HERE -->
 
     <!-- MOBILE FOOTER -->
@@ -244,7 +267,7 @@
                 <img src="img/cert5.png" style="width: 60px;" alt="">
             </a>
 
-            <p class="m-footer-txt"> <img src="img/s.png" style="width:25%;  margin:5px 5px; vertical-align: middle;" alt=""> 2017 © 版权所有 </p>
+            <p class="m-footer-txt"> tiwin8.com 2017 © 版权所有 </p>
             <p class="m-footer-txt"><img src="img/21.png" style="width:14px;vertical-align: middle;margin-top: -2px;" alt=""> 未滿二十一歲禁止使用本網站</p>
 
         </div>
@@ -268,17 +291,19 @@
                         <span>網站地圖</span>
                     </a>
                 </div>
+
                 <a href="#" class="">關於我們</a>
                 <div class="about-us sub ">
                     <a href="aboutus.html">
-                        <span>沙龍世界簡介</span>
+                        <span>金银岛簡介</span>
                     </a>
                     <a href="activities.html">
-                        <span>沙龍世界動向 </span>
+                        <span>金银岛動向 </span>
                     </a>
 
                 </div>
-                <a href="#" data-href="#" class="sa-games "> 沙龙世界</a>
+                <a href="#" data-href="#" class="sa-games "> 金银岛
+</a>
                 <div class="sa-games sub">
                     <a href="#" target="_blank"><img src="img/logo-new.png" style="width: 110px;" alt=""></a>
                 </div>
@@ -341,7 +366,7 @@
         </footer>
         <footer role="contentinfo">
             <div class="inner">
-                <span class="copy"><img src="img/s.png" style="width: 70px;" alt="s-salon"> 2017 &copy; 版权所有 <br> <img src="img/21.png" style="width: 12px; margin-bottom:3px;" alt="s-salon"> 未滿二十一歲禁止使用本網站</span>
+                <span class="copy">twin8.com 2017 &copy; 版权所有 <br> <img src="img/21.png" style="width: 12px; margin-bottom:3px;" alt="s-salon"> 未滿二十一歲禁止使用本網站</span>
 
             </div>
         </footer>
@@ -393,8 +418,39 @@
     <script src="js/vendor/swiper.min.js"></script>
 
     <script src="js/main.js"></script>
-
+    <script src="js/odometer.min.js"></script>
+    <script src="js/countUp.js"></script>
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+    $(document).ready(function() {
+
+    var options = {
+      useEasing : true,
+      useGrouping : true,
+      separator : ',',
+      decimal : '.',
+      prefix : '',
+      suffix : ''
+    };
+
+    var demo = new CountUp("myTargetElement", 12345678, 99999999, 2, 100000000, options);
+    demo.start();
+
+
+    $('#myCarousel1').carousel({
+    interval: 4000
+    });
+
+    $('#myCarousel2').carousel({
+    interval: 5000
+    });
+    $('#myCarousel3').carousel({
+    interval: 6000
+    });
+
+    });
+
+    </script>
     <script>
         var swiper = new Swiper('.swiper-container', {
             pagination: '.swiper-pagination',
@@ -424,6 +480,7 @@
         ga('create', 'UA-XXXXX-X', 'auto');
         ga('send', 'pageview');
     </script>
+
 </body>
 
 </html>
