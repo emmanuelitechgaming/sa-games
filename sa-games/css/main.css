@@ -1118,6 +1118,19 @@ text-align: center;
   margin-top: 0px;
 
 }
+.casino-games .promo-txt{
+  text-align: center;
+font-weight: 700;
+margin: 0 auto;
+position: absolute;
+left: 1px;
+right: -50px;
+bottom: 60px;
+
+}
+.casino-games .live-games{
+  position: relative;
+}
 .promo-container{
   margin:0 auto;
 }
