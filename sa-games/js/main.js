@@ -1,5 +1,13 @@
 $(document).ready(function() {
 
+  $( "#langpick" ).click(function() {
+
+    if ($('.asd').hasClass('modal-open')) {
+        alert();
+
+
+    }
+});
   var setElementHeight = function () {
       var height = $(window).height();
 
