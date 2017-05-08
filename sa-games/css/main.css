@@ -1141,6 +1141,16 @@ right: -50px;
 bottom: 60px;
 
 }
+.casino-games .promo-txt-s{
+  text-align: center;
+font-weight: 700;
+margin: 0 auto;
+position: absolute;
+left: 1px;
+right: -13px;
+bottom: 24px;
+
+}
 .casino-games .live-games{
   position: relative;
 }
@@ -1479,4 +1489,5 @@ body{
 
 .modal-open .modal {
   overflow: hidden;
+      padding-right: 0!important;
 }

@@ -114,8 +114,26 @@
         background-size: 100% 100%;
 
         position: absolute;
-        bottom: 65px;
-        right: 5px;
+        bottom: 99px;
+        right: 40px;
+
+    }
+    .remo-info-button-s
+    {
+        display: inline-block;
+
+        width: 20px;
+        height: 20px;
+
+        background-image: url(../../img/info-button.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+
+        position: absolute;
+        bottom: 85px;
+        right: 30px;
+
+
     }
 
 }
@@ -164,7 +182,7 @@
   .lotto-header{
     margin: 50px 335px auto;
   }
-  
+
   .ball-wrapper{
     float: left;
     margin-bottom: 0;
@@ -284,20 +302,38 @@
     padding: 10px 10px 0px 10px;
   }
 
+  .remo-info-button-s
+  {
+      display: inline-block;
+
+      width: 20px;
+      height: 20px;
+
+      background-image: url(../../img/info-button.png);
+      backgr1ound-repeat: no-repeat;
+      background-size: 100% 100%;
+
+      position: absolute;
+      bottom: 98px;
+      right: 46px;
+
+  }
   .remo-info-button
   {
       display: inline-block;
 
-      width: 25px;
-      height: 25px;
+      width: 20px;
+      height: 20px;
 
       background-image: url(../../img/info-button.png);
       background-repeat: no-repeat;
       background-size: 100% 100%;
 
       position: absolute;
-      bottom: 135px;
-      right: 55px;
+      bottom: 110px;
+      right: 60px;
+
+
   }
 
   .wrapper-l{
