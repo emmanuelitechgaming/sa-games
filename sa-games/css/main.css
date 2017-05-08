@@ -1454,3 +1454,16 @@ background: black;
 .bg-page{
   background: #000  !important;
 }
+
+body{
+  overflow-y: scroll !important;
+  padding-right: 0px !important
+}
+
+.modal-open{
+  overflow: hidden;
+}
+
+.modal-open .modal {
+  overflow: hidden;
+}
