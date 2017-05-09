@@ -456,7 +456,7 @@
   }
 
   .selectfrommonth {
-    width: 90px;
+    width: 70px;
     background-size: 19% 100% !important;
   }
 
@@ -467,7 +467,7 @@
 
   .lotto-res .ballot-filter-div:nth-child(3), .ballot-filter-div:nth-child(4) {
     display: inline-block;
-    width: 23%;
+    width: 25%;
   }
 
   .lotto-res .ballot-result td img {
@@ -486,6 +486,11 @@
 
   .lotto-res .ballot-result-balls{
     padding: 8px;
+  }
+
+  .lotto-res .ballot-filter-div:nth-child(5) {
+    display: inline-block;
+    width: 15%;
   }
 
 }
