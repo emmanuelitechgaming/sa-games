@@ -1078,6 +1078,18 @@ textarea
     display: block
 }
 
+.lotto-res{
+  padding: 0;
+}
+
+.r-banner-info-wrapper{
+  margin-bottom: 20px
+}
+
+.r-banner-info-wrapper div:nth-child(2) {
+    padding-top: 7%;
+}
+
 /*em*/
 button a,
 button a:hover
