@@ -136,6 +136,20 @@
 
     }
 
+    .sp-promo-container .game-img{
+      margin-top: auto;
+    }
+
+    .sp-promo-container .nav-pager{
+      font-size: 15px;
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    .sp-promo-container .nav-pager span{
+      letter-spacing: -1px
+    }
+
 }
 
 /* Extra Small Devices, Phones */
@@ -354,6 +368,20 @@
     border-right: none
   }
 
+  .sp-promo-container .game-img{
+    margin-top: 45px;
+  }
+
+  .sp-promo-container .nav-pager{
+    font-size: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .sp-promo-container .nav-pager span{
+    letter-spacing: auto
+  }
+
 }
 
 /* Large Devices, Wide Screens */
@@ -380,6 +408,7 @@
     width: 539px;
     padding: 0;
     margin: 0px 190px auto;
+    margin-top: 15px
   }
 
   .ball-wrapper{
