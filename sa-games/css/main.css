@@ -332,7 +332,7 @@ margin: 0 auto;
 }
 
 .footerContainer footer.slider {
-    height: 228px;
+    height: 233px;
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
     transition: -webkit-transform .4s ease-in-out;
@@ -1457,6 +1457,39 @@ body{
   overflow: hidden;
       padding-right: 0!important;
 }
+<<<<<<< .mine
+.notice-container{
+  position: absolute;
+  top: 160px;
+  z-index: 2;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+.notice{
+  width: 11%;
+}
+.notice span{
+
+}
+
+
+.wrapper-notice{
+width: 844px;
+margin-top: 4px;
+}
+
+.marquee {
+
+  margin: 0 auto;
+  overflow: hidden;
+
+}
+.marquee a{
+  text-decoration: none;
+  color: #ffb013;
+}
+
 
 .footerContainer footer>.inner>div.hassub, .footerContainer footer>.inner>div.sub3 {
     margin-top: 20px;

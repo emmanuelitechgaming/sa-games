@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/media-queries/nat-mq.css">
+    <srcipt src="http://rawgithub.com/tobia/Pause/master/jquery.pause.js"></script>
 </head>
 
 <body class="asd">
@@ -81,9 +82,12 @@
                     <li><a href="promo.html">优惠</a></li>
                 </ul>
             </div>
+
         </nav>
+
         <!--NAV MENU -->
     </div>
+
     <div id="wrapper" class="hidden-md hidden-lg">
 
         <!-- MOBILE Sidebar -->
@@ -170,6 +174,12 @@
 
 
     <main>
+      <div class=" wrapper wrapper-notice notice-container  text-center  hidden-xs hidden-sm">
+
+        <div class="col-md-2 col-xs-2 notice"><span>重要公告:</span></div>
+        <div class="col-md-10 col-xs-10 marquee">
+        沙龙会S36手机版（<a href="m.s36.com">m.s36.com</a>）现已正式上线，即日起会员可通过手机浏览器直接访问网站，无需下载和安装即可随时随地玩转所有沙龙会的游戏，还等什么？赶紧拿起手机，马上感受我们给您带来的全新游戏体验吧！</div>
+        </div>
         <!--CONTENT INSERT HERE -->
         <div class="swiper-container ">
             <div class="swiper-wrapper">
@@ -306,7 +316,7 @@ USER: junxxxxxx $4,510.92</div>
                 <a href="#" data-href="#" class="sa-games "> 金银岛
 </a>
                 <div class="sa-games sub">
-                    <a href="#" target="_blank"><img src="img/logo-new.png" style="width: 110px;" alt=""></a>
+                    <a href="index.html" target="_blank"><img src="img/logo-new.png" style="width: 110px;" alt=""></a>
                 </div>
                 <a href="#" data-href="#" class="follow-us ">關注我們</a>
                 <div class="follow-us sub sub3">
@@ -410,6 +420,7 @@ USER: junxxxxxx $4,510.92</div>
     </div>
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
     <script>
         window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')
     </script>
@@ -417,7 +428,7 @@ USER: junxxxxxx $4,510.92</div>
     <script src="js/vendor/bootstrap.min.js"></script>
     <script src="js/vendor/font-awesome.js"></script>
     <script src="js/vendor/swiper.min.js"></script>
-
+    <script type='text/javascript' src='//cdn.jsdelivr.net/jquery.marquee/1.4.0/jquery.marquee.min.js'></script>
     <script src="js/main.js"></script>
     <script src="js/odometer.min.js"></script>
     <script src="js/countUp.js"></script>
@@ -425,6 +436,19 @@ USER: junxxxxxx $4,510.92</div>
     <script>
     $(document).ready(function() {
 
+      $('.marquee').marquee({
+          //speed in milliseconds of the marquee
+          duration: 10000,
+          //gap in pixels between the tickers
+          gap: 50,
+          //time in milliseconds before the marquee will start animating
+          delayBeforeStart: 0,
+          //'left' or 'right'
+          direction: 'left',
+          //true or false - should the marquee be duplicated to show an effect of continues flow
+          duplicated: true,
+          pauseOnHover: true
+      });
     var options = {
       useEasing : true,
       useGrouping : true,
