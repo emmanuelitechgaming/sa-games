@@ -907,7 +907,9 @@ textarea
     margin-bottom: -3px;
     margin-left: 5px;
 
-    transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+
+            transform: scaleX(-1);
 
     background: url(../img/signout.png) ;
     background-size: 100% 100%;
@@ -920,7 +922,6 @@ textarea
 .remo-lotto-hover-content{
   position: absolute;
   top: 30%;
-  background: -webkit-linear-gradient(top,#1e1e1e 0,#3f3f3f 50%,#1e1e1e 100%);
   background: linear-gradient(to bottom,#1e1e1e 0,#3f3f3f 50%,#1e1e1e 100%);
   top: 8%;
   padding: 20px;
@@ -972,6 +973,72 @@ textarea
 
 .ball-wrapper{
   float: left
+}
+
+.sp-promo-container dt{
+  white-space: nowrap;
+}
+
+.cs-back{
+  padding: 10px 15px !important;
+  margin-top: 30px;
+}
+
+.button-nav-cs2 a{
+  display: inline-block !important;
+}
+
+.cs-back-btn{
+  font-size: 20px !important;
+  margin-right: 10px;
+  margin-top: -5px
+}
+
+.lotto-res .tab-info{
+  background: #ffffff;
+  color: #000;
+  padding: 10px 25px;
+  font-size: 12px;
+}
+
+.lotto-res .ballot-result thead tr {
+    background: #222;
+    color: #fff;
+}
+
+.lotto-res .ballot-result .table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #2e2e2e;
+    color: #fff;
+    font-weight: 700;
+}
+
+.lotto-res .ballot-result .table-striped>tbody>tr:nth-of-type(even) {
+    background-color: #818181;
+    color: #fff;
+    font-weight: 700;
+}
+
+.lotto-res .ballot-result table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+    padding: 8px;
+    line-height: 1.78;
+    vertical-align: top;
+    border-top: 0;
+}
+
+.lotto-res .ballot-result td img {
+    width: 25px;
+    display: inline-block;
+}
+
+.lotto-res .ballot-result th, .lotto-res .ballot-result td {
+    text-align: center;
+}
+
+.lotto-res .ballot-filter {
+    background: #d2d2d2;
+    padding: 10px;
+    color: #333333;
+    font-size: 12px;
 }
 
 /*em*/
