@@ -1090,6 +1090,10 @@ textarea
     padding-top: 7%;
 }
 
+.lotto-res-side-banner{
+  height: 372px;
+}
+
 /*em*/
 button a,
 button a:hover
