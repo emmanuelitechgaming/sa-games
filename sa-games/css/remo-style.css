@@ -1025,20 +1025,57 @@ textarea
     border-top: 0;
 }
 
-.lotto-res .ballot-result td img {
-    width: 25px;
-    display: inline-block;
-}
-
 .lotto-res .ballot-result th, .lotto-res .ballot-result td {
     text-align: center;
 }
 
 .lotto-res .ballot-filter {
-    background: #d2d2d2;
-    padding: 10px;
-    color: #333333;
-    font-size: 12px;
+  background: #d2d2d2;
+  padding: 10px;
+  color: #333333;
+  font-size: 12px;
+}
+
+.lotto-res .ballot-filter span {
+  font-weight: 700;
+}
+
+.lotto-res select {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+.lotto-res  select {
+  padding: 5px;
+  color: #c4c4c4;
+  border: solid 1px #333;
+  border-radius: 0;
+  background: #333 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEoAAABGCAQAAADBG8qBAAAAkUlEQVR4Ae3O0QmEQBAE0Q3B0AzBYCcAM1qPzmCo4RCsLujvt7L960UTJUrUN1GiRIkSJUqUKFGiRIkSJaru2q2uWp1ybdQRFicxFGCFxFGMBUgA1WCFxFGMBUgA1WCFxFGMBUgA1WCFNI8irJDmUYQV0jyKsEKaRxHWCSgA9beJEiVKlChRokSJEiVKlChRoh4GlelzLr6YJwAAAABJRU5ErkJggg==);
+  background-repeat: repeat;
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-size: auto auto;
+  background-repeat: no-repeat;
+  background-position: 100% 10%;
+  background-size: 15% 100%;
+}
+
+.selectid {
+  display: block;
+  width: 50%;
+  background-size: 25% 100% !important;
+}
+
+.selectid, .selectfromyear, .selectfrommonth {
+  height: auto !important;
+  padding: 5px;
+}
+
+.lotto-res .ballot-filter label {
+    margin: 5% 0;
+    padding-left: 10%;
+    display: block
 }
 
 /*em*/
