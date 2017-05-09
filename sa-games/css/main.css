@@ -861,7 +861,7 @@ div.side-nav-menu > a::after {
 
 .m-social-link a {
     color: #C4C4C4;
-    margin: 0px 13px;
+    margin: 0px 5px;
 }
 
 .m-footer-txt {
@@ -890,7 +890,7 @@ div.side-nav-menu > a::after {
         background-size: auto auto;
     background-size: auto auto;
     background-size: 60px 60px;
-    opacity: 0.7;
+    opacity: 0.6;
 
 
 }
@@ -1369,7 +1369,7 @@ margin-top: -7px;
   padding: 20px;
 }
 .content-body .game-img img{
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
 }
 .content-body .game-desc{
@@ -1377,9 +1377,7 @@ margin-top: -7px;
   margin: 0 auto;
 }
 .content-body .game-desc dl{
-
   margin-top: 2em;
-
 
 }
  .content-body .game-desc dt{
