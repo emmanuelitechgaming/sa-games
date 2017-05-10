@@ -990,8 +990,19 @@ textarea
 
 .cs-back-btn{
   font-size: 20px !important;
-  margin-right: 10px;
-  margin-top: -5px
+  margin-right: 24px;
+  margin-top: -14px;
+  color: #fff1d3
+}
+
+.cs-back-btn a{
+  font-size: 20px !important;
+  margin-right: 24px;
+  margin-top: -14px;
+}
+
+.cs-back-btn .fa{
+  color: #fff1d3
 }
 
 .lotto-res .tab-info{
