@@ -32,7 +32,7 @@
       /*jessica*/
       .lotto-container > .content-body {
         padding: 40px 10px 40px 10px;
-        display: inline-block;
+
       }
         .content-body {
       padding: 0px 10px 40px 10px;
@@ -177,7 +177,7 @@
         margin-bottom: 50px;
       }
       .content-body {
-    padding: 20px 10px 120px 10px;
+    padding: 20px 10px 1px 10px;
     background: #1A1A1A;
     }
 
