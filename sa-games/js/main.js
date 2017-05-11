@@ -50,19 +50,6 @@ $(document).ready(function() {
          $('#wrapper').toggleClass('toggled');
    });
 
-     $( ".nav-cs" ).click(function() {
-
-       if ($(this).hasClass('opencs')) {
-       $("#mySidenav").css("width", "0%");
-       $(this).removeClass('opencs');
-
-       } else {
-             $("#mySidenav").css("width", "100%");
-
-           $(this).addClass('opencs');
-       }
-
-   });
 
 
 
