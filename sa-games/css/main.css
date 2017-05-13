@@ -895,7 +895,9 @@ div.side-nav-menu > a::after {
 
 }
 
-
+.news-img-g img{
+  margin: 0 auto;
+}
 .sidenav {
     height: 100%;
     width: 0;
