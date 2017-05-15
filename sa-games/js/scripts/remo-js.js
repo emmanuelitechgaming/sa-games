@@ -41,6 +41,16 @@ $( document ).ready(function() {
     $('.remo-lotto-hover-wrapper').css('display', 'none');
   });
 
+  $('#spCollapseBtn').click(function(){
+		var $this = $(this);
+		$this.toggleClass('sp-see-more');
+		if($this.hasClass('sp-see-more')){
+			$this.text('查看更多');
+		} else {
+			$this.text('看少了');
+		}
+	});
+
   $('#mylightbox').featherlight($content, configuration);
 
 
