@@ -106,10 +106,14 @@ textarea
     font-weight: 400;
     line-height: 1.5;
 
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+
+            box-sizing: border-box;
     width: 100%;
     margin-bottom: 2em;
     padding: 18px 0;
+
+    -webkit-transition: outline .3s;
 
     transition: outline .3s;
     text-indent: 10px;
@@ -128,10 +132,12 @@ textarea
 .remo-activities-form select:focus,
 .remo-activities-form input:focus
 {
+    -webkit-transition: border .3s;
     transition: border .3s;
 
     border: solid 1px #fff;
-    box-shadow: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
 }
 
 .remo-submit
@@ -159,6 +165,8 @@ textarea
     margin-bottom: 20px;
     padding: 10px 20px;
 
+    -webkit-transition: border .3s;
+
     transition: border .3s;
     letter-spacing: .5px;
 
@@ -179,6 +187,8 @@ textarea
 .remo-submit:hover
 {
     font-weight: 400;
+
+    -webkit-transition: background .3s;
 
     transition: background .3s;
 
@@ -679,6 +689,7 @@ textarea
 
 .remo-activities-head a:hover
 {
+    -webkit-transition: color .5s;
     transition: color .5s;
     text-decoration: none;
 
@@ -822,6 +833,7 @@ textarea
 
 .remo-activities-list-pager li a:hover
 {
+    -webkit-transition: color .3s;
     transition: color .3s;
     text-decoration: none;
 
@@ -922,6 +934,7 @@ textarea
 .remo-lotto-hover-content{
   position: absolute;
   top: 30%;
+  background: -webkit-gradient(linear,left top, left bottom,color-stop(0, #1e1e1e),color-stop(50%, #3f3f3f),to(#1e1e1e));
   background: linear-gradient(to bottom,#1e1e1e 0,#3f3f3f 50%,#1e1e1e 100%);
   top: 8%;
   padding: 20px;
@@ -951,7 +964,8 @@ textarea
   background-color: rgb(61, 60, 58);
   margin: 2px;
   font-weight: 700;
-  box-shadow: 1px 1px 0.5px #000;
+  -webkit-box-shadow: 1px 1px 0.5px #000;
+          box-shadow: 1px 1px 0.5px #000;
   cursor: pointer;
 }
 
@@ -1103,6 +1117,10 @@ textarea
 
 .lotto-res-side-banner{
   height: 372px;
+}
+
+.game-desc dd{
+  margin-bottom: 25px
 }
 
 /*em*/
