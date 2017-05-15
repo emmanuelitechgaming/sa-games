@@ -1123,6 +1123,15 @@ textarea
   margin-bottom: 25px
 }
 
+.sp-see-more2{
+  color: #fff;
+}
+
+.sp-see-more2:hover, .sp-see-more2:active, .sp-see-more2:focus{
+  color: #fff;
+  text-decoration: underline
+}
+
 /*em*/
 button a,
 button a:hover
