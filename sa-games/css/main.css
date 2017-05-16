@@ -553,7 +553,7 @@ margin: 0 auto;
 
 .cta-btn{
   position: relative;
-  top: -120px;
+  top: -70px;
 }
 .cta-btn a{
   border: 1px solid #fff!important;
@@ -826,17 +826,23 @@ div.side-nav-menu > a::after {
 
 
 .swiper-wrapper .desktop a {
-  position: absolute;
-  bottom: 14%;
-  right: 3%;
+
   font-weight: 700px;
   text-decoration: none;
   border: 1px solid #f9dfa8;
   color: #f9dfa8;
   padding: 2px 67px;
 
-}
 
+}
+.cta-img{
+
+
+  color: #f9dfa8;
+  padding: 2px 67px;
+
+
+}
 .mobileFooter {
     margin: 15px 0px;
 }
@@ -962,16 +968,18 @@ background: red;
 border: none;
 
 }
-.cta-img{
-  position: absolute;
-  bottom: 14%;
-  right: -30px;
-  color: #f9dfa8;
-  padding: 2px 67px;
 
-}
 .content-title {
     text-align: center;
+
+}
+.new-content-title{
+  position: absolute;
+width: 70%;
+
+}
+.new-content-title h2{
+  color: #fff!important;
 }
 .promo-c{
   padding: 20px 15px;
@@ -981,15 +989,14 @@ border: none;
 }
 
 .content-title h1 {
-    color: #fff;
-    font-family: "Gotham Medium";
-    font-weight: 400;
+    color: #bf9a5d;
+
+    font-weight: 700;
     line-height: 1;
     text-transform: uppercase;
     display: inline-block;
     padding: .5em;
-    border-top: 1px solid #333;
-    border-bottom: 1px solid #333;
+    font-size: 22px;
     padding: .65em 2em;
 }
 .content-title h2{
@@ -999,20 +1006,11 @@ font-size: 1em;
 text-align: center;
 
 }
-.content-title h2 {
-    text-align: center;
-    color: #fff1d3;
-    font-family: "Gotham Medium";
-    font-weight: 400;
-    line-height: 1;
-    text-transform: uppercase;
-    line-height: 1.2em;
-    margin-bottom: 1.5em;
-}
+
 
 .content-banner {
     text-align: center;
-    padding: 20px;
+
 }
 
 .content-banner img {
@@ -1120,6 +1118,12 @@ right: -13px;
 bottom: 24px;
 
 }
+.puta{
+  position: absolute;
+left: 33%;
+bottom: 55%;
+
+}
 .casino-games .live-games{
   position: relative;
 }
@@ -1140,6 +1144,7 @@ bottom: 24px;
     -webkit-box-align: center;
             align-items: center;
     margin:20px 0px;
+
 }
 
 .join-btn a {

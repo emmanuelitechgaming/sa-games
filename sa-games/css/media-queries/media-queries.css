@@ -105,6 +105,18 @@
     color: #fff1d3;
     padding: 0px 10px;
 }
+.content-title h2 {
+    text-align: center;
+    color: #fff1d3;
+    font-family: "Gotham Medium";
+    font-weight: 400;
+    line-height: 1;
+    text-transform: uppercase;
+    line-height: 25px!important;
+    margin-bottom: 1.5em;
+    margin: 0 auto;
+    width: 90%;
+}
     }
 
     /* Extra Small Devices, Phones */
@@ -177,7 +189,7 @@
         margin-bottom: 50px;
       }
       .content-body {
-    padding: 20px 10px 1px 10px;
+    padding:0 10px 0 10px!important;
     background: #1A1A1A;
     }
 
@@ -205,6 +217,18 @@
           width: 100%;
           margin: 0 auto;
           text-align: center;
+      }
+      .content-title h2 {
+          text-align: center;
+          color: #ffffff;
+          font-family: "Gotham Medium";
+          font-weight: 400;
+          line-height: 1;
+          text-transform: uppercase;
+          line-height: 25px!important;
+          margin-bottom: 1.5em;
+          margin: 0 auto;
+          width: 51%;
       }
 
     }
