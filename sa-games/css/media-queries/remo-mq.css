@@ -137,10 +137,6 @@
 
     }
 
-    .sp-promo-container .game-img{
-      margin-top: auto;
-    }
-
     .sp-promo-container .nav-pager{
       font-size: 15px;
       padding-left: 0;
@@ -426,11 +422,7 @@
   .ball-wrapper-no-border{
     border-right: none
   }
-
-  .sp-promo-container .game-img{
-    margin-top: 45px;
-  }
-
+  
   .sp-promo-container .nav-pager{
     font-size: 25px;
     padding-left: 10px;
