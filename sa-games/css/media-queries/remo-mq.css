@@ -283,7 +283,7 @@
   }
 
   .remo-sitemap-container{
-    padding: 0 180px;
+    padding: 25px 180px;
   }
 
   .remo-collapse-cross {
@@ -422,7 +422,7 @@
   .ball-wrapper-no-border{
     border-right: none
   }
-  
+
   .sp-promo-container .nav-pager{
     font-size: 25px;
     padding-left: 10px;
@@ -498,7 +498,7 @@
 @media only screen and (min-width : 1200px)
 {
   .remo-sitemap-container{
-    padding: 0 180px;
+    padding: 25px  180px;
   }
 
   .remo-login-content-body, .remo-registration-content-body{
