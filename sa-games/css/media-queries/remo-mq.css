@@ -181,6 +181,12 @@
       padding: 5px !important;
     }
 
+    .sitemap-content{
+      padding-left: auto;
+      text-align: left;
+      margin-top: 20px;
+    }
+
 }
 
 /* Extra Small Devices, Phones */
@@ -487,6 +493,12 @@
   .collapse .sp-collapse {
     display: block;
     visibility: hidden;
+  }
+
+  .sitemap-content{
+    padding-left: 150px;
+    text-align: left;
+    margin-top: auto;
   }
 }
 
