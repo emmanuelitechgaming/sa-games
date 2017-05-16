@@ -825,9 +825,8 @@ div.side-nav-menu > a::after {
 }
 
 
-.swiper-wrapper .desktop a {
+.swiper-cta a {
 
-  font-weight: 700px;
   text-decoration: none;
   border: 1px solid #f9dfa8;
   color: #f9dfa8;
@@ -835,11 +834,28 @@ div.side-nav-menu > a::after {
 
 
 }
-.cta-img{
+
+
+.swiper-cta p{
+    margin: 10px 0;
+}
+.swiper-cta{
+  position: absolute;
+  left: 18%;
+  top:20%;
+  border: 1px solid #343434;
+  background:url('../img/banner/calltoaction-bg.png');
+  background-repeat: repeat;
+  text-align: center;
+  width: 500px;
+  padding: 20px 10px 40px 10px;
+}
+.cta-img img{
 
 
   color: #f9dfa8;
-  padding: 2px 67px;
+margin: 0 auto;
+text-align: center;
 
 
 }
@@ -973,10 +989,23 @@ border: none;
     text-align: center;
 
 }
+.ctitle{
+  margin-top: -65px;
+}
+.ctitle h1{
+  color: #fff!important;
+  font-size: 28px;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+
+}
 .new-content-title{
   position: absolute;
 width: 70%;
 
+}
+.new-content-title img{
+  padding: 8px 0;
 }
 .new-content-title h2{
   color: #fff!important;
@@ -1371,6 +1400,8 @@ margin-top: -7px;
 
 .live-games{
   padding: 10px;
+  position: relative;
+      margin-bottom: 40px;
 }
 .promo{
   padding: 20px;
@@ -1515,4 +1546,18 @@ margin-top: 4px;
 
 .social-icons-last p{
   margin-bottom: -5px
+}
+.aboutus-banner{
+  position: relative;
+}
+.cd-new{
+  position: absolute;
+z-index: 9;
+top: 10%;
+left: 0;
+right: 0;
+
+}
+.aboutus-banner p{
+  line-height: 30px!important;
 }
