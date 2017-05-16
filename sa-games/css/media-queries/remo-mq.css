@@ -283,7 +283,7 @@
   }
 
   .remo-sitemap-container{
-    padding: 0 180px;
+    padding: 25px 180px;
   }
 
   .remo-collapse-cross {
@@ -494,7 +494,7 @@
 @media only screen and (min-width : 1200px)
 {
   .remo-sitemap-container{
-    padding: 0 180px;
+    padding: 25px  180px;
   }
 
   .remo-login-content-body, .remo-registration-content-body{
