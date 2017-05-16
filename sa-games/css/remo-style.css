@@ -1132,6 +1132,53 @@ textarea
   text-decoration: underline
 }
 
+.sitemap-social ul{
+  margin: 10px 0;
+  padding: 0;
+  list-style: none
+}
+
+.sitemap-social li{
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.sitemap-social a{
+  color: #c4c4c4 !important;
+}
+
+.sitemap-content{
+  font-size: 13px;
+  color: #ccc
+}
+
+.sitemap-content h3{
+  font-size: 13px;
+}
+
+.sitemap-content ul{
+  margin: 0;
+  padding: 0;
+}
+
+.sitemap-content ul li{
+  list-style: none;
+  margin: 5px; 0
+}
+
+.sitemap-content li:last-child{
+  border: none
+}
+
+.sitemap-treasure{
+  font-size: 17px;
+  font-weight: 700;
+  padding-top: 15px;
+  white-space: nowrap;
+}
+
+
+
 /*em*/
 button a,
 button a:hover
