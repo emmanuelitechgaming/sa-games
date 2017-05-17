@@ -531,7 +531,7 @@ textarea
 .remo-at-email::before
 {
     position: absolute;
-    top: 37px;
+    top: 6px;
     left: -7px;
 
     content: '@';
@@ -1153,6 +1153,7 @@ textarea
 
 .sitemap-social a{
   color: #c4c4c4 !important;
+  text-decoration: none;
 }
 
 .sitemap-content{
