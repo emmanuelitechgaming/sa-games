@@ -1243,6 +1243,14 @@ textarea
   margin-left: -10px;
 }
 
+.contact-ti{
+  padding: 25px 0
+}
+
+.contact-ti div{
+  margin-bottom: 10px
+}
+
 
 /*em*/
 button a,
