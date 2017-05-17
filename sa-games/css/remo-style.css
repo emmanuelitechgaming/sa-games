@@ -225,6 +225,10 @@ textarea
     text-align: center;
 }
 
+.remo-login{
+  margin: 25px -0;
+}
+
 .remo-login-title
 {
     font-size: 18px;
@@ -310,6 +314,10 @@ textarea
 .remo-registration .row:nth-child(2)
 {
     padding: 20px 0 0;
+}
+
+.remo-registration-wrapper{
+  margin-top: 25px
 }
 
 
