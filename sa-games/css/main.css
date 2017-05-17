@@ -18,7 +18,8 @@ header {
 }
 
 .img-hresponsive {
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     display: inline-block;
     width: 100%;
     height: 100%;
@@ -179,6 +180,7 @@ margin: 0 auto;
     right: 0;
     pointer-events: none;
     transition: opacity .4s ease-in-out, -webkit-transform .4s ease-in-out;
+    -webkit-transition: opacity .4s ease-in-out, -webkit-transform .4s ease-in-out;
     transition: opacity .4s ease-in-out, transform .4s ease-in-out;
     transition: opacity .4s ease-in-out, transform .4s ease-in-out, -webkit-transform .4s ease-in-out;
     -webkit-transform: translate3d(0, -50px, 0);
@@ -325,6 +327,7 @@ margin: 0 auto;
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
     transition: -webkit-transform .4s ease-in-out;
+    -webkit-transition: -webkit-transform .4s ease-in-out;
     transition: transform .4s ease-in-out;
     transition: transform .4s ease-in-out, -webkit-transform .4s ease-in-out;
     bottom: -100px;
@@ -336,6 +339,7 @@ margin: 0 auto;
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
     transition: -webkit-transform .4s ease-in-out;
+    -webkit-transition: -webkit-transform .4s ease-in-out;
     transition: transform .4s ease-in-out;
     transition: transform .4s ease-in-out, -webkit-transform .4s ease-in-out;
     bottom: -100px;
@@ -345,6 +349,7 @@ margin: 0 auto;
 .footerContainer footer.slide .hassub,
 .footerContainer footer.slide .sub {
     opacity: 0;
+    -webkit-transition: none;
     transition: none
 }
 
@@ -413,6 +418,7 @@ margin: 0 auto;
     line-height: 12px;
     height: auto;
     opacity: 0;
+    -webkit-transition: opacity .4s ease-in-out .2s;
     transition: opacity .4s ease-in-out .2s
 }
 
@@ -454,6 +460,7 @@ margin: 0 auto;
 
 #wrapper {
     padding-left: 0;
+    -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
 }
 
@@ -470,6 +477,7 @@ margin: 0 auto;
     overflow-y: auto;
     overflow-x: hidden;
     background: #000000;
+    -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
 }
 
@@ -520,7 +528,8 @@ margin: 0 auto;
     font-size: 14px;
     padding: 20px 40px 20px 20px;
     position: relative;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     color: #ffffff;
     -webkit-transform: none;
     white-space: normal;
@@ -655,7 +664,8 @@ div.side-nav-menu > a::after {
     border-radius: 0;
     border: none;
     background-color: #222;
-    box-shadow: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
 }
 
 
@@ -894,10 +904,12 @@ text-align: center;
 
 .opencs {
     right: calc(100% - 30px) !important;
+    -webkit-transition: left .5s ease-in-out;
     transition: left .5s ease-in-out;
 }
 
 .nav-cs {
+    -webkit-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
     right: 5%;
     width: 60px;
@@ -930,6 +942,7 @@ text-align: center;
     background-color: #000;
     overflow-x: hidden;
     padding-top: 60px;
+    -webkit-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
     z-index: 2;
 }
@@ -940,6 +953,7 @@ text-align: center;
     font-size: 13px;
     color: #fff1d3;
     display: block;
+    -webkit-transition: 0.3s;
     transition: 0.3s;
     letter-spacing: 2px;
 }
@@ -1246,6 +1260,7 @@ select {
 }
 
 .moz-select select {
+    -webkit-transition: outline .3s;
     transition: outline .3s;
     outline: 1px solid #1a1a1a;
     display: inline-block;
@@ -1315,7 +1330,8 @@ select {
 
 .moz-select-2:focus{
   border-color: #a9a9a9;
-  box-shadow: none
+  -webkit-box-shadow: none;
+          box-shadow: none
 }
 
 /* ---- end custom modal ----*/
@@ -1566,4 +1582,8 @@ right: 0;
 }
 .pad-top{
   padding-top: 20px!important;
+}
+
+.promo-desc{
+  font-size: 17px
 }
