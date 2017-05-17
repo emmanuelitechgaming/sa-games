@@ -1588,3 +1588,31 @@ right: 0;
 .promo-desc{
   font-size: 17px
 }
+
+.live-txt{
+  position: relative;
+}
+
+.live-games-footer{
+  position: absolute;
+  display: block;
+  width: 100%;
+}
+
+.live-games-footer-txt{
+  display: inline-block;
+  position: absolute;
+}
+
+.live-games-footer-txt span{
+  margin-right: 5px
+}
+
+.live-games-footer-txt a{
+  color: #fff;
+  border: solid 1px #fff;
+}
+
+.live-games-footer-txt a:hover{
+  text-decoration: none
+}
