@@ -84,7 +84,6 @@
       .modal-content{
         position: relative;
     background-color: #fff;
-    -webkit-background-clip: padding-box;
     background-clip: padding-box;
     border: 1px solid #999;
     border: 1px solid rgba(0, 0, 0, .2);
@@ -117,6 +116,44 @@
     margin: 0 auto;
     width: 90%;
 }
+
+.live-games-footer-txt{
+  font-size: 12px;
+  bottom: 4px
+}
+
+.live-games-footer-txt a{
+  font-size: 10px;
+  padding: 3px 5px;
+}
+
+.live-games-footer-txt1{
+  left: 3%
+}
+
+.live-games-footer-txt2{
+  right: 37%;
+}
+
+.remo-info-live-txt{
+  bottom: 3px !important;
+  left: 24%;
+}
+
+.live-games-footer-txt3{
+  right: 10%
+}
+    }
+
+    @media only screen and (min-width : 375px) {
+      .live-games-footer-txt{
+        bottom: 7px
+      }
+
+      .remo-info-live-txt{
+        bottom: 6px !important;
+        left: 24%;
+      }
     }
 
     /* Extra Small Devices, Phones */
@@ -134,7 +171,6 @@
    .modal-content {
        position: relative;
        background-color: #fff;
-       -webkit-background-clip: padding-box;
        background-clip: padding-box;
        border: 1px solid #999;
        border: 1px solid rgba(0, 0, 0, .2);
@@ -229,6 +265,33 @@
           margin-bottom: 1.5em;
           margin: 0 auto;
           width: 46%;
+      }
+
+      .live-games-footer-txt{
+        font-size: 20px;
+        bottom: 15px
+      }
+
+      .live-games-footer-txt a{
+        font-size: 18px;
+        padding: 5px 15px;
+      }
+
+      .live-games-footer-txt1{
+        left: 7%
+      }
+
+      .live-games-footer-txt2{
+        right: 42%;
+      }
+
+      .remo-info-live-txt{
+        bottom: 19px !important;
+        left: 25.5%;
+      }
+
+      .live-games-footer-txt3{
+        right: 17%
       }
 
     }
