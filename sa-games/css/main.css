@@ -1616,3 +1616,11 @@ right: 0;
 .live-games-footer-txt a:hover{
   text-decoration: none
 }
+.cs-btn{
+  position: absolute;
+  z-index: 99;
+  width: 80px;
+  right: 5%;
+  top: 74px;
+
+}
