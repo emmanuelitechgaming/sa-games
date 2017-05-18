@@ -151,6 +151,10 @@
 .notice{
   width: auto;
 }
+
+.notice-container{
+  top: auto;
+}
     }
 
     @media only screen and (min-width : 375px) {
@@ -308,6 +312,10 @@
 
       .notice{
         width: 11%;
+      }
+
+      .notice-container{
+        top: 160px;
       }
 
     }
