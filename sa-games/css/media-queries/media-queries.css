@@ -29,6 +29,15 @@
         z-index: 3;
 
       }
+      .new-content-title{
+        position: absolute;
+      width: 96%;
+
+      }
+      .cta-btn{
+        position: relative;
+        top: -40px;
+      }
       /*jessica*/
       .lotto-container > .content-body {
         padding: 40px 10px 40px 10px;
@@ -124,7 +133,7 @@
 
 .live-games-footer-txt a{
   font-size: 10px;
-  padding: 3px 5px;
+  padding: 3px 13px;
 }
 
 .live-games-footer-txt1{
@@ -166,7 +175,27 @@
         bottom: 6px !important;
         left: 24%;
       }
+      .cta-btn{
+        position: relative;
+        top: -115px;
+      }
+      .live-games-footer-txt a{
+        font-size: 10px;
+        padding: 4px 20px;
+      }
     }
+    @media only screen and (min-width : 414px) {
+
+      .cta-btn{
+        position: relative;
+        top: -145px;
+      }
+      .live-games-footer-txt a{
+        font-size: 11px;
+        padding: 5px 25px;
+      }
+    }
+
 
     /* Extra Small Devices, Phones */
     @media only screen and (min-width : 480px) {
@@ -198,7 +227,15 @@
 
     /* Medium Devices, Desktops */
     @media only screen and (min-width : 992px) {
+      .new-content-title{
+        position: absolute;
+      width: 70%;
 
+      }
+      .cta-btn{
+        position: relative;
+        top: -70px;
+      }
     }
 
     /* Large Devices, Wide Screens */
