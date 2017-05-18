@@ -164,6 +164,10 @@
 .notice-container{
   top: auto;
 }
+
+.aboutus-logo{
+  width: 100%
+}
     }
 
     @media only screen and (min-width : 375px) {
@@ -353,6 +357,10 @@
 
       .notice-container{
         top: 160px;
+      }
+
+      .aboutus-logo{
+        width: auto
       }
 
     }

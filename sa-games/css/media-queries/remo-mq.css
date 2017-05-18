@@ -187,7 +187,28 @@
       margin-top: 20px;
     }
 
+    .activities-input{
+      width: 57.5% !important
+    }
+
 }
+
+@media only screen and (min-width : 375px)
+{
+  .activities-input{
+    width: 63.5% !important
+  }
+
+}
+
+@media only screen and (min-width : 414px)
+{
+  .activities-input{
+    width: 67.5% !important
+  }
+
+}
+
 
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px)
@@ -500,6 +521,10 @@
     padding-left: 150px;
     text-align: left;
     margin-top: auto;
+  }
+
+  .activities-input{
+    width: 67.5% !important
   }
 }
 
