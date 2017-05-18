@@ -1520,16 +1520,12 @@ body{
   right: 0;
   background: rgba(0, 0, 0, 0.6);
 }
-.notice{
-  width: 11%;
-}
 .notice span{
   cursor: pointer;
 }
 
 
 .wrapper-notice{
-width: 844px;
 margin-top: 4px;
 }
 
