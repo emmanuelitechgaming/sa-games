@@ -1,5 +1,12 @@
 $(document).ready(function() {
 
+  $('.scrollToTop').click(function () {
+        $("html, body").animate({
+            scrollTop: 0
+        }, 1000);
+        return false;
+    });
+
   $( "#langpick" ).click(function() {
 
     if ($('.asd').hasClass('modal-open')) {
