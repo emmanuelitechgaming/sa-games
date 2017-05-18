@@ -1511,7 +1511,7 @@ body{
   overflow: hidden;
       padding-right: 0!important;
 }
-<<<<<<< .mine
+
 .notice-container{
   position: absolute;
   top: 160px;
@@ -1524,7 +1524,7 @@ body{
   width: 11%;
 }
 .notice span{
-
+  cursor: pointer;
 }
 
 
@@ -1622,6 +1622,12 @@ right: 0;
   width: 80px;
   right: 8%;
   top: 38px;
+}
 
+.notice-modal .modal-body a{
+  color: #ffb013
+}
 
+.notice-modal .first-th{
+  width: 24%
 }
