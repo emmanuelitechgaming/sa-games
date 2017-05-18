@@ -116,9 +116,21 @@
         position: absolute;
         bottom: 16px;
         right: 17px;
+  }
+
+  .remo-info-button-promo{
+    border: none !important;
+    padding: 0 !important;
+    width: 20px !important
+  }
+
+  .ft-2 a, .ft-3 a{
+    border: solid 1px #fff !important;
+    color: #FFF !important;
+    font-weight: 400 !important
+  }
 
 
-}
     .remo-info-button-s
     {
         display: inline-block;
