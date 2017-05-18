@@ -1251,6 +1251,54 @@ textarea
   margin-bottom: 10px
 }
 
+.chatserver-form{
+  margin-top: 15px;
+  font-weight: 400;
+}
+
+.chatserver-form span{
+  font-weight: 400;
+  color: #c00
+}
+
+.chatserver-form input[type=text]{
+  font-size: .875em;
+  font-weight: 400;
+  line-height: 1.5;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 1.5em;
+  padding: 18px 0;
+  -webkit-transition: outline .3s;
+  transition: outline .3s;
+  text-indent: 10px;
+  color: #c4c4c4;
+  border: 1px solid #333;
+  border-radius: 0;
+  outline: 0;
+  background-color: #333;
+}
+
+.chatserver-form input[type=text]:hover, .chatserver-form input[type=text]:focus, .chatserver-form input[type=text]:active{
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none
+}
+
+.chatserver-form button{
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  letter-spacing: .5px;
+  color: #1a1a1a;
+  border: solid 1px #fff1d3;
+  border-radius: 0;
+  background: #fff1d3;
+  text-shadow: none;
+}
+
 
 /*em*/
 button a,
