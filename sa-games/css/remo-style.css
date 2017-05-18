@@ -1295,6 +1295,27 @@ textarea
   text-shadow: none;
 }
 
+.container-promo{
+  width: 1500px
+}
+
+.container-promo .ft-2 a, .container-promo .ft-3 a{
+  font-size: 20px !important;
+  padding: 4px 30px !important
+}
+
+.container-promo .ft-2{
+  right: 38% !important
+}
+
+.container-promo .ft-3{
+  right: 10% !important
+}
+
+.container-promo .remo-info-button{
+  left: 23% !important
+}
+
 
 /*em*/
 button a,
