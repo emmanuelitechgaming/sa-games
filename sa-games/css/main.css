@@ -1614,6 +1614,14 @@ right: 0;
   color: #ffb013
 }
 
+.sp-multi-container{
+  padding-bottom: 30px
+}
+
+.sp-multi-container dd{
+  margin-bottom: 10px;
+}
+
 
 @media screen and (max-width: 1024px) {
     .cs-btn {
@@ -1622,4 +1630,5 @@ right: 0;
 
 .notice-modal .first-th{
   width: 24%
+}
 }
