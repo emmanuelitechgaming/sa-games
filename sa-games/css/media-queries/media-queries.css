@@ -143,6 +143,14 @@
 .live-games-footer-txt3{
   right: 10%
 }
+
+.wrapper-notice{
+  width: 100%;
+}
+
+.notice{
+  width: auto;
+}
     }
 
     @media only screen and (min-width : 375px) {
@@ -292,6 +300,14 @@
 
       .live-games-footer-txt3{
         right: 17%
+      }
+
+      .wrapper-notice{
+        width: 844px;
+      }
+
+      .notice{
+        width: 11%;
       }
 
     }
