@@ -203,6 +203,10 @@
       width: 57.5% !important
     }
 
+    .container-aboutus{
+      margin-top: auto;
+    }
+
 }
 
 @media only screen and (min-width : 375px)
@@ -537,6 +541,10 @@
 
   .activities-input{
     width: 67.5% !important
+  }
+
+  .container-aboutus{
+    margin-top: -70px;
   }
 }
 
