@@ -846,17 +846,7 @@ div.side-nav-menu > a::after {
 .swiper-cta p{
     margin: 10px 0;
 }
-.swiper-cta{
-  position: absolute;
-  left: 18%;
-  top:20%;
-  border: 1px solid #343434;
-  background:url('../img/banner/calltoaction-bg.png');
-  background-repeat: repeat;
-  text-align: center;
-  width: 500px;
-  padding: 20px 10px 40px 10px;
-}
+
 .cta-img img{
 
 
@@ -1426,7 +1416,7 @@ margin-top: -7px;
 
 }
  .content-body .game-desc dt{
-  width: 30%;
+  width: 50%;
   display: inline-block;
   color: #fff;
   font-weight: 700;

@@ -29,6 +29,9 @@
         z-index: 3;
 
       }
+      .swiper-cta .cta-img img{
+        width: 45%!important;
+      }
       .new-content-title{
         position: absolute;
       width: 96%;
@@ -49,11 +52,23 @@
       }
 
       .swiper-container-horizontal > .swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
-        bottom: 36px;
+        bottom: 8px;
         right: 0;
         width: 100%;
         background: transparent;
 
+      }
+      .swiper-cta{
+        position: absolute;
+        left: 0%;
+
+        bottom: 30px;
+        border: 1px solid #343434;
+        background:url('../../img/banner/calltoaction-bg.png');
+        background-repeat: repeat;
+        text-align: center;
+        width: auto;
+        padding: 20px 10px 40px 10px;
       }
       main{
         margin-top: 0px;
@@ -296,9 +311,24 @@
       width: 70%;
 
       }
+      .swiper-cta .cta-img img{
+        width: 55%!important;
+      }
       .cta-btn{
         position: relative;
         top: -70px;
+      }
+      .swiper-cta{
+        position: absolute;
+        left: 18%;
+        bottom:340px;
+
+        border: 1px solid #343434;
+        background:url('../../img/banner/calltoaction-bg.png');
+        background-repeat: repeat;
+        text-align: center;
+        width: 500px;
+        padding: 20px 10px 40px 10px;
       }
     }
 

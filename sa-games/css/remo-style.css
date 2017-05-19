@@ -1181,9 +1181,13 @@ textarea
 
 .sitemap-treasure{
   font-size: 15px;
-  font-weight: 700;
+
   padding-top: 15px;
   white-space: nowrap;
+  color: #fff1d3!important;
+}
+.sitemap-treasure a{
+  color: #fff1d3!important;
 }
 
 .activities-form{
