@@ -624,6 +624,19 @@ textarea
     padding: 0;
 }
 
+.remo-mtab dt{
+  margin-bottom: 8px
+}
+
+.remo-mtab dd{
+  margin-bottom: 5px;
+  padding-left: 15px
+}
+
+.remo-mtab .spacer{
+  margin-bottom: 10px
+}
+
 .remo-mtab li
 {
     list-style: none;

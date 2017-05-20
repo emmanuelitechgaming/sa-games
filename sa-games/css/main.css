@@ -270,6 +270,10 @@ margin: 0 auto;
     padding-bottom: 10px
 }
 
+.footerContainer footer>.inner>a{
+  cursor: default;
+}
+
 .footerContainer footer .inner div>a {
     text-transform: none;
     margin-bottom: 5px;
