@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="css/nat-style.css">
     <link rel="stylesheet" href="css/remo-style.css">
     <link rel="stylesheet" href="css/media-queries/nat-mq.css">
+    <link rel="stylesheet" href="css/media-queries/remo-mq.css">
 
 
 
@@ -176,93 +177,133 @@
               <h1>我的帐户</h1>
             </div>
 
-            <div class="row">
-              <div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
-                <form action="" class="remo-form remo-login">
+            <div class="row myaccount-wrapper">
+              <div class="col-md-10 col-md-offset-1">
+                <div class="myaccount">
+                      <div class="title">个人设定</div>
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="acc-cont">
+                            <div class="acc-lbl">用户账号： </div>
+                            <div class="acc-details"> ti123456</div>
+                          </div>
+
+                          <div class="acc-cont">
+                            <div class="acc-lbl">用户姓名： </div>
+                            <div class="acc-details"> 马克</div>
+                          </div>
+
+                          <div class="acc-cont">
+                            <div class="acc-lbl">性别： </div>
+                            <div class="acc-details"> 男</div>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="acc-cont">
+                            <div class="acc-lbl">电话： </div>
+                            <div class="acc-details"> 911</div>
+                          </div>
+
+                          <div class="acc-cont">
+                            <div class="acc-lbl">电子邮箱： </div>
+                            <div class="acc-details"> 123@911.com</div>
+                          </div>
+
+                          <div class="acc-cont">
+                            <div class="acc-lbl">最近登入时间： </div>
+                            <div class="acc-details"> 2017-05-22 00：00：00</div>
+                          </div>
+                        </div>
+                      </div>
 
 
-                  <div class="content-title myacounttextalign" >
-                基本信息
-                  </div>
 
+                    </div>
+                <div class="myaccount">
+                  <div class="title">基本信息</div>
                   <div class="row">
-                    <div class="col-md-12 form-group">
-                      <label>用户银行账号:</label>
-                      <input type="input" class="form-control">
+                    <div class="col-md-6">
+                      <div class="acc-cont">
+                        <div class="acc-lbl">用户银行账号: </div>
+                        <input type="text">
+                      </div>
+                      <div class="acc-cont">
+                        <div class="acc-lbl">银行用户名称： </div>
+                        <input type="text">
+                      </div>
+                      <div class="acc-cont">
+                        <div class="acc-lbl">名称：</div>
+                        <input type="text">
+                      </div>
+                      <div class="acc-cont">
+                        <div class="acc-lbl">电话：</div>
+                        <input type="text">
+                      </div>
                     </div>
-                    <div class="col-md-12 form-group">
-                      <label>银行用户名称：</label>
-                      <input type="input" class="form-control">
-                    </div>
-                    <div class="col-md-12 form-group">
-                      <label>名称： </label>
-                      <input type="input" class="form-control">
-                    </div>
-                    <div class="col-md-12 form-group">
-                      <label>电话： </label>
-                      <input type="input" class="form-control">
-                    </div>
-                    <div class="col-md-12 form-group">
-                      <label>电子邮件： </label>
-                      <input type="input" class="form-control">
-                    </div>
-                    <div class="col-md-12 form-group">
-                      <label>上次登录： </label>
-                      <input type="input" class="form-control">
-                    </div>
-                    <div class="col-md-12 form-group">
-                      <label>邮寄地址： </label>
-                      <input type="input" class="form-control">
-                    </div>
-
-                    <div class="content-title myacounttextalign" >
-                  登录密码修改
-                    </div>
-
-
-                    <div class="col-md-12 form-group">
-                      <label>旧密码： </label>
-                      <input type="password" class="form-control">
-                    </div>
-                    <div class="col-md-12 form-group">
-                      <label>新密码：</label>
-                    <input type="password" class="form-control">
-                    </div>
-                    <div class="col-md-12 form-group">
-                      <label>确认新密码： </label>
-                    <input type="password" class="form-control">
-                    </div>
-
-                    <div class="col-sm-12 col-xs-12">
-                      <button class="btn btn-default remo-submit"> 提交</button>
-                    </div>
-
-                    <div class="content-title myacounttextalign" >
-                  提款密码修改
-                    </div>
-
-
-                    <div class="col-md-12 form-group">
-                      <label>旧密码： </label>
-                      <input type="password" class="form-control">
-                    </div>
-                    <div class="col-md-12 form-group">
-                      <label>新密码：</label>
-                  <input type="password" class="form-control">
-                    </div>
-                    <div class="col-md-12 form-group">
-                      <label>确认新密码： </label>
-                    <input type="password" class="form-control">
-                    </div>
-
-                    <div class="col-sm-12 col-xs-12">
-                      <button class="btn btn-default remo-submit"> 提交</button>
+                    <div class="col-md-6">
+                      <div class="acc-cont">
+                        <div class="acc-lbl">电子邮件：</div>
+                        <input type="text">
+                      </div>
+                      <div class="acc-cont">
+                        <div class="acc-lbl">上次登录：</div>
+                        <input type="text">
+                      </div>
+                      <div class="acc-cont">
+                        <div class="acc-lbl">邮寄地址：</div>
+                        <input type="text">
+                      </div>
                     </div>
                   </div>
+                </div>
 
+                <div class="myaccount">
+                  <div class="title">登录密码修改</div>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="acc-cont">
+                        <div class="acc-lbl">旧密码：</div>
+                        <input type="text">
+                      </div>
+                      <div class="acc-cont">
+                        <div class="acc-lbl">新密码：</div>
+                        <input type="text">
+                      </div>
+                      <div class="acc-cont">
+                        <div class="acc-lbl">确认新密码：</div>
+                        <input type="text">
+                      </div>
 
+                      <p class="botton">
+                        <input type="submit" name="btnSearch" value="提交" id="btnSearch" tabindex="15" imageurl="#" class="btn-hidden">
+                      </p>
+                    </div>
+                  </div>
+                </div>
 
-                </form>
+                <div class="myaccount">
+                  <div class="title">提款密码修改</div>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="acc-cont">
+                        <div class="acc-lbl">旧密码：</div>
+                        <input type="text">
+                      </div>
+                      <div class="acc-cont">
+                        <div class="acc-lbl">新密码：</div>
+                        <input type="text">
+                      </div>
+                      <div class="acc-cont">
+                        <div class="acc-lbl">确认新密码：</div>
+                        <input type="text">
+                      </div>
+
+                      <p class="botton">
+                        <input type="submit" name="btnSearch" value="提交" id="btnSearch" tabindex="15" imageurl="#" class="btn-hidden">
+                      </p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
 
@@ -305,7 +346,7 @@
           <div class="m-social-link">
             <p class="m-social-txt">支持手机</p>
 
-            <a href="#"><i class="fa fa-desktop"  aria-hidden="true"></i>
+            <a href="#"><i class="fa fa-mobile"  aria-hidden="true"></i>
 </a>
             <a href="#"><i class="fa fa-html5" aria-hidden="true"></i></a>
             <a href="#"><i class="fa fa-android" aria-hidden="true"></i></a>
@@ -387,7 +428,7 @@
 
               <div class="social-icons">
                   <p>支持手机</p>
-                  <a href=""><i class="fa fa-desktop"  aria-hidden="true"></i></a>
+                  <a href=""><i class="fa fa-mobile"  aria-hidden="true"></i></a>
                   <a href=""><i class="fa fa-html5" aria-hidden="true"></i></a>
                   <a href=""><i class="fa fa-android" aria-hidden="true"></i></a>
                   <a href=""><i class="fa fa-apple" aria-hidden="true"></i></a>
