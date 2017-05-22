@@ -25,6 +25,21 @@ $(document).ready(function() {
       setElementHeight();
   }).resize();
 
+
+
+  var wd = $(window).width();
+  var wj = $(window).height();
+
+
+
+  if (wd > wj ) {
+
+    $(window).on("resize", function () {
+        $(".autoheight").css('min-height', wd);
+      }).resize();
+
+  }
+
   $( ".arrow" ).click(function() {
 
   if ($('.footerContainer').hasClass('open')) {
