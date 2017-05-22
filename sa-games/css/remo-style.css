@@ -215,7 +215,8 @@ textarea
 
     margin-bottom: 10px;
 
-    letter-spacing: 1px;
+    letter-spacing: 2px;
+    white-space: nowrap;
 }
 .lbl-style{
   background: #333333;
@@ -1407,6 +1408,19 @@ color: #999999;
   margin-bottom: 30px
 }
 
+.login-input-captcha input[type=text]{
+  width: 100%;
+  padding: 10px 0
+}
+
+.login-input-captcha img{
+  display: block;
+  height: 38px;
+}
+
+.login-input-captcha label{
+  min-height: 15px
+}
 
 /*em*/
 button a,
