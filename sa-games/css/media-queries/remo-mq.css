@@ -207,6 +207,11 @@
       margin-top: auto;
     }
 
+    .myaccount .acc-cont input[type=text]{
+      display: block;
+      width: 100%
+    }
+
 }
 
 @media only screen and (min-width : 375px)
@@ -545,6 +550,11 @@
 
   .container-aboutus{
     margin-top: -70px;
+  }
+
+  .myaccount .acc-cont input[type=text] {
+    display: inline-block;
+    width: auto;
   }
 }
 

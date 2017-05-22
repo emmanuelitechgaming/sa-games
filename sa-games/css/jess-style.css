@@ -142,3 +142,18 @@
   line-height: 1.4em;
   text-align: justify;
 }
+
+.responsible-dl .box-dd{
+  padding-top: 10px;
+}
+
+.responsible-dl dt{
+  margin-bottom: 8px;
+}
+
+.responsible-dl dd{
+  margin-bottom: 5px;
+  padding-left: 15px;
+  font-size: .9375em;
+  color: #c4c4c4
+}

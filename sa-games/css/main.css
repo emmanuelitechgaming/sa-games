@@ -1635,3 +1635,9 @@ right: 0;
 padding: 5px;
 
 }
+
+.fa-mobile{
+  font-size: 17.5px !important;
+  position: relative;
+  top: 1.5px;
+}
