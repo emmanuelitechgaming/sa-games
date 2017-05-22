@@ -219,9 +219,8 @@ textarea
     white-space: nowrap;
 }
 .lbl-style{
-  background: #333333;
-padding: 5px;
-color: #999999;
+
+color: #636363;
 
 }
 .remo-forget p
@@ -925,7 +924,7 @@ color: #999999;
 {
     position: absolute;
     right: 30px;
-    bottom: -45px;
+    bottom: 1px;
 
     border: solid 1px #333;
     border-radius: 3px;
