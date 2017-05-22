@@ -215,9 +215,14 @@ textarea
 
     margin-bottom: 10px;
 
-    letter-spacing: 1px;
+    letter-spacing: 2px;
 }
+.lbl-style{
+  background: #333333;
+padding: 5px;
+color: #999999;
 
+}
 .remo-forget p
 {
     margin-bottom: 15px;
@@ -317,7 +322,7 @@ textarea
 }
 
 .remo-registration-wrapper{
-  margin-top: 25px
+  margin-top: 5px
 }
 
 
