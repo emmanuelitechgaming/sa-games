@@ -1422,6 +1422,14 @@ color: #999999;
   min-height: 15px
 }
 
+.remo-sitemap-content .sitemap-social img{
+  width: 14px
+}
+
+.m-sitemap-social img{
+  width: 14px
+}
+
 /*em*/
 button a,
 button a:hover
