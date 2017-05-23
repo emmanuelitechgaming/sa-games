@@ -193,6 +193,10 @@
     .mselect-country {
         margin-left: 75%;
     }
+
+    .aboutus-logo {
+        margin-left: 5px;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -240,6 +244,10 @@
         bottom: 11px !important;
         left: 22.5% !important;
     }
+
+    .aboutus-logo {
+        margin-left: 5px;
+    }
 }
 
 @media only screen and (min-width: 414px) {
@@ -270,6 +278,10 @@
 
     .swiper-wrapper .link {
         bottom: 9px;
+    }
+
+    .aboutus-logo {
+        margin-left: 5px;
     }
 }
 
