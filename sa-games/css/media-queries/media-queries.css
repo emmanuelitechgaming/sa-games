@@ -197,6 +197,11 @@
     .aboutus-logo {
         margin-left: 5px;
     }
+
+    .deposit-img-wrapper{
+      padding-left: 15px;
+      padding-right: 15px
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -323,6 +328,20 @@
         font-size: 18px;
         padding: 8px 35px;
     }
+
+    .deposit-img-wrapper{
+      padding-left: 50px;
+      padding-right: 50px
+    }
+
+    .deposit-img{
+      width:70%;
+      margin: 0px auto
+    }
+
+    .online-payment{
+      padding: 30% 5% 10% 5%;
+    }
 }
 
 @media only screen and (min-width: 667px) {
@@ -421,6 +440,20 @@
     .mselect-country {
         position: fixed;
         margin-left: 75%;
+    }
+
+    .deposit-img-wrapper{
+      padding-left: 15px;
+      padding-right: 15px
+    }
+
+    .deposit-img{
+      width:auto;
+      margin: auto
+    }
+
+    .online-payment{
+      padding: 30% 5% 40% 5%;
     }
 }
 
