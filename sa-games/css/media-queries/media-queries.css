@@ -455,6 +455,11 @@
     .online-payment{
       padding: 30% 5% 40% 5%;
     }
+
+    .swiper-slide img{
+      height: auto;
+      margin: 0 auto;
+    }
 }
 
 
