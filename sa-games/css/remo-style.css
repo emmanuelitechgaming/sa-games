@@ -1232,6 +1232,15 @@ textarea {
     width: 14px
 }
 
+.sitemap-content a{
+  color: #ccc;
+}
+
+.sitemap-content a:hover, .sitemap-content a:focus, .sitemap-content a:active{
+  color: #ccc;
+  text-decoration: none
+}
+
 
 /*em*/
 
