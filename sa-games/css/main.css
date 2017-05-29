@@ -189,7 +189,7 @@ header {
 }
 
 .footerContainer.open {
-    height: 250px
+    height: 245px
 }
 
 .footerContainer.open footer.slide .hassub,
@@ -278,6 +278,10 @@ header {
     margin-bottom: 5px;
     font-size: 11px;
     opacity: 0
+}
+
+.footerContainer footer .inner .app{
+    opacity: 1
 }
 
 .footerContainer footer .sub {
@@ -1533,6 +1537,10 @@ body {
     margin-bottom: 0
 }
 
+.m-social-link-last a{
+  display: inline-block;
+}
+
 .m-social-link-first .m-social-txt {
     margin-bottom: 5px
 }
@@ -1672,4 +1680,15 @@ body {
 
 .m-social-link2 a {
     display: inline-block;
+}
+
+
+.cert-cont{
+  position: absolute;
+  top: 2px;
+  left: 65%
+}
+
+.cert-cont a:first-child{
+  margin-right: 35px
 }
