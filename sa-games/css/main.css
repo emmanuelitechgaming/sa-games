@@ -189,7 +189,7 @@ header {
 }
 
 .footerContainer.open {
-    height: 245px
+    height: 300px
 }
 
 .footerContainer.open footer.slide .hassub,
@@ -349,7 +349,7 @@ header {
     -webkit-transition: -webkit-transform .4s ease-in-out;
     transition: transform .4s ease-in-out;
     transition: transform .4s ease-in-out, -webkit-transform .4s ease-in-out;
-    bottom: -100px;
+    bottom: -50px;
     font-size: 0
 }
 
@@ -456,9 +456,15 @@ header {
 }
 
 .footerContainer .platform .app img {
-    width: 74px!important;
+    /*width: 74px!important;*/
+    width: 74px;
     height: auto;
     display: inline-block;
+}
+
+.platform.social-icons a{
+  display: inline-block;
+  width: 35%
 }
 
 .sa-games img {
@@ -1683,7 +1689,7 @@ body {
 }
 
 
-.cert-cont{
+/*.cert-cont{
   position: absolute;
   top: 2px;
   left: 65%
@@ -1691,4 +1697,4 @@ body {
 
 .cert-cont a:first-child{
   margin-right: 35px
-}
+}*/
