@@ -202,6 +202,10 @@
       padding-left: 15px;
       padding-right: 15px
     }
+
+    .m-social-link-last a{
+      width: 29% !important
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -252,6 +256,10 @@
 
     .aboutus-logo {
         margin-left: 5px;
+    }
+
+    .m-social-link-last a{
+      width: 30% !important
     }
 }
 
@@ -341,6 +349,10 @@
 
     .online-payment{
       padding: 20% 5% 10% 5%;
+    }
+
+    .m-social-link-last a{
+      width: 12% !important
     }
 }
 
